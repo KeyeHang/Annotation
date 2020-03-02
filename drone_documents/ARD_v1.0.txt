@@ -1,0 +1,360 @@
+A.R Drone Navigation –
+
+Application Requirements Document
+
+1
+
+A.R Drone Navigation – Application Requirements Document
+
+http://www.cs.bgu.ac.il/~maximkir/ardrone/
+
+
+Revision Control
+
+
+Rev.
+
+1.0
+
+Detailed Description
+
+Original version
+
+Paragraph Reference
+
+Approved by
+
+Date
+
+30.12.2011
+
+
+Contents
+
+1  Introduction                                                                 
+                                    4
+
+1.1 Vision                                                                      
+                                        4
+
+1.2 The Problem Domain                                                          
+                          5
+
+1.3 Stakeholders                                                                
+                                   6
+
+1.4 Software Context                                                            
+                               6
+
+2 Functional Requirements                                                       
+                          7
+
+3   Non-functional requirements                                                 
+                       8
+
+3.1   Performance constraints.                                                  
+                          8
+
+3.2   Platform constraints                                                      
+                              9
+
+3.2.1    SE Project constraints                                                 
+                            9
+
+4   Usage Scenarios                                                             
+                                 10
+
+4.1   User Proﬁles — The Actors                                                 
+                       10
+
+4.2   Use-cases                                                                 
+                                      10
+
+5   Risk assessment & Plan for the proof of concept                             
+           12
+
+6. Appendices                                                                   
+                                    13
+
+
+Chapter 1 : Introduction
+
+1.1  Vision
+
+We’d like to perform jobs that currently consume a lot of time and manpower in 
+an
+alternative low cost way, to achieve that we want to use the A.R Drone.
+
+Currently our focus is on agricultural applications such as pollination and/or
+decease identification in plants but there are many use cases (e.g. using the 
+drone
+for security purposes etc.).
+
+Our motivation is to grant the AR Drone the ability to autonomously navigate a
+given path and recognizing special landmarks on the path.
+
+Our main goal - to implement navigation and self-orientation capabilities for 
+the
+
+A.R Drone.
+
+
+1.2 The Problem Domain
+
+One of the fundamental problems of mobile robotics is to autonomously navigate a
+given path,
+
+Therefore the major part of getting the drone to perform a task autonomously is 
+to
+enable it to navigate itself in the environment without any human interaction 
+this
+will be accomplished using the video and navigation data that is sent from the 
+AR
+Drone.
+
+The major components in our system are:
+
+Parrot A.R Drone:
+
+We will need to interface with the craft in order to receive video and
+navigation data and to send orders. The drone comes with a complete API
+and     an SDK with which we will need to work.
+
+OpenCv:
+
+We will use the OpenCv image processing library to process the video input
+from the drone and identify the navigation markers.
+
+
+1.3   Stakeholders
+
+•   The university researchers team and students -  the platform that we are
+making will give them a good starting point to use the AR Drone to do more
+specific research and complicated tasks using the autonomously nature of
+the modified AR Drone.
+
+•   As we are focusing on the agricultural applications of our project – farmers
+are important stakeholders.
+
+•   The benefiters of our project are all the hard workers that do routine work
+and all their employees – now that they will have something that will do the
+same thing.
+
+1.4 Software Context
+
+Inputs - video feed from the drone as well as data from other sensors
+(height, acceleration, gyro etc.).
+
+Processing - We will analyze the data received from the drone in order to
+determine the route it should take and recognize landmarks.
+
+Outputs - send back navigation directions.
+
+The result will be the drone moving along a designated path and marking a
+pre marked landmarks.
+
+A common use case scenario - the user (physically) marks a path for the
+drone and puts it at the starting point. Upon execution, the drone identifies
+the path markers and flies at a specified altitude along the path. The drone
+will be able to detect checkpoint markers long the route and take appropriate
+action whenever one is encountered.
+
+
+Chapter 2 : Functional Requirements
+
+Major functions to be handled by the software:
+
+•   Image analysis for detection of navigation and location markers taking in
+mind the navigation date received from the sensors of the AR Drone.
+
+•   Deduction of navigation directions from navigation markers.
+
+Detailed function:
+
+The designated path and landmarks will be identified as follows:
+
+•   The AR Drone will send via Wi-Fi the video feed and navigation data.
+
+•   The computer that will receive the data will identify the pre - located 
+visual
+accessories using an image processing algorithms.
+
+•   Using the Navigation data received the computer will compute the next steps
+of the AR Drone
+
+•    The Computer will send the moments command to the AR Drone via Wi-Fi.
+
+
+Chapter 3 : Non Functional Requirements
+
+•   Speed: the drone will advance at a speed of at least 0.25 m/second.
+
+•   Checkpoint detection: detection of at least 90% of check point markers.
+
+•   A tutorial will be written to make it easy for use to the average Joe.
+
+•   The AR Drone path could be set in any open space (minimal obstacles) fast.
+
+•   The code documentation will be written as clear and detailed as possible.
+
+3.1 Performance Constraints
+
+•   Lighting and visibility conditions: the environment must be well lit and 
+there
+must not be anything that might hurt visibility. Specific values TBD.
+
+•   Battery: according to manufacturer the drone battery can last 12 minutes of
+flight.
+
+•   Safe/clear route: the path marked for the drone must be completely free of
+obstacles.
+
+•   Controlled environment: the drone must be operated in a controlled
+environment, i.e. no wind/rain etc.
+
+•   Reliability: the system is not expected to handle any kind of failure except
+landing the drone safely in case of emergency.
+
+•   Usability: the system is expected to be very usable with almost no training.
+Anyone should be able to lay down navigation markers and just start the
+program.
+
+
+3.2    Platform constraints
+
+3.2.1 SE Project Constraints
+
+•   The system is not interactive. All input comes from camera/sensors built-in
+the drone and to which we have full access.
+
+•   We will not use any simulations; we will operate the actual drone.
+
+•   The hardware required is the A.R Drone it-self and a PC with Wi-Fi.
+
+•   Development will take place at home and at the university laboratories.
+
+•   The final presentation (as the testing) will be performed by marking a path
+and letting the drone fly along it.
+
+
+Chapter 4 : Usage Scenarios
+
+ 4.1   User Proﬁles — The Actors
+
+As we have the definition of our project to be as minimal interaction with the
+humans as possible – we only have one external to the system actor and that is
+the operative of the AR Drone.
+
+Usage Scenario Number 1
+
+1.  Name: Start-up
+
+2.  Pre-Conditions:
+
+a.  A Path has been marked.
+
+b.  The drone is placed at the starting point.
+
+3.  Steps:
+
+a.  The user starts the program.
+
+b.  The drone takes off.
+
+c.  The drone detects the path markers.
+
+d.  The drone flies along the path.
+
+e.  The drone reaches the end of the path and lands.
+
+4.  Exceptions:
+
+a.  If at any point the drone doesn’t detect the path markers:
+
+b.  The drone turns 360 degrees in attempt to locate the markers.
+
+c.    If the marker is found the drone follows the path, otherwise it
+lands.
+
+
+Usage Scenario Number 2
+
+1.  Name: Checkpoint detection
+
+2.  Pre-Conditions:
+
+a.  Use case “Start-up” is on-going.
+
+3.  Steps:
+
+a.  The drone detects a checkpoint marker.
+
+b.  The drone sends a message to the system identifying the
+checkpoint.
+
+c.  The drone performs the callback operation received from the
+system in response (currently - the drone hovers above the marker
+for  a few seconds).
+
+
+Chapter 5 : Risk assessment &
+Plan for the proof of concept
+
+Risk Assessments:
+
+Not been able identify the path and figure out to where to fly next.
+
+Solution:
+
+Landing safely and sending an alert that will pop up in the controlling
+computer.
+
+Proof-of-concept prototype:
+
+The proof-of-concept prototype will be making the AR Drone following a
+simple line that will be drowned on the floor and hovering over some unique
+visual identifiers that will be used as the landmarks.
+
+The Proof-of-concept will give us the:
+
+1. Better Understanding of the limitations of our project as we could try to fly
+the AR Drone In different environments (with a variety of obstacles).
+
+2. Ability to assess design decisions early in the process and figure out how 
+can
+rewrite simple navigation commands after we test some scenarios.
+
+3. We could see that the main objective of the project is already working, we
+would be able to continue from there to do modifications to the functionality
+of the AR Drone so it would work in many other scenarios, environments and
+maybe even path and landmark tagging technics.
+
+This of course would give the project the big idea that the project is in right
+path and the chances of project failure are low and will give us look-and-feel
+of the solution.
+
+
+Appendices
+
+Background about the project’s main motivation:
+
+Pollination of plants usually occurs naturally in nature through weather 
+conditions
+and with the help of bee’s wasps and other buzzing ultrasonic winged creatures,
+and some plants even self-pollinate themselves e.g. beans and don’t require any
+extra help. Without successful pollination you will never get fruit on your 
+plants so
+it’s always a gardener’s number one priority to get the most of their crop and 
+this
+means successful pollination. Pollination is the transfer of pollen from the 
+inside of
+the flower to the stigma of the same or different flower.
+
+With bees disappearing, farmers are scrambling to find enough of the little 
+guys to
+pollinate their crops.
+
+Information on the AR Drone:
+
+http://ardrone.parrot.com
+

@@ -1,0 +1,48 @@
+Fixed­Wing Survey Drone
+Functional Requirements List and Performance Specifications
+Introduction
+The goal of the fixed­wing survey drone project is to develop an unmanned aerial vehicle,
+or UAV. The UAV will be autonomous by using microcontrollers, cameras and other
+sensors, while also having the option of manual controls. Obstacle avoidance will also be
+implemented on the UAV. It will pilot itself over a user­defined area and capture near
+infrared images, tagged with GPS information. Upon completion, the UAV will land at a
+designated location and notify the user (by email) that the survey of the area is complete,
+and also send a web link to a high resolution image of the entire area.
+
+System Block Diagram
+Figure 1 shows the overall block diagram of the UAV. The aircraft will house all of the
+components needed for the system to work. The components need include: two digital
+cameras, a microcontroller, a flight controller, a GPS receiver, an inertial measurement unit
+(IMU) containing a three­axis accelerometer, three gyroscopes, three magnetometers, and
+a barometric sensor, and a data link module used for networking.
+
+Functional Requirements
+Overall Requirements:
+The UAV must have an IMU, GPS receiver, flight controller, two digital cameras,
+microcontroller, and a data link module
+The UAV must be entirely autonomous
+Manual override must be available at all times during flight
+The UAV must be able to adjust its flight to avoid obstacles
+The UAV shall generate its own waypoints to capture images of the entire user
+defined area
+The UAV must be able to combine all of the images acquired into one high
+resolution image
+The UAV shall alert the user that the survey is complete via email, using the data
+link module
+The UAV shall complete the survey within 45 minutes
+
+Airplane Requirements:
+The plane must be electrically powered
+The plane must be hand launched
+The battery must last long enough for the entire survey to be done in one charge
+(~20 minutes)
+The plane must be able to operate while holding all components
+Camera Requirements:
+One front facing camera shall be of lower resolution to be used for obstacle
+detection
+Ground facing camera must be high resolution with the ability to capture near
+infrared pictures.
+Ground facing camera shall be a 16 megapixel camera used to capture
+high­resolution images.
+All images captured with the ground facing camera must be tagged with GPS
+information
