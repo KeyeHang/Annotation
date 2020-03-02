@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/D:/drone_document/Requirements.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fixed­Wing Survey Drone
+Functional Requirements List and Performance Specifications
+Introduction
+The goal of the fixed­wing survey drone project is to develop an unmanned aerial vehicle,
+or <Node id="192"/>UAV<Node id="195"/>. The <Node id="201"/>UAV<Node id="204"/> will be autonomous by using <Node id="233"/>microcontrollers<Node id="249"/>, <Node id="251"/>cameras<Node id="258"/> and other
+<Node id="269"/>sensors<Node id="276"/>, while also having the option of manual controls. <Node id="327"/>Obstacle<Node id="335"/> avoidance<Node id="345"/> will also be
+implemented on the <Node id="378"/>UAV<Node id="381"/>. It will <Node id="391"/>pilot<Node id="396"/> itself over a <Node id="411"/>user­defined area<Node id="429"/> and <Node id="434"/>capture<Node id="441"/> near
+infrared images, <Node id="464"/>tagged<Node id="470"/> with GPS information. Upon completion, the <Node id="514"/>UAV<Node id="517"/> will <Node id="523"/>land<Node id="527"/> at <Node id="531"/>a
+<Node id="533"/>designated<Node id="543"/> location<Node id="552"/> and <Node id="557"/>notify<Node id="563"/> the <Node id="568"/>user<Node id="572"/> (by email) that <Node id="589"/>the survey of the area is complete<Node id="623"/>,
+and also <Node id="634"/>send<Node id="638"/> a web link to a high <Node id="660"/>resolution<Node id="670"/> image of the entire area.<Node id="696"/>
+
+<Node id="698"/>System Block Diagram
+Figure 1 shows the overall block diagram of the UAV. The aircraft will house all of the
+components needed for the system to work. The components need include: two <Node id="882"/>digital
+cameras<Node id="897"/>, a <Node id="901"/>microcontroller<Node id="916"/>, a <Node id="920"/>flight controller<Node id="937"/>, a <Node id="941"/>GPS receiver<Node id="953"/>, an <Node id="958"/>inertial measurement unit<Node id="983"/>
+(<Node id="985"/>IMU<Node id="988"/>) containing a <Node id="1003"/>three­axis accelerometer<Node id="1028"/>, three <Node id="1036"/>gyroscopes<Node id="1046"/>, three <Node id="1054"/>magnetometers<Node id="1067"/>, and
+a <Node id="1075"/>barometric sensor<Node id="1092"/>, and a <Node id="1100"/>data link module<Node id="1116"/> used for networking.<Node id="1137"/>
+
+<Node id="1139"/>Functional Requirements
+Overall Requirements:
+The <Node id="1189"/>UAV<Node id="1192"/> must have an <Node id="1206"/>IMU<Node id="1209"/>, <Node id="1211"/>GPS receiver<Node id="1223"/>, <Node id="1225"/>flight controller<Node id="1242"/>, two <Node id="1248"/>digital cameras<Node id="1263"/>,
+<Node id="1265"/>microcontroller<Node id="1280"/>, and a <Node id="1288"/>data link module<Node id="1304"/>
+The UAV must be entirely autonomous
+Manual override must be available at all times during flight
+The UAV must be able to <Node id="1426"/>adjust<Node id="1432"/> its flight <Node id="1444"/>to <Node id="1447"/>avoid<Node id="1452"/> <Node id="1453"/>obstacles<Node id="1462"/>
+The UAV shall <Node id="1477"/>generate<Node id="1485"/> its own waypoints <Node id="1504"/>to <Node id="1507"/>capture<Node id="1514"/> images<Node id="1521"/> of the entire user
+<Node id="1541"/>defined<Node id="1548"/> area<Node id="1553"/>
+The UAV must be able to <Node id="1578"/>combine<Node id="1585"/> all of the images acquired into one <Node id="1622"/>high<Node id="1626"/>
+<Node id="1627"/>resolution<Node id="1637"/> image
+The UAV shall <Node id="1658"/>alert<Node id="1663"/> the user that <Node id="1678"/>the survey is complete<Node id="1700"/> via email, using the <Node id="1722"/>data
+link module<Node id="1738"/>
+The UAV shall <Node id="1753"/>complete<Node id="1761"/> the survey within <Node id="1780"/>45 minutes<Node id="1790"/>
+
+<Node id="1792"/>Airplane Requirements:
+The plane must be electrically <Node id="1846"/>powered<Node id="1853"/>
+The plane must be hand <Node id="1877"/>launched<Node id="1885"/>
+The <Node id="1890"/>battery<Node id="1897"/> must last long enough for the entire survey to be done in one charge
+(~<Node id="1969"/>20 minutes<Node id="1979"/>)
+The plane must be able to <Node id="2007"/>operate<Node id="2014"/> while holding all components
+Camera Requirements:
+One <Node id="2069"/>front facing camera<Node id="2088"/> shall be of <Node id="2101"/>lower<Node id="2106"/> <Node id="2107"/>resolution<Node id="2117"/> to be used for <Node id="2133"/>obstacle<Node id="2141"/>
+<Node id="2142"/>detection<Node id="2151"/>
+<Node id="2152"/>Ground facing camera<Node id="2172"/> must be <Node id="2181"/>high<Node id="2185"/> <Node id="2186"/>resolution<Node id="2196"/> with the ability <Node id="2214"/>to <Node id="2217"/>capture<Node id="2224"/> near
+infrared pictures<Node id="2247"/>.
+<Node id="2249"/>Ground facing camera<Node id="2269"/> shall be a <Node id="2281"/>16 megapixel<Node id="2293"/> camera used to <Node id="2309"/>capture<Node id="2316"/>
+high­resolution images.
+All images captured with the <Node id="2371"/>ground facing camera<Node id="2391"/> must be <Node id="2400"/>tagged<Node id="2406"/> with GPS
+information<Node id="2427"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="4" Type="component" StartNode="192" EndNode="195">
+</Annotation>
+<Annotation Id="11" Type="component" StartNode="201" EndNode="204">
+</Annotation>
+<Annotation Id="12" Type="component" StartNode="233" EndNode="249">
+</Annotation>
+<Annotation Id="13" Type="component" StartNode="251" EndNode="258">
+</Annotation>
+<Annotation Id="14" Type="component" StartNode="269" EndNode="276">
+</Annotation>
+<Annotation Id="15" Type="environment_entity" StartNode="327" EndNode="335">
+</Annotation>
+<Annotation Id="16" Type="component" StartNode="378" EndNode="381">
+</Annotation>
+<Annotation Id="17" Type="component_state" StartNode="391" EndNode="396">
+</Annotation>
+<Annotation Id="18" Type="component_state" StartNode="434" EndNode="441">
+</Annotation>
+<Annotation Id="19" Type="component_state" StartNode="464" EndNode="470">
+</Annotation>
+<Annotation Id="20" Type="component" StartNode="514" EndNode="517">
+</Annotation>
+<Annotation Id="21" Type="component_state" StartNode="523" EndNode="527">
+</Annotation>
+<Annotation Id="23" Type="component" StartNode="557" EndNode="563">
+</Annotation>
+<Annotation Id="24" Type="component_state" StartNode="634" EndNode="638">
+</Annotation>
+<Annotation Id="25" Type="component_property" StartNode="660" EndNode="670">
+</Annotation>
+<Annotation Id="26" Type="component" StartNode="882" EndNode="897">
+</Annotation>
+<Annotation Id="27" Type="component" StartNode="901" EndNode="916">
+</Annotation>
+<Annotation Id="28" Type="component" StartNode="920" EndNode="937">
+</Annotation>
+<Annotation Id="29" Type="component" StartNode="941" EndNode="953">
+</Annotation>
+<Annotation Id="30" Type="component" StartNode="958" EndNode="983">
+</Annotation>
+<Annotation Id="31" Type="component" StartNode="985" EndNode="988">
+</Annotation>
+<Annotation Id="32" Type="component" StartNode="1003" EndNode="1028">
+</Annotation>
+<Annotation Id="33" Type="component" StartNode="1036" EndNode="1046">
+</Annotation>
+<Annotation Id="34" Type="component" StartNode="1054" EndNode="1067">
+</Annotation>
+<Annotation Id="35" Type="component" StartNode="1075" EndNode="1092">
+</Annotation>
+<Annotation Id="36" Type="component" StartNode="1100" EndNode="1116">
+</Annotation>
+<Annotation Id="37" Type="component" StartNode="1189" EndNode="1192">
+</Annotation>
+<Annotation Id="38" Type="component" StartNode="1206" EndNode="1209">
+</Annotation>
+<Annotation Id="39" Type="component" StartNode="1211" EndNode="1223">
+</Annotation>
+<Annotation Id="40" Type="component" StartNode="1225" EndNode="1242">
+</Annotation>
+<Annotation Id="41" Type="component" StartNode="1248" EndNode="1263">
+</Annotation>
+<Annotation Id="42" Type="component" StartNode="1265" EndNode="1280">
+</Annotation>
+<Annotation Id="43" Type="component" StartNode="1288" EndNode="1304">
+</Annotation>
+<Annotation Id="44" Type="component_state" StartNode="1447" EndNode="1452">
+</Annotation>
+<Annotation Id="45" Type="component_state" StartNode="1426" EndNode="1432">
+</Annotation>
+<Annotation Id="46" Type="environment_entity" StartNode="1453" EndNode="1462">
+</Annotation>
+<Annotation Id="47" Type="component_state" StartNode="1477" EndNode="1485">
+</Annotation>
+<Annotation Id="48" Type="component_state" StartNode="1507" EndNode="1514">
+</Annotation>
+<Annotation Id="49" Type="component_state" StartNode="1578" EndNode="1585">
+</Annotation>
+<Annotation Id="50" Type="component_state" StartNode="1658" EndNode="1663">
+</Annotation>
+<Annotation Id="51" Type="component" StartNode="1722" EndNode="1738">
+</Annotation>
+<Annotation Id="52" Type="component_state" StartNode="1753" EndNode="1761">
+</Annotation>
+<Annotation Id="53" Type="component_property" StartNode="1780" EndNode="1790">
+</Annotation>
+<Annotation Id="54" Type="component_state" StartNode="1846" EndNode="1853">
+</Annotation>
+<Annotation Id="55" Type="component_state" StartNode="1877" EndNode="1885">
+</Annotation>
+<Annotation Id="56" Type="component" StartNode="1890" EndNode="1897">
+</Annotation>
+<Annotation Id="57" Type="component_property" StartNode="1969" EndNode="1979">
+</Annotation>
+<Annotation Id="58" Type="component_state" StartNode="2007" EndNode="2014">
+</Annotation>
+<Annotation Id="59" Type="component" StartNode="2069" EndNode="2088">
+</Annotation>
+<Annotation Id="60" Type="component_property" StartNode="2107" EndNode="2117">
+</Annotation>
+<Annotation Id="61" Type="component_state" StartNode="2142" EndNode="2151">
+</Annotation>
+<Annotation Id="62" Type="environment_entity" StartNode="2133" EndNode="2141">
+</Annotation>
+<Annotation Id="63" Type="component" StartNode="2152" EndNode="2172">
+</Annotation>
+<Annotation Id="64" Type="component_property" StartNode="2186" EndNode="2196">
+</Annotation>
+<Annotation Id="65" Type="component_property" StartNode="2101" EndNode="2106">
+</Annotation>
+<Annotation Id="66" Type="component_property" StartNode="2181" EndNode="2185">
+</Annotation>
+<Annotation Id="67" Type="component_state" StartNode="2217" EndNode="2224">
+</Annotation>
+<Annotation Id="68" Type="component" StartNode="2249" EndNode="2269">
+</Annotation>
+<Annotation Id="69" Type="component_property" StartNode="2281" EndNode="2293">
+</Annotation>
+<Annotation Id="70" Type="component_state" StartNode="2400" EndNode="2406">
+</Annotation>
+<Annotation Id="71" Type="component" StartNode="2371" EndNode="2391">
+</Annotation>
+<Annotation Id="72" Type="component_property" StartNode="1627" EndNode="1637">
+</Annotation>
+<Annotation Id="73" Type="component_property" StartNode="1622" EndNode="1626">
+</Annotation>
+<Annotation Id="74" Type="environment_entity" StartNode="411" EndNode="429">
+</Annotation>
+<Annotation Id="75" Type="system_transition_condition" StartNode="327" EndNode="345">
+</Annotation>
+<Annotation Id="76" Type="environment_entity" StartNode="531" EndNode="552">
+</Annotation>
+<Annotation Id="77" Type="environment_entity" StartNode="568" EndNode="572">
+</Annotation>
+<Annotation Id="78" Type="system_transition_condition" StartNode="589" EndNode="623">
+</Annotation>
+<Annotation Id="79" Type="system_transition_condition" StartNode="1444" EndNode="1462">
+</Annotation>
+<Annotation Id="80" Type="system_transition_condition" StartNode="1504" EndNode="1521">
+</Annotation>
+<Annotation Id="81" Type="system_transition_condition" StartNode="1678" EndNode="1700">
+</Annotation>
+<Annotation Id="82" Type="system_transition_condition" StartNode="2133" EndNode="2151">
+</Annotation>
+<Annotation Id="83" Type="system_transition_condition" StartNode="2214" EndNode="2247">
+</Annotation>
+<Annotation Id="84" Type="component_state" StartNode="2309" EndNode="2316">
+</Annotation>
+<Annotation Id="85" Type="environment_entity_state" StartNode="2142" EndNode="2151">
+</Annotation>
+<Annotation Id="86" Type="environment_transition_condition" StartNode="2133" EndNode="2141">
+</Annotation>
+<Annotation Id="87" Type="environment_transition_condition" StartNode="1453" EndNode="1462">
+</Annotation>
+<Annotation Id="88" Type="environment_transition_condition" StartNode="531" EndNode="552">
+</Annotation>
+<Annotation Id="89" Type="environment_transition_condition" StartNode="1453" EndNode="1462">
+</Annotation>
+<Annotation Id="90" Type="environment_entity_property" StartNode="533" EndNode="543">
+</Annotation>
+<Annotation Id="91" Type="environment_entity" StartNode="1541" EndNode="1553">
+</Annotation>
+<Annotation Id="92" Type="environment_entity_property" StartNode="1541" EndNode="1548">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+</GateDocument>
