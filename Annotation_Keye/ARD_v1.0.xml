@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/E:/Annotation/DRONE%20DOCUMENT/ARD_v1.0.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Chapter 2 : Functional Requirements&#xd;
+<Node id="37"/>&#xd;
+<Node id="39"/>Major functions to be handled by the software:&#xd;
+<Node id="87"/> Image analysis for <Node id="107"/>detection<Node id="116"/> of navigation and location markers taking in&#xd;
+mind the navigation date<Node id="187"/> <Node id="188"/>received<Node id="196"/> from the <Node id="206"/>sensors<Node id="213"/> of the <Node id="221"/>AR Drone<Node id="229"/>.&#xd;
+<Node id="232"/>&#xd;
+<Node id="234"/> Deduction of navigation directions from navigation markers.&#xd;
+<Node id="296"/>&#xd;
+<Node id="298"/>Detailed function:&#xd;
+<Node id="318"/>&#xd;
+<Node id="320"/>The <Node id="324"/>designated path<Node id="339"/> and <Node id="344"/>landmarks<Node id="353"/> will be<Node id="361"/> identified<Node id="372"/> as follows:&#xd;
+<Node id="386"/>&#xd;
+<Node id="388"/> The <Node id="393"/>AR Drone<Node id="401"/> will <Node id="407"/>send<Node id="411"/> via <Node id="416"/>Wi-Fi<Node id="421"/> the video feed and navigation data.&#xd;
+<Node id="459"/>&#xd;
+<Node id="461"/> The<Node id="465"/> computer<Node id="474"/> that will <Node id="485"/>receive<Node id="492"/> the data will identify the pre - located &#xd;
+visual&#xd;
+accessories using an image processing algorithms.&#xd;
+<Node id="595"/>&#xd;
+<Node id="597"/>Using the Navigation data received the <Node id="636"/>computer<Node id="644"/> will <Node id="650"/>compute<Node id="657"/> the next steps&#xd;
+of the <Node id="681"/>AR Drone<Node id="689"/>&#xd;
+<Node id="691"/>&#xd;
+<Node id="693"/> The <Node id="698"/>Computer<Node id="706"/> will <Node id="712"/>send<Node id="716"/> the moments command to the <Node id="744"/>AR Drone<Node id="752"/> via <Node id="757"/>Wi-Fi<Node id="762"/>.&#xd;
+<Node id="765"/>&#xd;
+&#xd;
+<Node id="769"/>Chapter 3 : Non Functional Requirements&#xd;
+<Node id="810"/>&#xd;
+<Node id="812"/> Speed: the <Node id="824"/>drone<Node id="829"/> will advance at a <Node id="848"/>speed<Node id="853"/> of at least 0.25 m/second.&#xd;
+<Node id="882"/>&#xd;
+<Node id="884"/>Checkpoint detection: detection of at least <Node id="928"/>90%<Node id="931"/> of check point markers.&#xd;
+<Node id="957"/>&#xd;
+<Node id="959"/>A tutorial will be written to make it easy for use to the average Joe.&#xd;
+<Node id="1031"/>&#xd;
+<Node id="1033"/> The AR Drone path could be set in any open space (minimal obstacles) fast.&#xd;
+<Node id="1110"/>&#xd;
+<Node id="1112"/> The code documentation will be written as clear and detailed as possible.&#xd;
+<Node id="1188"/>&#xd;
+<Node id="1190"/>3.1 Performance Constraints&#xd;
+<Node id="1219"/>&#xd;
+<Node id="1221"/> <Node id="1222"/>Lighting<Node id="1230"/> and <Node id="1235"/>visibility<Node id="1245"/> conditions: the<Node id="1261"/> <Node id="1262"/>environment<Node id="1273"/> must be well <Node id="1287"/>lit<Node id="1290"/> and &#xd;
+there&#xd;
+must not be anything that might hurt visibility. Specific values TBD.&#xd;
+<Node id="1375"/>&#xd;
+<Node id="1377"/> <Node id="1378"/>Battery<Node id="1385"/>: according to manufacturer the drone battery can last <Node id="1440"/>12 minutes<Node id="1450"/> of&#xd;
+flight.&#xd;
+<Node id="1464"/>&#xd;
+<Node id="1466"/>Safe/clear route: the path marked for the drone must be completely <Node id="1533"/>free<Node id="1537"/> of&#xd;
+<Node id="1542"/>obstacles<Node id="1551"/>.&#xd;
+
+<Node id="1555"/>Controlled <Node id="1566"/>environment<Node id="1577"/>: the drone must be operated in a controlled&#xd;
+<Node id="1623"/>environment<Node id="1634"/>, i.e. <Node id="1641"/>no wind/rain<Node id="1653"/> etc.&#xd;
+<Node id="1660"/>&#xd;
+<Node id="1662"/> Reliability: the system is not expected to handle any kind of failure except&#xd;
+<Node id="1741"/>landing<Node id="1748"/> the drone safely in case of emergency.&#xd;
+<Node id="1789"/>&#xd;
+<Node id="1791"/> Usability: the system is expected to be very usable with almost no training.&#xd;
+Anyone should be able to lay down navigation markers and just start the&#xd;
+program.&#xd;
+<Node id="1953"/>&#xd;
+&#xd;
+<Node id="1957"/>3.2    Platform constraints&#xd;
+<Node id="1986"/>&#xd;
+<Node id="1988"/>3.2.1 SE Project Constraints&#xd;
+<Node id="2018"/>&#xd;
+<Node id="2020"/> The system is not interactive. All input comes from <Node id="2073"/>camera<Node id="2079"/>/<Node id="2080"/>sensors<Node id="2087"/> built-in&#xd;
+the <Node id="2102"/>drone<Node id="2107"/> and to which we have full access.&#xd;
+<Node id="2143"/>&#xd;
+<Node id="2145"/> We will not use any simulations; we will operate the actual drone.&#xd;
+
+<Node id="2215"/> The hardware required is the <Node id="2245"/>A.R Drone<Node id="2254"/> it-self and a <Node id="2269"/>PC<Node id="2271"/> with <Node id="2277"/>Wi-Fi<Node id="2282"/>.&#xd;
+<Node id="2285"/>&#xd;
+<Node id="2287"/> Development will take place at home and at the university laboratories.&#xd;
+<Node id="2361"/>&#xd;
+<Node id="2363"/> The final presentation (as the testing) will be performed by marking a path&#xd;
+and letting the drone fly along it.&#xd;
+<Node id="2478"/>&#xd;
+&#xd;
+<Node id="2482"/>Chapter 4 : Usage Scenarios&#xd;
+<Node id="2511"/>&#xd;
+ <Node id="2514"/>4.1   User Proï¬&#xfffd;les â&#x20ac;&#x201d; The Actors&#xd;
+<Node id="2551"/>&#xd;
+<Node id="2553"/>As we have the definition of our project to be as minimal interaction with the&#xd;
+humans as possible â&#x20ac;&#x201c; we only have one external to the system actor and that is&#xd;
+the operative of the AR Drone.&#xd;
+<Node id="2747"/>&#xd;
+<Node id="2749"/>Usage Scenario Number 1&#xd;
+<Node id="2774"/>&#xd;
+<Node id="2776"/>1.  Name: Start-up&#xd;
+<Node id="2796"/>&#xd;
+<Node id="2798"/>2.  Pre-Conditions:&#xd;
+<Node id="2819"/>&#xd;
+<Node id="2821"/>a.  A Path has been marked.&#xd;
+<Node id="2850"/>&#xd;
+<Node id="2852"/>b.  The <Node id="2860"/>drone<Node id="2865"/> is <Node id="2869"/>placed<Node id="2875"/> at the starting point<Node id="2897"/>.&#xd;
+<Node id="2900"/>&#xd;
+<Node id="2902"/>3.  Steps:&#xd;
+<Node id="2914"/>&#xd;
+<Node id="2916"/>a.  The user starts the program.&#xd;
+<Node id="2950"/>&#xd;
+<Node id="2952"/>b.  The <Node id="2960"/>drone<Node id="2965"/> <Node id="2966"/>takes off<Node id="2975"/>.&#xd;
+<Node id="2978"/>&#xd;
+<Node id="2980"/>c.  The <Node id="2988"/>drone<Node id="2993"/> <Node id="2994"/>detects<Node id="3001"/> the <Node id="3006"/>path markers<Node id="3018"/>.&#xd;
+<Node id="3021"/>&#xd;
+<Node id="3023"/>d.  The <Node id="3031"/>drone<Node id="3036"/> <Node id="3037"/>flies<Node id="3042"/> along the path.&#xd;
+<Node id="3060"/>&#xd;
+<Node id="3062"/>e. <Node id="3065"/> The <Node id="3070"/>drone<Node id="3075"/> <Node id="3076"/>reaches<Node id="3083"/> the end of the path and <Node id="3108"/>lands<Node id="3113"/>.&#xd;
+<Node id="3116"/>&#xd;
+<Node id="3118"/>4.  Exceptions:&#xd;
+<Node id="3135"/>&#xd;
+<Node id="3137"/>a.  If at any point the <Node id="3161"/>drone<Node id="3166"/> doesnâ&#x20ac;&#x2122;t <Node id="3177"/>detect<Node id="3183"/> the <Node id="3188"/>path markers<Node id="3200"/>:&#xd;
+<Node id="3203"/>&#xd;
+<Node id="3205"/>b.  The <Node id="3213"/>drone<Node id="3218"/> <Node id="3219"/>turns<Node id="3224"/> 360 degrees<Node id="3236"/> in attempt to <Node id="3251"/>locate<Node id="3257"/> the markers.&#xd;
+<Node id="3272"/>&#xd;
+<Node id="3274"/>c.    If the<Node id="3286"/> marker is <Node id="3297"/>found<Node id="3302"/> the drone follows the path, otherwise it&#xd;
+<Node id="3345"/>lands<Node id="3350"/>.&#xd;
+<Node id="3353"/>&#xd;
+&#xd;
+<Node id="3357"/>Usage Scenario Number 2&#xd;
+<Node id="3382"/>&#xd;
+<Node id="3384"/>1.  Name: Checkpoint detection&#xd;
+<Node id="3416"/>&#xd;
+<Node id="3418"/>2.  Pre-Conditions:&#xd;
+<Node id="3439"/>&#xd;
+<Node id="3441"/>a.  Use case â&#x20ac;&#x153;Start-upâ&#x20ac;&#xfffd; is on-going.&#xd;
+<Node id="3483"/>&#xd;
+<Node id="3485"/>3.  Steps:&#xd;
+<Node id="3497"/>&#xd;
+<Node id="3499"/>a.  The <Node id="3507"/>drone<Node id="3512"/> <Node id="3513"/>detects<Node id="3520"/> a checkpoint marker<Node id="3540"/>.&#xd;
+<Node id="3543"/>&#xd;
+<Node id="3545"/>b.  The <Node id="3553"/>drone<Node id="3558"/> <Node id="3559"/>sends<Node id="3564"/> a message<Node id="3574"/> to the <Node id="3582"/>system<Node id="3588"/> <Node id="3589"/>identifying<Node id="3600"/> the&#xd;
+checkpoint.&#xd;
+<Node id="3619"/>&#xd;
+<Node id="3621"/>c.  The <Node id="3629"/>drone<Node id="3634"/> <Node id="3635"/>performs<Node id="3643"/> the callback operation<Node id="3666"/> <Node id="3667"/>received<Node id="3675"/> from the&#xd;
+<Node id="3686"/>system<Node id="3692"/> in response (currently - the drone hovers above the marker&#xd;
+for  a few seconds).<Node id="3773"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="128" Type="environment entity state" StartNode="1533" EndNode="1537">
+</Annotation>
+<Annotation Id="129" Type="environment transition condition" StartNode="1533" EndNode="1551">
+</Annotation>
+<Annotation Id="130" Type="environment entity" StartNode="1566" EndNode="1577">
+</Annotation>
+<Annotation Id="131" Type="environment entity" StartNode="1623" EndNode="1634">
+</Annotation>
+<Annotation Id="132" Type="component" StartNode="2277" EndNode="2282">
+</Annotation>
+<Annotation Id="133" Type="system transition condition" StartNode="2860" EndNode="2897">
+</Annotation>
+<Annotation Id="134" Type="system transition condition" StartNode="2960" EndNode="2975">
+</Annotation>
+<Annotation Id="135" Type="system transition condition" StartNode="2988" EndNode="3018">
+</Annotation>
+<Annotation Id="136" Type="system transition condition" StartNode="3065" EndNode="3083">
+</Annotation>
+<Annotation Id="137" Type="system transition condition" StartNode="3161" EndNode="3183">
+</Annotation>
+<Annotation Id="138" Type="system transition condition" StartNode="3213" EndNode="3236">
+</Annotation>
+<Annotation Id="139" Type="system transition condition" StartNode="3286" EndNode="3302">
+</Annotation>
+<Annotation Id="140" Type="system transition condition" StartNode="3507" EndNode="3540">
+</Annotation>
+<Annotation Id="141" Type="system transition condition" StartNode="3553" EndNode="3574">
+</Annotation>
+<Annotation Id="142" Type="system transition condition" StartNode="3582" EndNode="3600">
+</Annotation>
+<Annotation Id="143" Type="system transition condition" StartNode="3629" EndNode="3666">
+</Annotation>
+<Annotation Id="144" Type="system transition condition" StartNode="3667" EndNode="3692">
+</Annotation>
+<Annotation Id="56" Type="component" StartNode="206" EndNode="213">
+</Annotation>
+<Annotation Id="57" Type="environment entity" StartNode="324" EndNode="339">
+</Annotation>
+<Annotation Id="58" Type="environment entity" StartNode="344" EndNode="353">
+</Annotation>
+<Annotation Id="59" Type="component state" StartNode="107" EndNode="116">
+</Annotation>
+<Annotation Id="60" Type="component state" StartNode="188" EndNode="196">
+</Annotation>
+<Annotation Id="61" Type="component" StartNode="221" EndNode="229">
+</Annotation>
+<Annotation Id="62" Type="component" StartNode="393" EndNode="401">
+</Annotation>
+<Annotation Id="63" Type="component state" StartNode="407" EndNode="411">
+</Annotation>
+<Annotation Id="64" Type="environment entity state" StartNode="361" EndNode="372">
+</Annotation>
+<Annotation Id="65" Type="component" StartNode="465" EndNode="474">
+</Annotation>
+<Annotation Id="66" Type="component state" StartNode="485" EndNode="492">
+</Annotation>
+<Annotation Id="67" Type="component" StartNode="636" EndNode="644">
+</Annotation>
+<Annotation Id="68" Type="component state" StartNode="650" EndNode="657">
+</Annotation>
+<Annotation Id="69" Type="component" StartNode="681" EndNode="689">
+</Annotation>
+<Annotation Id="70" Type="component" StartNode="698" EndNode="706">
+</Annotation>
+<Annotation Id="71" Type="component state" StartNode="712" EndNode="716">
+</Annotation>
+<Annotation Id="72" Type="component" StartNode="824" EndNode="829">
+</Annotation>
+<Annotation Id="73" Type="component property" StartNode="848" EndNode="853">
+</Annotation>
+<Annotation Id="74" Type="component property" StartNode="928" EndNode="931">
+</Annotation>
+<Annotation Id="75" Type="environment entity property" StartNode="1222" EndNode="1230">
+</Annotation>
+<Annotation Id="76" Type="environment entity property" StartNode="1235" EndNode="1245">
+</Annotation>
+<Annotation Id="77" Type="environment entity" StartNode="1262" EndNode="1273">
+</Annotation>
+<Annotation Id="78" Type="environment entity property" StartNode="1287" EndNode="1290">
+</Annotation>
+<Annotation Id="79" Type="component" StartNode="1378" EndNode="1385">
+</Annotation>
+<Annotation Id="80" Type="component property" StartNode="1440" EndNode="1450">
+</Annotation>
+<Annotation Id="81" Type="environment entity property" StartNode="1641" EndNode="1653">
+</Annotation>
+<Annotation Id="82" Type="component state" StartNode="1741" EndNode="1748">
+</Annotation>
+<Annotation Id="83" Type="component" StartNode="2073" EndNode="2079">
+</Annotation>
+<Annotation Id="84" Type="component" StartNode="2080" EndNode="2087">
+</Annotation>
+<Annotation Id="85" Type="component" StartNode="2102" EndNode="2107">
+</Annotation>
+<Annotation Id="86" Type="component" StartNode="2245" EndNode="2254">
+</Annotation>
+<Annotation Id="87" Type="component" StartNode="2269" EndNode="2271">
+</Annotation>
+<Annotation Id="88" Type="component state" StartNode="2869" EndNode="2875">
+</Annotation>
+<Annotation Id="89" Type="component state" StartNode="2966" EndNode="2975">
+</Annotation>
+<Annotation Id="90" Type="component" StartNode="2860" EndNode="2865">
+</Annotation>
+<Annotation Id="91" Type="component" StartNode="2960" EndNode="2965">
+</Annotation>
+<Annotation Id="92" Type="component" StartNode="2988" EndNode="2993">
+</Annotation>
+<Annotation Id="93" Type="component state" StartNode="2994" EndNode="3001">
+</Annotation>
+<Annotation Id="94" Type="component" StartNode="3006" EndNode="3018">
+</Annotation>
+<Annotation Id="95" Type="component" StartNode="3031" EndNode="3036">
+</Annotation>
+<Annotation Id="96" Type="component state" StartNode="3037" EndNode="3042">
+</Annotation>
+<Annotation Id="97" Type="component" StartNode="3070" EndNode="3075">
+</Annotation>
+<Annotation Id="98" Type="component state" StartNode="3076" EndNode="3083">
+</Annotation>
+<Annotation Id="99" Type="component state" StartNode="3108" EndNode="3113">
+</Annotation>
+<Annotation Id="100" Type="component" StartNode="3161" EndNode="3166">
+</Annotation>
+<Annotation Id="101" Type="component state" StartNode="3177" EndNode="3183">
+</Annotation>
+<Annotation Id="102" Type="component" StartNode="3188" EndNode="3200">
+</Annotation>
+<Annotation Id="103" Type="component state" StartNode="3251" EndNode="3257">
+</Annotation>
+<Annotation Id="104" Type="component state" StartNode="3219" EndNode="3224">
+</Annotation>
+<Annotation Id="105" Type="component" StartNode="3213" EndNode="3218">
+</Annotation>
+<Annotation Id="106" Type="component state" StartNode="3297" EndNode="3302">
+</Annotation>
+<Annotation Id="107" Type="component state" StartNode="3345" EndNode="3350">
+</Annotation>
+<Annotation Id="108" Type="component" StartNode="3507" EndNode="3512">
+</Annotation>
+<Annotation Id="109" Type="component state" StartNode="3513" EndNode="3520">
+</Annotation>
+<Annotation Id="110" Type="component state" StartNode="3559" EndNode="3564">
+</Annotation>
+<Annotation Id="111" Type="component" StartNode="3553" EndNode="3558">
+</Annotation>
+<Annotation Id="112" Type="component" StartNode="3582" EndNode="3588">
+</Annotation>
+<Annotation Id="113" Type="component state" StartNode="3589" EndNode="3600">
+</Annotation>
+<Annotation Id="114" Type="component state" StartNode="3635" EndNode="3643">
+</Annotation>
+<Annotation Id="115" Type="component" StartNode="3629" EndNode="3634">
+</Annotation>
+<Annotation Id="116" Type="component state" StartNode="3667" EndNode="3675">
+</Annotation>
+<Annotation Id="117" Type="component" StartNode="3686" EndNode="3692">
+</Annotation>
+<Annotation Id="118" Type="system transition condition" StartNode="187" EndNode="213">
+</Annotation>
+<Annotation Id="119" Type="system transition condition" StartNode="393" EndNode="411">
+</Annotation>
+<Annotation Id="120" Type="system transition condition" StartNode="465" EndNode="492">
+</Annotation>
+<Annotation Id="121" Type="system transition condition" StartNode="636" EndNode="657">
+</Annotation>
+<Annotation Id="122" Type="system transition condition" StartNode="698" EndNode="716">
+</Annotation>
+<Annotation Id="123" Type="component" StartNode="744" EndNode="752">
+</Annotation>
+<Annotation Id="124" Type="component" StartNode="416" EndNode="421">
+</Annotation>
+<Annotation Id="125" Type="component" StartNode="757" EndNode="762">
+</Annotation>
+<Annotation Id="126" Type="environment transition condition" StartNode="1261" EndNode="1290">
+</Annotation>
+<Annotation Id="127" Type="environment entity" StartNode="1542" EndNode="1551">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="37">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="39" EndNode="87">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="87" EndNode="232">
+</Annotation>
+<Annotation Id="3" Type="paragraph" StartNode="234" EndNode="296">
+</Annotation>
+<Annotation Id="4" Type="paragraph" StartNode="298" EndNode="318">
+</Annotation>
+<Annotation Id="5" Type="paragraph" StartNode="320" EndNode="386">
+</Annotation>
+<Annotation Id="6" Type="paragraph" StartNode="388" EndNode="459">
+</Annotation>
+<Annotation Id="7" Type="paragraph" StartNode="461" EndNode="595">
+</Annotation>
+<Annotation Id="8" Type="paragraph" StartNode="597" EndNode="691">
+</Annotation>
+<Annotation Id="9" Type="paragraph" StartNode="693" EndNode="765">
+</Annotation>
+<Annotation Id="10" Type="paragraph" StartNode="769" EndNode="810">
+</Annotation>
+<Annotation Id="11" Type="paragraph" StartNode="812" EndNode="882">
+</Annotation>
+<Annotation Id="12" Type="paragraph" StartNode="884" EndNode="957">
+</Annotation>
+<Annotation Id="13" Type="paragraph" StartNode="959" EndNode="1031">
+</Annotation>
+<Annotation Id="14" Type="paragraph" StartNode="1033" EndNode="1110">
+</Annotation>
+<Annotation Id="15" Type="paragraph" StartNode="1112" EndNode="1188">
+</Annotation>
+<Annotation Id="16" Type="paragraph" StartNode="1190" EndNode="1219">
+</Annotation>
+<Annotation Id="17" Type="paragraph" StartNode="1221" EndNode="1375">
+</Annotation>
+<Annotation Id="18" Type="paragraph" StartNode="1377" EndNode="1464">
+</Annotation>
+<Annotation Id="19" Type="paragraph" StartNode="1466" EndNode="1555">
+</Annotation>
+<Annotation Id="20" Type="paragraph" StartNode="1555" EndNode="1660">
+</Annotation>
+<Annotation Id="21" Type="paragraph" StartNode="1662" EndNode="1789">
+</Annotation>
+<Annotation Id="22" Type="paragraph" StartNode="1791" EndNode="1953">
+</Annotation>
+<Annotation Id="23" Type="paragraph" StartNode="1957" EndNode="1986">
+</Annotation>
+<Annotation Id="24" Type="paragraph" StartNode="1988" EndNode="2018">
+</Annotation>
+<Annotation Id="25" Type="paragraph" StartNode="2020" EndNode="2143">
+</Annotation>
+<Annotation Id="26" Type="paragraph" StartNode="2145" EndNode="2215">
+</Annotation>
+<Annotation Id="27" Type="paragraph" StartNode="2215" EndNode="2285">
+</Annotation>
+<Annotation Id="28" Type="paragraph" StartNode="2287" EndNode="2361">
+</Annotation>
+<Annotation Id="29" Type="paragraph" StartNode="2363" EndNode="2478">
+</Annotation>
+<Annotation Id="30" Type="paragraph" StartNode="2482" EndNode="2511">
+</Annotation>
+<Annotation Id="31" Type="paragraph" StartNode="2514" EndNode="2551">
+</Annotation>
+<Annotation Id="32" Type="paragraph" StartNode="2553" EndNode="2747">
+</Annotation>
+<Annotation Id="33" Type="paragraph" StartNode="2749" EndNode="2774">
+</Annotation>
+<Annotation Id="34" Type="paragraph" StartNode="2776" EndNode="2796">
+</Annotation>
+<Annotation Id="35" Type="paragraph" StartNode="2798" EndNode="2819">
+</Annotation>
+<Annotation Id="36" Type="paragraph" StartNode="2821" EndNode="2850">
+</Annotation>
+<Annotation Id="37" Type="paragraph" StartNode="2852" EndNode="2900">
+</Annotation>
+<Annotation Id="38" Type="paragraph" StartNode="2902" EndNode="2914">
+</Annotation>
+<Annotation Id="39" Type="paragraph" StartNode="2916" EndNode="2950">
+</Annotation>
+<Annotation Id="40" Type="paragraph" StartNode="2952" EndNode="2978">
+</Annotation>
+<Annotation Id="41" Type="paragraph" StartNode="2980" EndNode="3021">
+</Annotation>
+<Annotation Id="42" Type="paragraph" StartNode="3023" EndNode="3060">
+</Annotation>
+<Annotation Id="43" Type="paragraph" StartNode="3062" EndNode="3116">
+</Annotation>
+<Annotation Id="44" Type="paragraph" StartNode="3118" EndNode="3135">
+</Annotation>
+<Annotation Id="45" Type="paragraph" StartNode="3137" EndNode="3203">
+</Annotation>
+<Annotation Id="46" Type="paragraph" StartNode="3205" EndNode="3272">
+</Annotation>
+<Annotation Id="47" Type="paragraph" StartNode="3274" EndNode="3353">
+</Annotation>
+<Annotation Id="48" Type="paragraph" StartNode="3357" EndNode="3382">
+</Annotation>
+<Annotation Id="49" Type="paragraph" StartNode="3384" EndNode="3416">
+</Annotation>
+<Annotation Id="50" Type="paragraph" StartNode="3418" EndNode="3439">
+</Annotation>
+<Annotation Id="51" Type="paragraph" StartNode="3441" EndNode="3483">
+</Annotation>
+<Annotation Id="52" Type="paragraph" StartNode="3485" EndNode="3497">
+</Annotation>
+<Annotation Id="53" Type="paragraph" StartNode="3499" EndNode="3543">
+</Annotation>
+<Annotation Id="54" Type="paragraph" StartNode="3545" EndNode="3619">
+</Annotation>
+<Annotation Id="55" Type="paragraph" StartNode="3621" EndNode="3773">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

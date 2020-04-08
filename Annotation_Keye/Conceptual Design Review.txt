@@ -1,0 +1,352 @@
+3. System-level Requirements & Performance Measures
+
+Our  UAV-UGV  collaboration  system  will  be  divided  into  3  main  parts:  
+UAV,  UGV,  and
+manipulator mounted on UGV.
+
+3.1 UGV Requirements & Performance Measures
+
+
+Travelling
+distance/
+Communication
+Range
+
+Terrain
+
+Payload
+
+Battery Life
+
+Area of Helipad
+
+Slope
+
+Weight
+
+Maximum Speed
+
+Description
+
+The farthest distance UGV can
+travel without losing
+communication to the operator.
+
+The terrain that UGV should be
+able to travel across.
+
+The payload of UGV, including
+UAV, manipulator, and explosive.
+
+The battery life of UGV.
+
+The area of the helipad for UAV
+to land on.
+
+The slope that UGV can climb.
+
+The weight of UGV without
+payload or manipulator.
+
+Maximum Speed of UGV
+moving.
+
+Performance Measure
+
+The distance should be 100m at
+min.
+
+UGV should be able to cross a
+5cm step or shallow water, as
+well as other rough surface such
+as grass.
+
+The payload of UGV should be
+40kg at max.
+
+UGV should sustain continuous
+operation for at least 2 hours.
+The    area of the helipad should
+
+be at least 1ft*1ft big.
+
+UGV should be able to climb a
+15 degree slope.
+
+The weight of UGV should not
+exceed 12kg.
+
+The speed should maintain at
+1m/s.
+
+Priority
+
+High
+
+High
+
+High
+
+High
+
+High
+
+Medium
+
+Medium
+
+Low
+
+
+3.2 UAV Requirements & Performance Measures
+
+Description                        Performance Measure            Priority
+
+
+Video Quality
+
+Frequency of
+Camera
+
+Weight
+
+Flight Control
+
+Sensor
+
+Payload
+
+Processor Speed
+
+The resolution of video captured
+by the camera on UAV.
+
+Better frequency gives better
+accuracy. Measure number of
+frame per second.
+
+The weight of UAV. It should be
+light enough to land on UGV.
+
+Measure difference of given
+command and executed value.
+
+The sensors mounted on UAV.
+
+The payload of UAV.
+
+The speed of onboard processor.
+Better processing speed and
+frequency is desired
+
+The ideal resolution of video is
+720p.
+
+The FPS should at least be 24.
+
+The weight should be less than
+500g.
+
+When given commands to reach
+a designated point, UAV should
+not deviate for more than 10cm
+from that point.
+
+The UAV should be mounted
+with IMU and ultrasonic
+sensors.
+
+The UAV should sustain at least
+300g of payload.
+
+The MIPS rating should exceed
+1000.
+
+High
+
+High
+
+High
+
+Medium
+
+Medium
+
+Medium
+
+Medium
+
+3.3 Manipulator Requirements & Performance Measures
+
+
+Maximum
+Payload
+
+Maximum Reach
+Shoulder Yaw
+Shoulder Pitch
+
+Elbow Pitch
+
+Wrist Pitch
+
+Description
+
+The lifting capacity of
+manipulator.
+
+Reach of manipulator at full
+extension.
+
+Manipulator base rotation.
+
+Rotation of the1ˢᵗ joint of
+manipulator.
+
+Rotation of 2ⁿᵈ joint of
+manipulator.
+
+Rotation of wrist of the
+manipulator.
+
+Performance Measure
+
+UGV should be able lift and
+carry 1 Lb. of load.
+
+30 cm reach is required to pick
+up an explosive efficiently.
+180 degrees is desirable.
+
+180 degrees is desirable.
+
+180 degrees is desirable.
+
+180 degrees is desirable.
+
+Priority
+
+High
+
+High
+High
+High
+
+High
+
+High
+
+
+Gripper Opening
+
+Interface
+
+Manipulator
+Weight
+
+Linear Arm Speed
+Power
+
+Opening of gripper.
+
+Software control of manipulator.
+
+Weight of manipulator.
+Speed of manipulator.
+
+Power requirement to operate the
+manipulator.
+
+Minimum 10 cm is required.
+
+Each link should be controlled
+with minimum 1 degree
+resolution.
+
+The weight of manipulator
+should not exceed 4 lb.
+10 cm/sec is appropriate.
+
+6 volt and 5 amps are required
+to operate all servo motors.
+
+High
+
+High
+
+Medium
+Medium
+Medium
+6. Function Architecture
+
+The function architecture for our system can be divided into 6 subsystems: User 
+& UI,
+Communication, Sensing, Motion, Gripping, and Power.
+
+
+6.1.     Control     &     UI     Function
+Architecture
+
+This part of the system includes the
+operator,  the  control  system  and  the
+user    interface.    Once    the    operator
+obtains  the  info  sent  back  from  the
+video feeds and sensors, her or she can
+either  actively  sending  various  kinds
+of    commands    to    the    system,    or
+monitor  the  system  as  it  carries  out
+
+certain tasks by itself, such as auto-detecting suspicious bags or packages.
+
+6.2.    Communication    Function
+Architecture
+
+This     subsystem     deals     with
+sending  all  the  data  back  and  forth
+between     the      remotely-operated
+system and the operator.
+
+6.3. Sensing Function Architecture
+
+The sensing part of the system consists of a
+pair  of  cameras  and  onboard  sensors.  When
+surveying  the  environment,  the  operator  will
+have  a  bird’s  eye  view  from  UAV.  Once  the
+system is near the suspected explosive device,
+the  operator  will  further  inspect  the  device
+with sensing data and video feed from UGV.
+
+6.4. Motion Function Architecture
+
+The motion part enables the whole system to
+move around. The UAV will have the ability to
+follow  the  UGV  around  closely,  and  the  UGV
+needs  to  be  able  to  traverse  different  kinds  of
+terrain and minor obstacles.
+
+
+6.5. Gripping Function Architecture
+
+The  gripping  subsystem  is  a  manipulator  arm  capable  of
+picking up the explosive and either holding it with the gripper
+or placing it in a basket on the back of the UGV.
+
+6.6. Power Function Architecture
+
+The  last  subsystem,  power,  is  simply  the  part  of  providing  power.
+The power system also has a minor but crucial function that it would
+send out a warning signal to the operator when the battery of UAV is
+running out, so the operator can make the UAV land on top of UGV.
+
+7. Physical Architecture
+
+There are four parts to our system’s physical architecture: operator, central 
+control & UI,
+UAV, and UGV & Manipulator.
+
+7.1 Operator, Central Control & UI Physical Architecture
+
+
+7.2 UGV & Manipulator Physical Architecture
+
+7.3 UAV Physical Architecture

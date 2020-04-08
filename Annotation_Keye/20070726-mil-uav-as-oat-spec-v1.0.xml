@@ -1,0 +1,1865 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/E:/Annotation/DRONE%20DOCUMENT/20070726-mil-uav-as-oat-spec-v1.0.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>3           PROPOSED EUROCONTROL SPECIFICATIONS&#xd;
+<Node id="49"/>&#xd;
+<Node id="51"/>3.1         ATM Categorization of <Node id="85"/>UAV<Node id="88"/> Operations&#xd;
+<Node id="101"/>&#xd;
+<Node id="103"/>3.1.1      There   are   numerous   ways   of   categorizing   <Node id="166"/>UAVs<Node id="170"/>,   eg   &#xd;
+weight,   role,   type,   etc.&#xd;
+Although each may be valid in context, it is flight rules that are most &#xd;
+relevant to the&#xd;
+operation of  UAVs outside segregated airspace,  since these govern the ATM &#xd;
+rules&#xd;
+and   regulations   that   apply   to   manned   aircraft.     Where   &#xd;
+necessary   for   these&#xd;
+Specifications,   therefore,   it   is   logical   that   the   operation   of  &#xd;
+ UAVs   should   be&#xd;
+categorized according to whether the sortie is flown under IFR or VFR as &#xd;
+applied to&#xd;
+OAT.&#xd;
+<Node id="683"/>&#xd;
+<Node id="685"/>Specification   UAV1.   For   ATM   purposes,   where  it   becomes   necessary &#xd;
+ to&#xd;
+categorize  UAV  operations,  this  should  be  done  on  the  basis  of  &#xd;
+flight  rules,&#xd;
+namely IFR or VFR as applied to OAT.&#xd;
+<Node id="902"/>&#xd;
+<Node id="904"/>3.2         Mode of Operation&#xd;
+<Node id="935"/>&#xd;
+<Node id="937"/>3.2.1      Notwithstanding  any  pre-programmed  mission  autonomy,  the  &#xd;
+primary   mode  of&#xd;
+operation of a <Node id="1048"/>UAV<Node id="1051"/> for the purposes of ATM should entail oversight by the &#xd;
+<Node id="1109"/>pilot-in-&#xd;
+command<Node id="1127"/>,  who  should  at  all  times  be  able  to  <Node id="1173"/>intervene<Node id="1182"/>  in  the  &#xd;
+management  of  its&#xd;
+flight.   However,  in  the  event  of  total loss  of  control data-link  &#xd;
+between the  pilot-in-&#xd;
+command  and  the  UAV,  a  back-up  mode  of  operation  should  enable  the  &#xd;
+<Node id="1398"/>UAV<Node id="1401"/>  to&#xd;
+<Node id="1407"/>revert<Node id="1413"/>  to  autonomous  flight  that  is  designed to ensure the safety  of  &#xd;
+other airspace&#xd;
+users.&#xd;
+<Node id="1510"/>&#xd;
+<Node id="1512"/>Specification  UAV2.   For  ATM  purposes,  the  primary  mode  of  operation  &#xd;
+of  a&#xd;
+<Node id="1600"/>UAV<Node id="1603"/> should entail <Node id="1618"/>oversight<Node id="1627"/> by the <Node id="1635"/>pilot-in command<Node id="1651"/>, who should at all times&#xd;
+be  able  to  <Node id="1692"/>intervene<Node id="1701"/>  in  the  management  of  the  flight.    A  back-up  &#xd;
+mode  of&#xd;
+operation should enable the <Node id="1796"/>UAV<Node id="1799"/> to <Node id="1803"/>revert<Node id="1809"/> to autonomous flight in the event of&#xd;
+total  loss  of  control  data-link  between  the  <Node id="1899"/>pilot-in-command<Node id="1915"/>  and  the  &#xd;
+<Node id="1929"/>UAV<Node id="1932"/>.&#xd;
+This  back-up  mode  of  operation  should  ensure  the  safety  of  other  &#xd;
+airspace&#xd;
+users.&#xd;
+<Node id="2031"/>&#xd;
+<Node id="2033"/>3.3         Flight Rules&#xd;
+<Node id="2059"/>&#xd;
+<Node id="2061"/>3.3.1      In essence, the rules for manned aircraft require that VFR flights &#xd;
+shall be conducted&#xd;
+so  that  the  aircraft  is  flown  in  conditions <Node id="2212"/> <Node id="2213"/>visibility<Node id="2223"/>  and  &#xd;
+<Node id="2232"/>distance<Node id="2240"/>  from  <Node id="2248"/>clouds<Node id="2254"/>  not&#xd;
+less  than  those  specified<Node id="2289"/>,  while  the  rules  for  IFR  flight  require  &#xd;
+that  the  aircraft  is&#xd;
+equipped with <Node id="2379"/>suitable instruments<Node id="2399"/> and with <Node id="2409"/>navigation equipment<Node id="2429"/> appropriate to &#xd;
+the&#xd;
+<Node id="2452"/>route<Node id="2457"/>  to  be  flown  and  with  the  required  provisions  when  operated  in  &#xd;
+controlled&#xd;
+airspace.   Outside  controlled  airspace,  an IFR flight  is  required  to fly &#xd;
+ at  a cruising&#xd;
+level appropriate to its track.&#xd;
+<Node id="2678"/>&#xd;
+<Node id="2680"/>3.3.2      Compliance with IFR should be relatively straightforward for a <Node id="2754"/>UAV<Node id="2757"/> &#xd;
+since this relates&#xd;
+to the carriage of equipment that is already available to manned aircraft.   &#xd;
+However,&#xd;
+the rules for VFR flight pose a problem for a UAV insofar as it may be &#xd;
+difficult for the&#xd;
+<Node id="2961"/>UAV<Node id="2964"/> <Node id="2965"/> pilot-in  command<Node id="2983"/>  to  <Node id="2989"/>assess<Node id="2995"/>  whether  the <Node id="3010"/> <Node id="3011"/>visibility<Node id="3021"/>  and  <Node id="3028"/>distance<Node id="3036"/>  &#xd;
+from  <Node id="3046"/>cloud<Node id="3051"/>&#xd;<Node id="3052"/>
+equate  to  VMC.   If  a  UAV  is  unable  to  establish  that  it  is  VMC,  &#xd;
+it  could  fly  IFR  if&#xd;
+<Node id="3158"/>&#xd;
+&#xd;
+<Node id="3162"/>properly  equipped,  although  this  would  constrain  its  freedom  of  &#xd;
+operation.    It  is&#xd;
+therefore in the interest of <Node id="3288"/>UAV<Node id="3291"/> operators that  UAVs should be designed to a &#xd;
+level&#xd;
+which allows full alignment and transparency with manned aircraft for all &#xd;
+flight rules,&#xd;
+including the ability to assess in-flight conditions.&#xd;
+<Node id="3492"/>&#xd;
+<Node id="3494"/>Specification  UAV3.    UAVs  should  comply  with  VFR  and  IFR  as  they  &#xd;
+affect&#xd;
+manned aircraft flying OAT.   For VFR flight, the UAV pilot-in-command should&#xd;
+have the ability to assess in-flight meteorological conditions.&#xd;
+<Node id="3725"/>&#xd;
+<Node id="3727"/>3.4         Separation Provision and Collision Avoidance&#xd;
+<Node id="3785"/>&#xd;
+<Node id="3787"/>3.4.1      It  is  a  requirement  for  manned  aircraft  that  they  shall  &#xd;
+not  be  operated  in  such&#xd;
+proximity to other aircraft as to create a collision hazard, and it seems &#xd;
+axiomatic that&#xd;
+the same requirement should apply to <Node id="4024"/>UAVs<Node id="4028"/>.   Notwithstanding, effective &#xd;
+separation&#xd;
+provision   and   collision   avoidance   probably   represent   the   greatest &#xd;
+  technical&#xd;
+challenge confronting the routine operation of UAVs outside segregated &#xd;
+airspace.&#xd;
+<Node id="4252"/>&#xd;
+<Node id="4254"/>3.4.2      The hierarchy for the application of separation provision and &#xd;
+collision avoidance for&#xd;
+a UAV should be:&#xd;
+<Node id="4372"/>&#xd;
+<Node id="4374"/>a.       ATC - separation provision.&#xd;
+<Node id="4412"/>&#xd;
+<Node id="4414"/>b.       <Node id="4423"/>Pilot-in-command<Node id="4439"/> - separation provision and collision avoidance.&#xd;
+<Node id="4489"/>&#xd;
+<Node id="4491"/>c.       Autonomous operation â&#x20ac;&#x201c; collision avoidance.&#xd;
+<Node id="4547"/>&#xd;
+<Node id="4549"/>3.4.3      Use  of  chase  aircraft  would  help  resolve  some  of  the  &#xd;
+problems  associated  with&#xd;
+collision avoidance by UAVs.   However, this is impracticable in the long term, &#xd;
+given&#xd;
+the  anticipated  scale  of  future  UAV  operations,  and  would  remove  many &#xd;
+ of  the&#xd;
+advantages  of  using  UAVs  in  place  of  manned  aircraft.     These  &#xd;
+specifications&#xd;
+therefore presume the absence of accompanying chase aircraft.&#xd;
+<Node id="4988"/>&#xd;
+<Node id="4990"/>3.4.4      Right-of-Way&#xd;
+<Node id="5015"/>&#xd;
+<Node id="5017"/>3.4.4.1   Most if not all nations apply the right-of-way as prescribed by ICAO &#xd;
+(Rules of the Air,&#xd;
+Annex 2), and there is no reason to exempt UAVs.  Likewise, the rule on &#xd;
+converging&#xd;
+aircraft  should  apply  according  to  whether  the  UAV  is  power-driven  &#xd;
+and  heavier-&#xd;
+than-air  or  is  an  airship  or  a  glider  or  a  balloon,  in  the  same  &#xd;
+way  it  applies  to&#xd;
+manned aircraft.&#xd;
+<Node id="5418"/>&#xd;
+<Node id="5420"/>Specification UAV4.   UAVs should comply with the right-of-way rules as they&#xd;
+apply to other airspace users.&#xd;
+<Node id="5530"/>&#xd;
+<Node id="5532"/>3.4.5      Separation from Other Airspace Users - IFR&#xd;
+<Node id="5587"/>&#xd;
+<Node id="5589"/>3.4.5.1   Within   controlled   airspace,   separation   from   other   &#xd;
+airspace   users   is   normally&#xd;
+achieved  as  part  of  the  provision  of  an  air  traffic  service,  &#xd;
+although  this  does  not&#xd;
+permit the pilot to relax his vigilance for the purpose of detecting potential &#xd;
+collisions.&#xd;
+For a UAV operating in controlled airspace, it is therefore reasonable to argue &#xd;
+that&#xd;
+the   primary   means   of   achieving   separation   should   be   compliance  &#xd;
+ with   ATC&#xd;
+instructions.     However,  ATC  will  only  provide  separation  as  a  &#xd;
+function  of  the&#xd;
+airspace classification, and there is therefore a requirement for the<Node id="6238"/> <Node id="6239"/>UAV<Node id="6242"/> to be &#xd;
+able&#xd;
+to  <Node id="6261"/>react<Node id="6266"/>  to<Node id="6270"/>  possible  conflict  with  <Node id="6298"/>unknown  <Node id="6307"/>traffic<Node id="6314"/>  in  the  same  way  &#xd;
+as  a  manned&#xd;
+aircraft, ie by first <Node id="6375"/>detecting<Node id="6384"/> the <Node id="6389"/>confliction<Node id="6400"/> and then <Node id="6410"/>manoeuvring<Node id="6421"/> to <Node id="6425"/>avoid<Node id="6430"/> &#xd;
+it.&#xd;
+<Node id="6438"/>&#xd;
+&#xd;
+<Node id="6442"/>Specification  UAV5.   For  IFR  OAT  flight  by  UAVs  in  controlled  &#xd;
+airspace,  the&#xd;
+primary  means  of  achieving  separation  from  other  airspace  users  should &#xd;
+ be&#xd;
+by  compliance  with  ATC  instructions.   However,  additional  provision  &#xd;
+should&#xd;
+be made for collision avoidance against unknown aircraft.&#xd;
+<Node id="6764"/>&#xd;
+<Node id="6766"/>3.4.6      Separation from Other Airspace Users - VFR&#xd;
+<Node id="6821"/>&#xd;
+<Node id="6823"/>3.4.6.1   It  is  implicit  when flying VFR that  the <Node id="6877"/>pilot<Node id="6882"/>  is  ultimately  &#xd;
+responsible for  maintaining&#xd;
+safe  separation  from  other  airspace  users  which,  in  a  manned  &#xd;
+aircraft,  he  will&#xd;
+<Node id="7026"/>achieve<Node id="7033"/>  by  remaining  VMC  and  by <Node id="7063"/> <Node id="7064"/>maintaining<Node id="7075"/>  an  active  visual  scan  &#xd;
+and  taking&#xd;
+<Node id="7118"/>avoiding<Node id="7126"/> action as required<Node id="7145"/>.   The <Node id="7153"/>UAV<Node id="7156"/> must achieve the same result and do so &#xd;
+with&#xd;
+an equivalent level of safety to a manned aircraft.&#xd;
+<Node id="7257"/>&#xd;
+<Node id="7259"/>3.4.6.2   The  <Node id="7274"/>UAV<Node id="7277"/>  <Node id="7279"/>pilot-in-command<Node id="7295"/>  may  have  surveillance  information  &#xd;
+available  to  him  to&#xd;
+<Node id="7361"/>assist<Node id="7367"/>  him  with  separation  provision  and  collision  avoidance<Node id="7428"/>,  and  such &#xd;
+ sources&#xd;
+should  be  utilised  wherever  practicable.     However,  in  addition,  he  &#xd;
+will  require&#xd;
+technical assistance to <Node id="7572"/>detect<Node id="7578"/>  and  <Node id="7585"/>avoid<Node id="7590"/> conflicting <Node id="7603"/>traffic<Node id="7610"/>  with the same &#xd;
+degree of&#xd;
+assurance  as  a  manned  aircraft  flying  VFR.   Thus  provided  for,  he  &#xd;
+could  then  be&#xd;
+responsible for the safe conduct  of a flight, unless loss of control data-link &#xd;
+ made it&#xd;
+impracticable,  at  which  point  an  automatic  system  would  take  over  to  &#xd;
+ensure&#xd;
+collision  avoidance.   The  technical  assistance  â&#x20ac;&#x201c;  embracing  the  concept  &#xd;
+of  Sense&#xd;
+and Avoid â&#x20ac;&#x201c; should therefore:&#xd;
+<Node id="8045"/>&#xd;
+<Node id="8047"/>a.       Enable the <Node id="8067"/>UAV<Node id="8070"/> <Node id="8071"/>pilot-in-command<Node id="8087"/> to maintain VMC when operating VFR.&#xd;
+<Node id="8125"/>&#xd;
+<Node id="8127"/>b.      <Node id="8135"/> <Node id="8136"/>Detect<Node id="8142"/> conflicting <Node id="8155"/>traffic<Node id="8162"/>.&#xd;
+<Node id="8165"/>&#xd;
+<Node id="8167"/>c.       Enable the <Node id="8187"/>UAV<Node id="8190"/> <Node id="8191"/>pilot-in-command<Node id="8207"/> to <Node id="8211"/>interact<Node id="8219"/> with conflicting traffic in&#xd;
+accordance with the right-of way rules.&#xd;
+<Node id="8290"/>&#xd;
+<Node id="8292"/>d.       Ensure automatic collision <Node id="8328"/>avoidance<Node id="8337"/> in the event of failure of &#xd;
+separation&#xd;
+provision for whatever reason.&#xd;
+<Node id="8411"/>&#xd;
+<Node id="8413"/>3.4.6.3   This   technical   assistance   would   also  supplement   the   air  &#xd;
+traffic   service   being&#xd;
+provided  when  a  <Node id="8541"/>UAV<Node id="8544"/> is  flying  VFR in controlled  airspace,  and  would &#xd;
+significantly&#xd;
+enhance  safety   where  national  regulations   permit  IFR  flight  outside  &#xd;
+controlled&#xd;
+airspace.&#xd;
+<Node id="8719"/>&#xd;
+<Node id="8721"/>Specification UAV6.   For VFR OAT flight by UAVs,<Node id="8770"/> the <Node id="8775"/>UAV<Node id="8778"/> <Node id="8779"/>pilot-in command<Node id="8795"/>&#xd;
+should  <Node id="8805"/>utilize<Node id="8812"/>  available  surveillance  information<Node id="8850"/>  to  <Node id="8856"/>assist<Node id="8862"/>  with  &#xd;
+separation&#xd;
+provision and collision avoidance.  In addition, technical assistance should be&#xd;
+available to the <Node id="8982"/>pilot-in-command<Node id="8998"/> to enable him to <Node id="9016"/>maintain<Node id="9024"/> VMC and to <Node id="9036"/>detect<Node id="9042"/>&#xd;
+and  <Node id="9049"/>avoid<Node id="9054"/>  <Node id="9056"/>conflicting  <Node id="9069"/>traffic<Node id="9076"/>.   An  automatic  system  should  provide  &#xd;
+collision&#xd;
+avoidance in the event of failure of separation provision.&#xd;
+<Node id="9193"/>&#xd;
+<Node id="9195"/>3.5         Sense and Avoid&#xd;
+<Node id="9224"/>&#xd;
+<Node id="9226"/>3.5.1      <Node id="9237"/>Sense  and  Avoid  (S&amp;A)<Node id="9261"/>  is  a  generic  expression  employed  to  &#xd;
+reflect  a  technical&#xd;
+capability commensurate with a pilotâ&#x20ac;&#x2122;s ability to see and avoid other air &#xd;
+traffic.&#xd;
+<Node id="9418"/>&#xd;
+<Node id="9420"/>3.5.2      A  <Node id="9434"/>S&amp;A<Node id="9437"/>  system  comprises  those  components  which  enable  a  <Node id="9495"/>UAV<Node id="9498"/>  &#xd;
+to  <Node id="9506"/>sense<Node id="9511"/>  and&#xd;
+<Node id="9518"/>avoid<Node id="9523"/>  other  airspace  users  in  real-time;  it  may  be  on-board,  or  &#xd;
+ground-based&#xd;
+involving the <Node id="9623"/>pilot-in-command<Node id="9639"/>, or a combination of both.&#xd;
+<Node id="9668"/>&#xd;
+<Node id="9670"/>3.5.3      The primary  purpose of  an <Node id="9709"/>S&amp;A<Node id="9712"/> system  is  to enable the  <Node id="9740"/>UAV<Node id="9743"/>  &#xd;
+<Node id="9747"/>pilot-in-command<Node id="9763"/> to&#xd;
+<Node id="9768"/>perform<Node id="9775"/> the dual functions of separation provision and collision avoidance &#xd;
+normally&#xd;<Node id="9854"/>&#xd;
+<Node id="9856"/>undertaken by the <Node id="9874"/>pilot<Node id="9879"/> of a manned aircraft.   Its secondary purpose is to &#xd;
+<Node id="9934"/>undertake<Node id="9943"/>&#xd;
+collision  avoidance  autonomously  if  separation  provision  fails,  for  &#xd;
+example  in  the&#xd;
+event of loss of control data-link.  <Node id="10078"/>S&amp;A<Node id="10081"/> is therefore essential to the safe &#xd;
+operation of&#xd;
+<Node id="10133"/>UAVs<Node id="10137"/> outside segregated airspace.  Moreover, it must achieve an equivalent &#xd;
+level of&#xd;
+safety to a manned aircraft.&#xd;
+<Node id="10250"/>&#xd;
+<Node id="10252"/>Specification  UAV7.     A  <Node id="10280"/>UAV<Node id="10283"/>  <Node id="10285"/>S&amp;A<Node id="10288"/>  system  should  enable  a   <Node id="10318"/>UAV<Node id="10321"/>   &#xd;
+<Node id="10326"/>pilot-in-&#xd;
+command<Node id="10344"/>  to  perform  those  separation  provision  and  collision  avoidance&#xd;
+functions  normally  undertaken  by  a  pilot  in  a  manned  aircraft,  and  &#xd;
+it  should&#xd;
+<Node id="10508"/>perform<Node id="10515"/>  a collision  avoidance  function  autonomously if  separation  &#xd;
+provision&#xd;
+has failed for whatever reason.  The <Node id="10630"/>S&amp;A<Node id="10633"/> system should achieve an equivalent&#xd;
+level of safety to a manned aircraft.&#xd;
+<Node id="10710"/>&#xd;
+<Node id="10712"/>3.5.4      In  essence,  a  <Node id="10740"/>S&amp;A<Node id="10743"/>  system  should  provide  the  ability  to  &#xd;
+<Node id="10790"/>detect<Node id="10796"/>  conflicting  <Node id="10811"/>traffic<Node id="10818"/>  in&#xd;
+time to perform  an avoidance  manoeuvre.   <Node id="10868"/>The system  would then <Node id="10891"/>notify<Node id="10897"/> the  &#xd;
+<Node id="10905"/>UAV<Node id="10908"/>&#xd;
+<Node id="10910"/>pilot-in command<Node id="10926"/> of the conflict and propose a course of  action to pass  well &#xd;
+clear.&#xd;
+In  the  <Node id="11008"/>subsequent  event  of  inaction  or  absence  of  override  by  the  &#xd;
+<Node id="11079"/>UAV<Node id="11082"/> <Node id="11083"/> pilot-in-&#xd;
+command<Node id="11102"/>,  the  <Node id="11110"/>S&amp;A<Node id="11113"/>  system  would  <Node id="11130"/>manoeuvre<Node id="11139"/>  the  <Node id="11146"/>UAV<Node id="11149"/>  autonomously  to  <Node id="11169"/>miss<Node id="11173"/>  &#xd;
+the&#xd;
+conflicting <Node id="11194"/>traffic<Node id="11201"/>.&#xd;
+<Node id="11204"/>&#xd;
+<Node id="11206"/>Specification  UAV8.     <Node id="11231"/>A  <Node id="11234"/>UAV<Node id="11237"/>  <Node id="11239"/>S&amp;A<Node id="11242"/>  system  should  <Node id="11260"/>notify<Node id="11266"/>  the  <Node id="11273"/>UAV<Node id="11276"/>  <Node id="11278"/>pilot-in&#xd;
+command<Node id="11295"/> when<Node id="11300"/> another aircraft in flight is projected<Node id="11340"/> to pass within a specified&#xd;
+minimum  distance.   Moreover,  it should  do  so in  sufficient  time  for  &#xd;
+the  <Node id="11453"/>UAV<Node id="11456"/>&#xd;
+<Node id="11458"/>pilot-in command<Node id="11474"/> to <Node id="11478"/>manoeuvre<Node id="11487"/> the <Node id="11492"/>UAV<Node id="11495"/> to <Node id="11499"/>avoid<Node id="11504"/> the conflicting <Node id="11521"/>traffic<Node id="11528"/> by at&#xd;
+least that <Node id="11547"/>distance<Node id="11555"/> or, exceptionally, for the onboard system to <Node id="11601"/>manoeuvre<Node id="11610"/> the&#xd;
+<Node id="11616"/>UAV<Node id="11619"/> autonomously to <Node id="11636"/>miss<Node id="11640"/> the conflicting <Node id="11657"/>traffic<Node id="11664"/>.&#xd;
+<Node id="11667"/>&#xd;
+<Node id="11669"/>3.5.5      Notwithstanding  the  above  involvement  of  <Node id="11726"/>S&amp;A<Node id="11729"/>  in  both  &#xd;
+separation  provision  and&#xd;
+collision avoidance, implementation of these functions should as far as is &#xd;
+reasonably&#xd;
+practicable be independent of each other.   Their functionality should also &#xd;
+minimize&#xd;
+situations   where  collision   avoidance   might   override   or  compromise  &#xd;
+separation&#xd;
+provision.&#xd;
+<Node id="12053"/>&#xd;
+<Node id="12055"/>Specification  UAV9.    Implementation  of  separation  provision  and  &#xd;
+collision&#xd;
+avoidance   functions   in   an   <Node id="12174"/>S&amp;A<Node id="12177"/>   system   should   as   <Node id="12203"/>far<Node id="12206"/>   as   is   &#xd;
+reasonably&#xd;
+practicable  be  <Node id="12250"/>independent<Node id="12261"/>  of  each  other.    In  execution,  they  should  &#xd;
+avoid&#xd;
+compromising each other.&#xd;
+<Node id="12348"/>&#xd;
+<Node id="12350"/>3.5.6      Source  material  theorizes  on  possible  parameters  to  provide  &#xd;
+a  safe  and  effective&#xd;
+<Node id="12456"/>S&amp;A<Node id="12459"/> <Node id="12460"/>capability<Node id="12470"/>, eg <Node id="12475"/>detection range<Node id="12490"/> and the <Node id="12499"/>search volume<Node id="12512"/> defined by  azimuth and&#xd;
+elevation that sensors need to scan.   However, such assessments should be left &#xd;
+to&#xd;
+Industry as part of its work on producing a technological solution to S&amp;A, &#xd;
+especially&#xd;
+since   such   parameters   will   vary   according   to   UAV   performance   &#xd;
+(including&#xd;
+manoeuvrability).  For this, Industry needed guidance on the minimum separation &#xd;
+to&#xd;
+be        achieved between UAVs and other airspace users.  Industry should then &#xd;
+be able&#xd;
+to  calculate  the  necessary  parameters  to  achieve  this  minimum  &#xd;
+separation  and&#xd;
+engineer S&amp;A systems accordingly.   However,  more than one minimum separation&#xd;
+distance  was  required,  and  a  â&#x20ac;&#x2dc;layeredâ&#x20ac;&#x2122;  application  (eg  like  an  onion  &#xd;
+skin)  may  be&#xd;
+more appropriate.&#xd;
+<Node id="13274"/>&#xd;
+&#xd;
+<Node id="13278"/>3.6         Separation Minima â&#x20ac;&#x201c; Where Separation is Provided by ATC&#xd;
+<Node id="13349"/>&#xd;
+<Node id="13351"/>3.6.1      Where separation is provided by ATC within controlled airspace, and &#xd;
+in accord with&#xd;
+the  principle  that  ATM  regulations  and  procedures  for  UAVs  should  as  &#xd;
+closely  as&#xd;
+possible  mirror  those  for  manned  aircraft,  the  separation  minima  &#xd;
+between  UAVs&#xd;
+operating IFR and other traffic in receipt of a separation service should be &#xd;
+the same&#xd;
+as for manned aircraft flying OAT in the same class of airspace.&#xd;
+<Node id="13789"/>&#xd;
+<Node id="13791"/>Specification UAV10.  Within controlled airspace where separation is provided&#xd;
+by ATC, the separation minima between UAVs operating IFR and other traffic&#xd;
+in receipt of a separation service should be the  same  as for  manned aircraft&#xd;
+flying OAT in the same class of airspace.&#xd;
+<Node id="14070"/>&#xd;
+<Node id="14072"/>3.7         Separation Minima/Miss Distance â&#x20ac;&#x201c; Where Responsibility Rests with &#xd;
+the UAV&#xd;
+System&#xd;
+<Node id="14171"/>&#xd;
+<Node id="14173"/>3.7.1      A  2-tier  system  is  envisaged  in  circumstances  where  &#xd;
+responsibility  for  separation&#xd;
+provision/collision  avoidance  rests  with  the  <Node id="14329"/>UAV<Node id="14332"/>  system  (in  the  same  &#xd;
+way  that  it&#xd;
+would  for  a  manned  aircraft).     The  first  level  would  involve  the  &#xd;
+<Node id="14455"/>UAV<Node id="14458"/>  <Node id="14460"/>pilot-in-&#xd;
+command<Node id="14478"/> and the second would utilize autonomous collision avoidance.   However,&#xd;
+the required miss distance for the latter should be less stringent than the &#xd;
+minimum&#xd;
+separation  which  a  <Node id="14661"/>UAV<Node id="14664"/>  <Node id="14666"/>pilot-in-command<Node id="14682"/>  was  required  to  achieve,  since &#xd;
+ it  was&#xd;
+seen as a last-ditch tool akin to TCAS II.&#xd;
+<Node id="14775"/>&#xd;
+<Node id="14777"/>3.7.2      <Node id="14788"/>UAV<Node id="14791"/> <Node id="14792"/>Pilot-in-Command&#xd;<Node id="14809"/>
+<Node id="14810"/>&#xd;
+<Node id="14812"/>3.7.2.1   There   are   no  prescribed  ICAO   separation   minima   for   &#xd;
+manned   aircraft   where&#xd;
+responsibility   for   separation   rested   with   the   onboard   pilot.   &#xd;
+Instead,   it   is   only&#xd;
+necessary that aircraft should not be operated in such proximity to other &#xd;
+aircraft as&#xd;
+to create a collision hazardÂ³.  However, Industry required something less &#xd;
+vague.  As&#xd;
+a consequence,  a practical  minimum separation  to be achieved  by  a  UAV &#xd;
+pilot-in-&#xd;
+command is proposed.&#xd;
+<Node id="15311"/>&#xd;
+<Node id="15313"/>3.7.2.2   Several  authoritative  organizations  quote  or  imply  that  500ft  &#xd;
+is  an appropriate and&#xd;
+acceptable<Node id="15429"/> miss distance<Node id="15443"/> for <Node id="15448"/>UAVs<Node id="15452"/>.   In the <Node id="15463"/>USA<Node id="15466"/>, the FAAâ&#xfffd;´ view of â&#x20ac;&#x2dc;well clearâ&#x20ac;&#x2122; &#xd;
+(ie so&#xd;
+as  to  not  represent  a  collision  hazard)  is  a  minimum  separation  of  &#xd;
+500ft  between&#xd;
+aircraft.      To   a   considerable   degree,   this   figure   is   accepted  &#xd;
+ by   the   Joint&#xd;
+JAA/EUROCONTROL  UAV  TFâ&#xfffd;µ  as  the  basis  for  recommending  work  to  identify&#xd;
+Minimum  Performance  Standards  (MPS)  for  future  S&amp;A  systems.   Industryâ&#xfffd;¶  &#xd;
+itself&#xd;
+regards 500ft as a minimum â&#x20ac;&#x2dc;worst-case separationâ&#x20ac;&#x2122; distance for S&amp;A.  Finally, &#xd;
+in the&#xd;
+context of manoeuvring between aircraft to achieve safe separation, NATOâ&#xfffd;· &#xd;
+defines&#xd;
+500ft as â&#x20ac;&#x2dc;well clearâ&#x20ac;&#x2122;.&#xd;
+<Node id="16096"/>&#xd;
+<Node id="16098"/>3.7.2.3   Thus, arguably, 500ft represents an adequate minimum distance that a &#xd;
+UAV pilot-in-&#xd;
+command  should  be  required  to  achieve  against  other  airspace  users.   &#xd;
+However,&#xd;
+while use of 500ft vertical separation is routine between manned aircraft and &#xd;
+should&#xd;
+<Node id="16373"/>&#xd;
+<Node id="16375"/>Â³ ICAO Annex 2 - Rules of the Air, Â§ 3.2.1&#xd;
+<Node id="16421"/>&#xd;
+<Node id="16423"/>â&#xfffd;´ FAA Order 8700.1, Change 3, Chapter 169, Â§ 5A&#xd;
+<Node id="16475"/>&#xd;
+<Node id="16477"/>â&#xfffd;µ Joint JAA/EUROCONTROL UAV TF Final Report dated 11 May 04&#xd;
+<Node id="16540"/>&#xd;
+<Node id="16542"/>â&#xfffd;¶ UAVS Draft Paper â&#x20ac;&#x2dc;Guideline Parameters for an Integrated Sense and Avoid &#xd;
+System for UAVsâ&#x20ac;&#x2122;&#xd;
+<Node id="16643"/>&#xd;
+<Node id="16645"/>â&#xfffd;· NATO AGS3 â&#x20ac;&#x2dc;UAV ATC Study for AGSâ&#x20ac;&#x2122; dated 16 Dec 03&#xd;
+<Node id="16704"/>&#xd;
+&#xd;
+<Node id="16708"/>not therefore cause undue concern to other airspace users, the application of &#xd;
+500ft&#xd;
+horizontal  separation  could  generate  a  heightened  sense  of  collision  &#xd;
+risk.    An&#xd;
+increase in horizontal separation to 0.5nm would reduce this perception and &#xd;
+also the&#xd;
+collision  risk  itself,  and  is  therefore  preferable.    These  minima  &#xd;
+would  only  apply&#xd;
+away from aerodromes.&#xd;
+<Node id="17097"/>&#xd;
+<Node id="17099"/>Specification  UAV11.     Where  a  <Node id="17135"/>UAV<Node id="17138"/>  <Node id="17140"/>pilot-in-command<Node id="17156"/>  is  responsible  for&#xd;
+separation, he should, except for aerodrome operations, <Node id="17236"/>maintain<Node id="17244"/> a minimum&#xd;
+distance  of  0.5nm  horizontally  or  500ft  vertically  between  his  UAV  &#xd;
+and  other&#xd;
+airspace  users,  regardless  of  how  the<Node id="17389"/> <Node id="17390"/> conflicting  <Node id="17404"/>traffic<Node id="17411"/>  was  <Node id="17418"/>detected<Node id="17426"/> &#xd;<Node id="17428"/>
+ and&#xd;
+irrespective of whether or not he was prompted by a <Node id="17487"/>S&amp;A<Node id="17490"/> system<Node id="17497"/>.&#xd;
+<Node id="17500"/>&#xd;
+<Node id="17502"/>3.7.3      Autonomous Collision Avoidance&#xd;
+<Node id="17545"/>&#xd;
+<Node id="17547"/>3.7.3.1   Where a <Node id="17565"/>UAV<Node id="17568"/> system <Node id="17576"/>initiates<Node id="17585"/> collision avoidance<Node id="17605"/> autonomously, this &#xd;
+is considered&#xd;
+analogous  to  the  role  performed  by  airborne  collision  avoidance  &#xd;
+systems  (ACAS)&#xd;
+developed  for  manned  aircraft,  as  currently  manifest  in  TCAS  II.   &#xd;
+However,  since&#xd;
+TCAS II is a co-operativeâ&#xfffd;¸ system, it does not provide a near-term solution to &#xd;
+S&amp;A.&#xd;
+This  may  become feasible  if  the carriage and  operation  of  SSR (providing &#xd;
+ altitude&#xd;
+information) is ever mandated on all airspace users, but not before.&#xd;
+<Node id="18081"/>&#xd;
+<Node id="18083"/>3.7.3.2   TCAS uses time-to-go to Closest Point of Approach rather than minimum &#xd;
+separation&#xd;
+<Node id="18177"/>distance<Node id="18185"/>,  although  <Node id="18198"/>distance<Node id="18206"/>  and  <Node id="18213"/>altitude<Node id="18221"/>  difference  are  taken  into  &#xd;
+account  where&#xd;
+closure  rates  are  low.   In  addition,  the  <Node id="18319"/>size<Node id="18323"/>  of  the  protected  &#xd;
+volume  surrounding&#xd;
+each  TCAS-equipped  aircraft  is  dependant  upon  the  speed  and  heading  &#xd;
+of  the&#xd;
+aircraft  involved  in  the  encounter.   Some  idea  of  miss  <Node id="18521"/>distances<Node id="18530"/>  may  &#xd;
+be  gleaned&#xd;
+from  the  prescribed  alarm  thresholds  required  to  generate  a  TCAS  II  &#xd;
+Resolution&#xd;
+Advisory in the case of low closure rate; these vary according to altitude but &#xd;
+are set&#xd;
+between 0.2-1.1nm laterally and 300-700ft verticallyâ&#xfffd;¹.&#xd;
+<Node id="18793"/>&#xd;
+<Node id="18795"/>3.7.3.3   In the case of autonomous collision avoidance, it is considered &#xd;
+logical to require the&#xd;
+<Node id="18895"/>UAV<Node id="18898"/> system to <Node id="18909"/>achieve<Node id="18916"/> miss  distances  <Node id="18934"/>similar<Node id="18941"/> to  those designed into ACAS.   &#xd;
+The&#xd;
+system should be compatible with (and not compromise the operation of) ACAS.&#xd;
+<Node id="19059"/>&#xd;
+<Node id="19061"/>Specification  UAV12.     Where  a  <Node id="19097"/>UAV<Node id="19100"/>  system  initiates  collision  avoidance&#xd;
+autonomously,  it  should  achieve  miss  <Node id="19185"/>distances<Node id="19194"/>  similar  to  those  &#xd;
+designed&#xd;
+into ACAS.  The system should be compatible with ACAS.&#xd;
+<Node id="19284"/>&#xd;
+<Node id="19286"/>3.8         Aerodrome Operations&#xd;
+<Node id="19320"/>&#xd;
+<Node id="19322"/>3.8.1      Extant  national  procedures  for  the  aerodrome  operation  of  &#xd;
+<Node id="19401"/>UAVs<Node id="19405"/>  are  surprisingly&#xd;
+sparse.  Nonetheless, principles similar to those for <Node id="19480"/>UAV<Node id="19483"/> flight as OAT should &#xd;
+apply.&#xd;
+Thus,  <Node id="19522"/>UAV<Node id="19525"/>  operations  at  aerodromes  should  interface  with  the  aerodrome &#xd;
+ control&#xd;
+service as near as possible in the same way as manned aircraft.&#xd;
+<Node id="19672"/>&#xd;
+<Node id="19674"/>Specification UAV13. <Node id="19695"/>UAV<Node id="19698"/> operations at aerodromes should interface with the&#xd;
+aerodrome  control  service  as  near  as  possible  in  the  same  way  as  &#xd;
+manned&#xd;
+aircraft.&#xd;
+<Node id="19849"/>&#xd;
+<Node id="19851"/>â&#xfffd;¸ Requires common fitment of equipment.&#xd;
+<Node id="19894"/>&#xd;
+<Node id="19896"/>â&#xfffd;¹ FAA Introduction to TCAS II Version 7 dated Nov 00&#xd;
+<Node id="19952"/>&#xd;
+&#xd;
+<Node id="19956"/>3.8.2      Although <Node id="19976"/>UAVs<Node id="19980"/>  may  be <Node id="19990"/>launched<Node id="19998"/> and recovered in a variety  of  ways &#xd;
+(eg by  hand,&#xd;
+catapult,  etc),  these  specifications  assume  a  requirement  to  use  &#xd;
+taxiways  and&#xd;
+runways.&#xd;
+<Node id="20154"/>&#xd;
+<Node id="20156"/>3.8.3      Ground Operation&#xd;
+<Node id="20185"/>&#xd;
+<Node id="20187"/>3.8.3.1   In  this  context,  Ground  Operation  covers  the  movement  of  a  &#xd;
+<Node id="20268"/>UAV<Node id="20271"/>  from  parking&#xd;
+position to lift-off  and from touchdown to  parking  position,  and includes  &#xd;
+integration&#xd;
+with manned aircraft and vehicles using the manoeuvring areas and the avoidance&#xd;
+of runway incursions.&#xd;
+<Node id="20486"/>&#xd;
+<Node id="20488"/>3.8.3.2   In the absence of technical assistance to enable a <Node id="20549"/>UAV<Node id="20552"/> to <Node id="20556"/>navigate<Node id="20564"/> &#xd;
+its way around&#xd;
+an  airfield,  to <Node id="20601"/> <Node id="20602"/>see<Node id="20605"/>  and  <Node id="20612"/>obey<Node id="20616"/>  visual  signs  and  signals<Node id="20645"/>,  and  to  <Node id="20657"/>avoid<Node id="20662"/> &#xd;
+ <Node id="20666"/>collisions<Node id="20676"/>,  the&#xd;
+<Node id="20684"/>UAV<Node id="20687"/> should be provided with ground-based observation to assist with taxiing.   &#xd;
+This&#xd;
+may  involve the  UAV following  a  manned  ground vehicle  by  optical or &#xd;
+other  (non-&#xd;
+mechanical) coupling or being towed to the take-off position.   These &#xd;
+ground-based&#xd;
+observers should be in communication with the <Node id="20994"/>aerodrome control service<Node id="21019"/> and with&#xd;
+the  <Node id="21035"/>UAV<Node id="21038"/> <Node id="21039"/>pilot-in-command<Node id="21055"/>.   A similar procedure should apply to return the <Node id="21106"/>UAV<Node id="21109"/> &#xd;
+to&#xd;
+its parking position.&#xd;
+<Node id="21139"/>&#xd;
+<Node id="21141"/>Specification UAV14.   When taxiing, and in the absence of adequate technical&#xd;
+assistance,  a  UAV  should  be  monitored  by  ground-based  observers,  who&#xd;
+should  be in communication with the aerodrome control service and with the&#xd;
+UAV pilot-in-command.&#xd;
+<Node id="21399"/>&#xd;
+<Node id="21401"/>3.8.4      Runway and Aerodrome Visual Circuit&#xd;
+<Node id="21449"/>&#xd;
+<Node id="21451"/>3.8.4.1   <Node id="21461"/>Take-off<Node id="21469"/>  and  <Node id="21476"/>landing<Node id="21483"/>  and  <Node id="21490"/>flight<Node id="21496"/>  in  an  aerodrome  visual  &#xd;
+circuit  should  accord  with&#xd;
+national   procedures,   and   the   <Node id="21595"/>UAV<Node id="21598"/>   should   follow   aerodrome   &#xd;
+control   service&#xd;
+instructions.&#xd;
+<Node id="21667"/>&#xd;
+<Node id="21669"/>3.8.4.2   Irrespective   of   flight   conditions,   the    <Node id="21729"/>UAV<Node id="21732"/>    &#xd;
+<Node id="21738"/>pilot-in-command<Node id="21754"/>   should   remain&#xd;
+responsible for<Node id="21789"/> <Node id="21790"/>ensuring<Node id="21798"/> his flight path is <Node id="21818"/>clear<Node id="21823"/> of obstructions and should &#xd;
+therefore&#xd;
+maintain situational awareness with regard to the runway and the aerodrome &#xd;
+visual&#xd;
+circuit.    This  does  not  preclude  <Node id="21988"/>UAVs<Node id="21992"/>  from  executing  autonomous  &#xd;
+take-offs  and&#xd;
+landings,  but  is  intended  to  enable  the  <Node id="22088"/>UAV<Node id="22091"/>  <Node id="22093"/>pilot-in-command<Node id="22109"/>  to  &#xd;
+intervene  in&#xd;
+response to aerodrome control service instructions - which may include &#xd;
+integration&#xd;
+with other traffic flying in the aerodrome visual circuit - and to assume &#xd;
+responsibility&#xd;
+for collision avoidance.&#xd;
+<Node id="22336"/>&#xd;
+<Node id="22338"/>Specification  UAV15.    For  <Node id="22368"/>take-off<Node id="22376"/>  and  <Node id="22383"/>landing<Node id="22390"/>  and  <Node id="22397"/>flight<Node id="22403"/>  in  an  &#xd;
+aerodrome&#xd;
+visual   circuit,   the   <Node id="22452"/>UAV<Node id="22455"/>   <Node id="22458"/>pilot-in-command<Node id="22474"/>   should   be   able   to   &#xd;
+maintain&#xd;
+situational  awareness  to  fulfil  his  responsibility  for  collision  &#xd;
+avoidance,  and&#xd;
+he should comply with aerodrome control service instructions.&#xd;
+<Node id="22670"/>&#xd;
+<Node id="22672"/>3.8.4.3   Where safe integration is impracticable, consideration should be &#xd;
+given to excluding&#xd;
+other aircraft from the airspace in the immediate vicinity of an aerodrome &#xd;
+during the&#xd;
+launch and recovery of <Node id="22881"/>UAVs<Node id="22885"/>.&#xd;
+<Node id="22888"/>&#xd;
+<Node id="22890"/>Specification  UAV16.  Where  safe  integration  is  impracticable,  &#xd;
+consideration&#xd;
+should be given to excluding other aircraft from the airspace in the immediate&#xd;
+vicinity of an aerodrome during the launch and recovery of UAVs.&#xd;
+<Node id="23122"/>&#xd;
+&#xd;
+<Node id="23126"/>3.9         Emergency Procedures&#xd;
+<Node id="23160"/>&#xd;
+<Node id="23162"/>3.9.1      With  regard  to  ATM,  the  TF  considered  it  to  be  outside  &#xd;
+its  scope  to  <Node id="23257"/>identify<Node id="23265"/>  and&#xd;
+<Node id="23272"/>address<Node id="23279"/> the multifarious  emergencies that  might  befall a military  UAV.   &#xd;
+This Paper&#xd;
+therefore deals with these only in general terms.&#xd;
+<Node id="23414"/>&#xd;
+<Node id="23416"/>3.9.2      <Node id="23427"/>UAV  emergency  procedures<Node id="23453"/>  should  <Node id="23463"/>mirror<Node id="23469"/>  those  for  manned  &#xd;
+aircraft  wherever&#xd;
+possible.   Nevertheless, the absence of a pilot in the cockpit and the unique &#xd;
+nature&#xd;
+of  some  UAV  emergencies  will  require  additional  provisions.   These  may &#xd;
+ include&#xd;
+use  of  an  <Node id="23707"/>Emergency  Recovery  Procedure<Node id="23737"/>  or  a  <Node id="23746"/>Flight  Termination  &#xd;
+System<Node id="23775"/>,  either&#xd;
+autonomously  or  managed  by  the  UAV  pilot-in-command.   Such  &#xd;
+pre-programmed&#xd;
+emergency flight profiles should be designed to ensure the safety of other &#xd;
+airspace&#xd;
+users  and  people  on  the  ground,  and  they  should  be  coordinated  with  &#xd;
+ATC  as&#xd;
+appropriate.&#xd;
+<Node id="24063"/>&#xd;
+<Node id="24065"/>Specification  UAV17.    <Node id="24090"/>UAV  emergency  procedures<Node id="24116"/>  should  <Node id="24126"/>mirror<Node id="24132"/>  those  for&#xd;
+manned  aircraft   as   far   as   practicable.     Where   different,   they   &#xd;
+should   be&#xd;
+designed  to  <Node id="24255"/>ensure<Node id="24261"/>  the  safety  of  other  airspace  users  and  people  on  &#xd;
+the&#xd;
+ground, and they should be coordinated with ATC as appropriate.&#xd;
+<Node id="24393"/>&#xd;
+<Node id="24395"/>3.9.3      Loss of Control-Link Between UAV and Pilot-in-Command&#xd;
+<Node id="24461"/>&#xd;
+<Node id="24463"/>3.9.3.1   The  potential  for  loss  of  control-link  between  a  <Node id="24530"/>UAV<Node id="24533"/>  and  &#xd;
+its  <Node id="24547"/>pilot-in-command<Node id="24563"/>&#xd;
+requires that the craft be pre-programmed with an appropriate contingency plan.&#xd;
+<Node id="24646"/>&#xd;
+<Node id="24648"/>Specification  UAV18.   UAVs  should  be  pre-programmed  with  an  appropriate&#xd;
+contingency  plan  in  the  event  that  the  <Node id="24775"/>pilot-in-command<Node id="24791"/>  is  no  longer  &#xd;
+in&#xd;
+control     of the <Node id="24834"/>UAV<Node id="24837"/>.&#xd;
+<Node id="24840"/>&#xd;
+<Node id="24842"/>3.9.3.2   Given that  one of the more likely causes of loss  of control of a &#xd;
+<Node id="24921"/>UAV<Node id="24924"/> by its <Node id="24932"/>pilot-in-&#xd;
+command<Node id="24950"/> is loss of data-link, the <Node id="24977"/>UAV<Node id="24980"/> System should provide the <Node id="25007"/>pilot-in-command<Node id="25023"/>&#xd;
+with a prompt indication of any such loss of control data-link.&#xd;
+<Node id="25090"/>&#xd;
+<Node id="25092"/>Specification UAV19.  A <Node id="25116"/>UAV<Node id="25119"/> System should provide a prompt indication to its&#xd;
+<Node id="25170"/>pilot-in-command<Node id="25186"/> in the event of loss of control data-link.&#xd;
+<Node id="25231"/>&#xd;
+<Node id="25233"/>3.9.3.3   It is important that ATC be made aware if a <Node id="25287"/>UAV<Node id="25290"/> flying in its &#xd;
+airspace is no longer&#xd;
+under the control of its <Node id="25355"/>pilot-in-command<Node id="25371"/>.   This should be accomplished both &#xd;
+by the&#xd;
+<Node id="25418"/>pilot-in-command<Node id="25434"/> informing ATC as soon as possible and by the <Node id="25480"/>UAV<Node id="25483"/> System itself&#xd;
+providing  an  indication  to  ATC,  possibly  by  operation  of  a  specific  &#xd;
+squawk.   The&#xd;
+<Node id="25595"/>pilot-in-command<Node id="25611"/>  should  also  advise  ATC  of  the  contingency  plan  which  &#xd;
+the  UAV&#xd;
+will be executing.&#xd;
+<Node id="25707"/>&#xd;
+<Node id="25709"/>Specification  UAV20.   When  a  <Node id="25742"/>UAV<Node id="25745"/>  is  not  operating  under  the  control  &#xd;
+of  its&#xd;
+<Node id="25799"/>pilot-in-command<Node id="25815"/>, the latter should inform the relevant ATC authority as soon&#xd;
+as  possible,  including  details  of the contingency  plan  which the  UAV  &#xd;
+will  be&#xd;
+executing.   In addition, the UAV System should indicate such loss of control&#xd;
+to ATC.&#xd;
+<Node id="26055"/>&#xd;
+<Node id="26057"/>3.10       Airspace Management&#xd;
+<Node id="26089"/>&#xd;
+<Node id="26091"/>3.10.1    Flexible Use of Airspace (FUA) is a key component of present and &#xd;
+future European&#xd;
+airspace management and, as such, provides a means of accommodating portions&#xd;
+<Node id="26263"/>&#xd;
+&#xd;
+<Node id="26267"/>of   a   <Node id="26276"/>UAV<Node id="26279"/>   sortie   where   operating   requirements   or   technical   or  &#xd;
+ functional&#xd;
+shortcomings  render  it  incompatible  with  other  air  traffic.    Thus,  &#xd;
+where  a  <Node id="26451"/>UAV<Node id="26454"/>&#xd;
+system cannot meet all the requirements of a complex airspace structure, &#xd;
+processes&#xd;
+associated with airspace management should be utilized to reserve airspace for &#xd;
+the&#xd;
+express purpose of enabling the UAV to transit the airspace in question.&#xd;
+<Node id="26702"/>&#xd;
+<Node id="26704"/>Specification UAV21.   Where a <Node id="26735"/>UAV<Node id="26738"/> system cannot meet the technical and/or&#xd;
+functional requirements for operation as OAT, that portion of the sortie should&#xd;
+be accommodated within temporary reserved airspace to provide segregation&#xd;
+from other airspace users.&#xd;
+<Node id="26964"/>&#xd;
+<Node id="26966"/>3.11       Interface with ATC&#xd;
+<Node id="26997"/>&#xd;
+<Node id="26999"/>3.11.1    In general, <Node id="27021"/>UAV<Node id="27024"/> operations should interface with ATC in the same way &#xd;
+as manned&#xd;
+aircraft.  Ergo,  the  air  traffic  service  routinely  provided  to  a  <Node id="27165"/>UAV<Node id="27168"/>  &#xd;
+should  require  no&#xd;
+special action or consideration on the part on an ATC controller.&#xd;
+<Node id="27260"/>&#xd;
+<Node id="27262"/>3.11.2    Communications&#xd;
+<Node id="27288"/>&#xd;
+<Node id="27290"/>3.11.2.1 While in receipt of an air traffic service, the <Node id="27347"/>UAV<Node id="27350"/> <Node id="27351"/>pilot-in command<Node id="27367"/> &#xd;
+should maintain&#xd;
+2-way  communications  with  the  appropriate  ATC  authorities,  and  should  &#xd;
+make  all&#xd;
+position and other reports as required.&#xd;
+<Node id="27520"/>&#xd;
+<Node id="27522"/>3.11.2.2 Extant  ATC  phraseology  is  adequate  for  the  provision  of  an  &#xd;
+air  traffic  service  to&#xd;
+<Node id="27629"/>UAVs<Node id="27633"/> except that a controller may find it helpful to be aware that he was &#xd;
+providing&#xd;
+an air traffic service to a <Node id="27744"/>UAV<Node id="27747"/>.   The word â&#x20ac;&#x2dc;unmannedâ&#x20ac;&#x2122; should therefore be &#xd;
+included&#xd;
+on first contact with an ATC unit.   However, it was not felt necessary to &#xd;
+alert other&#xd;
+airspace  users  to  the  presence  of  a  <Node id="27940"/>UAV<Node id="27943"/>  on  frequency  by  repeating  &#xd;
+the  word  on&#xd;
+every transmission.&#xd;
+<Node id="28013"/>&#xd;
+<Node id="28015"/>Specification UAV22.  While in receipt of an air traffic service, the <Node id="28085"/>UAV<Node id="28088"/> &#xd;
+<Node id="28091"/>pilot-in&#xd;
+command<Node id="28108"/>  should  maintain  2-way  communications  with  ATC,  using  standard&#xd;
+phraseology when communicating via RTF.   The word â&#x20ac;&#x2dc;unmannedâ&#x20ac;&#x2122; should be&#xd;
+included on first contact with an ATC unit.&#xd;
+<Node id="28302"/>&#xd;
+<Node id="28304"/>3.11.3    Air Traffic Service&#xd;
+<Node id="28335"/>&#xd;
+<Node id="28337"/>3.11.3.1 The air traffic service provided to <Node id="28382"/>UAVs<Node id="28386"/> should accord with that &#xd;
+provided to manned&#xd;
+aircraft,  including  separation  criteria.    Thus,  the  <Node id="28492"/>UAV<Node id="28495"/> <Node id="28496"/> pilot-in  &#xd;
+command<Node id="28516"/>  will  be&#xd;
+required to comply  with any ATC instruction or request for information made by &#xd;
+an&#xd;
+air  traffic  unit  in  the  same  way  and  within  the  same  timeframe  as  &#xd;
+the  pilot  of  a&#xd;
+manned aircraft.  Where this is not possible, eg because it is not technically &#xd;
+feasible,&#xd;
+then the <Node id="28815"/>UAV<Node id="28818"/> <Node id="28819"/>pilot-in command<Node id="28835"/> must make a clear statement to ATC to this effect,&#xd;
+eg â&#x20ac;&#x2dc;Negative, unable to complyâ&#x20ac;&#x2122;.&#xd;
+<Node id="28926"/>&#xd;
+<Node id="28928"/>Specification UAV23.   The air traffic service provided to UAVs should accord&#xd;
+with that provided to manned aircraft.&#xd;
+<Node id="29047"/>&#xd;
+<Node id="29049"/>3.11.4    Flight Planning&#xd;
+<Node id="29076"/>&#xd;
+<Node id="29078"/>3.11.4.1 Where flight by manned aircraft requires the submission of a flight &#xd;
+plan to ATC, the&#xd;
+same should apply to flight by UAVs.&#xd;
+<Node id="29213"/>&#xd;
+&#xd;
+<Node id="29217"/>3.11.4.2 The flight plan should indicate that it relates to an unmanned &#xd;
+aircraft.&#xd;
+<Node id="29302"/>&#xd;
+<Node id="29304"/>3.11.4.3 Due to the typical nature of <Node id="29342"/>UAV<Node id="29345"/> operations, it is anticipated that &#xd;
+requirements may&#xd;
+occur for en-route holding (ie orbits).  Accordingly, the <Node id="29459"/>UAV<Node id="29462"/> flight plan &#xd;
+should include&#xd;
+any requirements for en-route delays, defining holding area orientation, leg &#xd;
+lengths,&#xd;
+altitudes and holding times.&#xd;
+<Node id="29612"/>&#xd;
+<Node id="29614"/>Specification   UAV24.       Where    flight    by    manned   aircraft    &#xd;
+requires    the&#xd;
+submission of a flight plan to ATC, the same should apply to flight by <Node id="29779"/>UAVs<Node id="29783"/>.&#xd;
+The <Node id="29790"/>UAV<Node id="29793"/> flight plan should indicate that it relates to an unmanned aircraft, and&#xd;
+should include details of any requirement for en-route holding.&#xd;
+<Node id="29933"/>&#xd;
+<Node id="29935"/>3.11.5    Flight Deviations&#xd;
+<Node id="29964"/>&#xd;
+<Node id="29966"/>3.11.5.1 While in receipt of an air traffic service, <Node id="30019"/>UAVs<Node id="30023"/> should be <Node id="30034"/>monitored<Node id="30043"/> &#xd;
+continuously by&#xd;
+the <Node id="30067"/>UAV<Node id="30070"/> <Node id="30071"/>pilot-in command<Node id="30087"/> for adherence to the approved flight plan.  All &#xd;
+requests for&#xd;
+flight deviations should be made by using established procedures to the &#xd;
+appropriate&#xd;
+ATC authorities.&#xd;
+<Node id="30257"/>&#xd;
+<Node id="30259"/>Specification  UAV25.   While  in  receipt  of  air  traffic  service,  <Node id="30331"/>UAVs<Node id="30335"/>  &#xd;
+should  be&#xd;
+<Node id="30351"/>monitored<Node id="30360"/>  continuously  by  the  UAV  <Node id="30390"/>pilot-in  command<Node id="30407"/>  for  adherence  to  &#xd;
+the&#xd;
+approved flight plan.&#xd;
+<Node id="30459"/>&#xd;
+<Node id="30461"/>3.11.6    UAV Performance Characteristics&#xd;
+<Node id="30504"/>&#xd;
+<Node id="30506"/>3.11.6.1 The  performance  characteristics  of  individual  <Node id="30566"/>UAVs<Node id="30570"/>  will  vary.   &#xd;
+ <Node id="30589"/>Pilots-in-command<Node id="30606"/>&#xd;
+should have detailed knowledge of their particular vehicle.  However, the &#xd;
+knowledge&#xd;
+requirement for ATC controllers will perforce be more general, in the same way &#xd;
+it is&#xd;
+for       the  various  types  of   manned  aircraft  they   routinely  &#xd;
+control.     They  should&#xd;
+therefore be familiar with <Node id="30911"/>UAV<Node id="30914"/> performance characteristics insofar as they &#xd;
+relate to&#xd;
+integration  with other traffic  under their control,  eg <Node id="31030"/>airspeed<Node id="31038"/>,  <Node id="31041"/>rate of  &#xd;
+climb/descent<Node id="31065"/>,&#xd;
+<Node id="31068"/>turn radius<Node id="31079"/>, etc.&#xd;
+<Node id="31087"/>&#xd;
+<Node id="31089"/>Specification  UAV26.   Pilots-in-command  should  have  detailed  knowledge  of&#xd;
+the  performance  characteristics  of  their  particular  vehicle.    ATC  &#xd;
+controllers&#xd;
+should be familiar with UAV performance characteristics insofar as they relate&#xd;
+to integration with other traffic under their control.&#xd;
+<Node id="31397"/>&#xd;
+<Node id="31399"/>3.12       Meteorology&#xd;
+<Node id="31423"/>&#xd;
+<Node id="31425"/>3.12.1    Similar to manned aircraft, weather minima for <Node id="31482"/>UAV<Node id="31485"/> flight will be &#xd;
+determined by the&#xd;
+<Node id="31522"/>equipment<Node id="31531"/> and <Node id="31536"/>capabilities<Node id="31548"/> of each UAV system, the qualifications of the <Node id="31595"/>UAV<Node id="31598"/> &#xd;
+<Node id="31601"/>pilot-&#xd;
+in command<Node id="31619"/>, the flight rules being flown and the class(es) of airspace in which &#xd;
+the&#xd;
+flight is conducted.&#xd;
+<Node id="31718"/>&#xd;
+<Node id="31720"/>Specification   UAV27.      The   weather   minima   for   UAV   flight   &#xd;
+should   be&#xd;
+determined   by  the   <Node id="31832"/>equipment<Node id="31841"/>  and  <Node id="31848"/>capabilities<Node id="31860"/>  of  each  <Node id="31872"/>UAV<Node id="31875"/>  system,   &#xd;
+the&#xd;
+qualifications  of  the  <Node id="31919"/>UAV<Node id="31922"/>  <Node id="31924"/>pilot-in  command<Node id="31941"/>,  the  flight  rules  being  &#xd;
+flown  and&#xd;
+the class of airspace in which the flight is conducted.&#xd;
+<Node id="32042"/>&#xd;
+&#xd;
+<Node id="32046"/>3.13       Flight Across International Borders and Across Flight and Upper &#xd;
+Information&#xd;
+Region (FIR/UIR) Boundaries&#xd;
+<Node id="32165"/>&#xd;
+<Node id="32167"/>3.13.1    As state aircraft,  <Node id="32197"/>UAVs<Node id="32201"/>  are theoretically  exempt the requirement  &#xd;
+of  Article 8 of  the&#xd;
+Chicago  Convention  for  special  authorization  for  unmanned  aircraft  to  &#xd;
+fly  over  the&#xd;
+territory of another state.  However, Article 3 precludes state aircraft from &#xd;
+flying over&#xd;
+the territory of another state without authorization by special agreement.  &#xd;
+Conscious&#xd;
+of the potential sensitivity of flight across international borders, the TF &#xd;
+took the view&#xd;
+that Article 3 applied to state UAVs, and that they should therefore be the &#xd;
+subject of&#xd;
+authorization by special agreement.&#xd;
+<Node id="32770"/>&#xd;
+<Node id="32772"/>3.13.2    International  borders  do  not  necessarily  coincide  with  FIR/UIR &#xd;
+ boundaries.    To&#xd;
+reduce  the  potential  for  misunderstanding  in  such  circumstances,  and  &#xd;
+to  enhance&#xd;
+flight  safety  by  ensuring  that  <Node id="33003"/>air  navigation  service  providers<Node id="33038"/>  &#xd;
+(<Node id="33043"/>ANSPs<Node id="33048"/>)  are  made&#xd;
+<Node id="33062"/>aware<Node id="33067"/> of <Node id="33071"/>UAV<Node id="33074"/> activity within airspace for which they have responsibility, the &#xd;
+TF felt&#xd;
+that, where it was planned for a <Node id="33184"/>UAV<Node id="33187"/> flight to enter another FIR/UIR or the &#xd;
+sovereign&#xd;
+airspace  of  another  state,  then  details  of  the  flight  should  be  &#xd;
+pre-notified  to  the&#xd;
+relevant   airspace   authority.      This   should   normally   be   &#xd;
+accomplished   by   the&#xd;
+submission of a flight plan.&#xd;
+<Node id="33467"/>&#xd;
+<Node id="33469"/>3.13.3    Where  an  <Node id="33490"/>air  traffic  service<Node id="33511"/>  is  being  provided  to  a  <Node id="33541"/>UAV<Node id="33544"/>  by &#xd;
+ ATC  and  transfer  is&#xd;
+required to an ATC unit in an adjacent state, this should be conducted in the &#xd;
+same&#xd;
+manner as for manned aircraft.&#xd;
+<Node id="33694"/>&#xd;
+<Node id="33696"/>Specification  UAV28.    With  regard  to  cross-border  operations,  state  &#xd;
+<Node id="33775"/>UAVs<Node id="33779"/>&#xd;
+should  be  bound  by  the  same  international  conventions  as  manned  state&#xd;
+aircraft.    In  addition,  flights  by  state  UAVs  into  other  FIR/UIRs  or &#xd;
+ into  the&#xd;
+sovereign  airspace  of  other  states  should  be  pre-notified  to  the  &#xd;
+relevant&#xd;
+airspace  authorities,  normally  by submission  of a  flight  plan.   ATC  &#xd;
+transfers&#xd;
+between adjacent states should accord with those for manned aircraft.&#xd;
+<Node id="34203"/>&#xd;
+<Node id="34205"/>3.14       OAT CNS Functionality Requirements&#xd;
+<Node id="34252"/>&#xd;
+<Node id="34254"/>3.14.1    When flying outside segregated airspace,  <Node id="34306"/>UAV<Node id="34309"/>  CNS functionality  and &#xd;
+performance&#xd;
+should  be  equivalent  to  that  required  for  manned  aircraft,  and  &#xd;
+appropriate  to  the&#xd;
+airspace in which the UAV is flying and to any air traffic service provided to &#xd;
+the <Node id="34531"/>UAV<Node id="34534"/>.&#xd;
+This   is  in  addition  to  functionality  related  to  possible  &#xd;
+communication  relay  and&#xd;
+control data-linking, and to the S&amp;A system(s) previously discussed.&#xd;
+<Node id="34703"/>&#xd;
+&#xd;
+<Node id="34707"/>3.14.2    Depending on the sortie, a UAV may be required to carry some or all &#xd;
+of the following&#xd;
+CNS functionality:&#xd;
+<Node id="34825"/>&#xd;
+<Node id="34827"/>a.      <Node id="34835"/> Radio Communications<Node id="34856"/>. Capable of forming part of the architecture that&#xd;
+enables the <Node id="34920"/>UAV<Node id="34923"/> <Node id="34924"/>pilot-in-command<Node id="34940"/> to <Node id="34944"/>communicate<Node id="34955"/> with ATC on regular ATC&#xd;
+frequencies.&#xd;
+<Node id="34995"/>&#xd;
+<Node id="34997"/>b.       <Node id="35006"/>Navigation Systems<Node id="35024"/>. Capable of providing data in a format that will &#xd;
+enable the&#xd;
+<Node id="35088"/>UAV<Node id="35091"/> <Node id="35092"/>pilot-in-command<Node id="35108"/> to <Node id="35112"/>report<Node id="35118"/> in accordance with ATC requirements.&#xd;
+<Node id="35157"/>&#xd;
+<Node id="35159"/>c.       <Node id="35168"/>Transponder<Node id="35179"/>. An operable SSR transponder that will allow the <Node id="35229"/>UAV<Node id="35232"/> &#xd;
+<Node id="35235"/>pilot-in-&#xd;
+command<Node id="35253"/> to <Node id="35257"/>respond<Node id="35264"/> to ATC requests to alter settings, squawk ident, etc.&#xd;
+<Node id="35320"/>&#xd;
+<Node id="35322"/>3.14.3    Notwithstanding the above, where, for technical or operational &#xd;
+reasons, compliance&#xd;
+with specific CNS functionality requirements is not possible or is not &#xd;
+warranted, the&#xd;
+exemption policyÂ¹â&#xfffd;° applicable to manned state aircraft should extend to UAVs.&#xd;
+<Node id="35589"/>&#xd;
+<Node id="35591"/>3.14.4    Although <Node id="35610"/>ACAS<Node id="35614"/> may seem ideally suited for installation in <Node id="35659"/>UAVs<Node id="35663"/>, it  &#xd;
+was  developed&#xd;
+for manned aircraft,  and further research is  required before any  system &#xd;
+employing&#xd;
+ACAS technology could be considered for use on UAVs.&#xd;
+<Node id="35829"/>&#xd;
+<Node id="35831"/>Specification   UAV29.     UAVs   should   carry   similar   functionality   &#xd;
+for   flight,&#xd;
+navigation  and  communication  to  that  required  for  manned  aircraft.    &#xd;
+The&#xd;
+exemption  policy  for  manned  state  aircraft  with  regard  to  specific  &#xd;
+equipage&#xd;
+requirements should also apply to state UAVs.&#xd;
+<Node id="36146"/>&#xd;
+<Node id="36148"/>3.14.5    In accord with the principle that the provision of an <Node id="36212"/>air traffic &#xd;
+service<Node id="36233"/> to a <Node id="36239"/>UAV<Node id="36242"/> should&#xd;
+be transparent to an ATC controller, there is no requirement for a continuous &#xd;
+ground&#xd;
+link  between  ATC  and  the  <Node id="36369"/>UAV<Node id="36372"/> <Node id="36373"/> pilot-in-command<Node id="36390"/>  to  supplement  &#xd;
+communications&#xd;
+conducted via the UAV itself.  Nevertheless, it would be prudent for the <Node id="36499"/>UAV<Node id="36502"/> &#xd;
+<Node id="36505"/>pilot-in-&#xd;
+command<Node id="36523"/> to have some other means of communicating with ATC in case of loss of&#xd;
+linkage via the UAV.&#xd;
+<Node id="36617"/>&#xd;
+<Node id="36619"/>Specification UAV30.   The <Node id="36646"/>UAV<Node id="36649"/> <Node id="36650"/>pilot-in-command<Node id="36666"/> should be provided with an&#xd;
+independent  means  of  communication  with  ATC  in  case  of  loss  of  normal&#xd;
+communications linkage, for example via telephone.&#xd;
+<Node id="36829"/>&#xd;
+<Node id="36831"/>3.14.6    When in receipt of an ATS, it is clearly important that there should &#xd;
+be minimal delay&#xd;
+in the ability of a <Node id="36950"/>pilot-in-command<Node id="36966"/> to respond to ATC instructions, &#xd;
+particularly when&#xd;
+these relate to separation provision.  The <Node id="37063"/>pilot-in-command<Node id="37079"/> should therefore be &#xd;
+able&#xd;
+to provide a prompt <Node id="37128"/>response<Node id="37136"/> to separation provision instructions similar to &#xd;
+that by a&#xd;
+pilot of a manned aircraft.&#xd;
+<Node id="37227"/>&#xd;
+<Node id="37229"/>Specification UAV31. A <Node id="37252"/>pilot-in-command<Node id="37268"/> should be able to provide a prompt&#xd;
+<Node id="37305"/>response<Node id="37313"/>  to  separation  provision  instructions  similar  to  that  by  a  &#xd;
+pilot  of  a&#xd;
+manned aircraft.&#xd;
+<Node id="37416"/>&#xd;
+<Node id="37418"/>Â¹â&#xfffd;° CMIC Policy Guidance for the Exemption of State Aircraft from Compliance &#xd;
+with Specific Aircraft&#xd;
+Equipage Requirements dated 4 Mar 03<Node id="37559"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="139" Type="component" StartNode="85" EndNode="88">
+</Annotation>
+<Annotation Id="140" Type="component" StartNode="166" EndNode="170">
+</Annotation>
+<Annotation Id="141" Type="component" StartNode="1398" EndNode="1401">
+</Annotation>
+<Annotation Id="142" Type="component state" StartNode="1407" EndNode="1413">
+</Annotation>
+<Annotation Id="144" Type="component state" StartNode="1803" EndNode="1809">
+</Annotation>
+<Annotation Id="145" Type="environment entity" StartNode="2248" EndNode="2254">
+</Annotation>
+<Annotation Id="146" Type="environment entity property" StartNode="2213" EndNode="2223">
+</Annotation>
+<Annotation Id="147" Type="environment entity property" StartNode="2232" EndNode="2240">
+</Annotation>
+<Annotation Id="148" Type="component" StartNode="2379" EndNode="2399">
+</Annotation>
+<Annotation Id="149" Type="component" StartNode="2409" EndNode="2429">
+</Annotation>
+<Annotation Id="150" Type="component state" StartNode="2452" EndNode="2457">
+</Annotation>
+<Annotation Id="151" Type="component" StartNode="2754" EndNode="2757">
+</Annotation>
+<Annotation Id="152" Type="environment entity property" StartNode="3011" EndNode="3021">
+</Annotation>
+<Annotation Id="153" Type="environment entity property" StartNode="3028" EndNode="3036">
+</Annotation>
+<Annotation Id="154" Type="environment entity" StartNode="3046" EndNode="3051">
+</Annotation>
+<Annotation Id="155" Type="component" StartNode="3288" EndNode="3291">
+</Annotation>
+<Annotation Id="156" Type="component" StartNode="1109" EndNode="1127">
+</Annotation>
+<Annotation Id="157" Type="component state" StartNode="1173" EndNode="1182">
+</Annotation>
+<Annotation Id="158" Type="component" StartNode="1635" EndNode="1651">
+</Annotation>
+<Annotation Id="159" Type="component state" StartNode="1618" EndNode="1627">
+</Annotation>
+<Annotation Id="160" Type="component state" StartNode="1692" EndNode="1701">
+</Annotation>
+<Annotation Id="161" Type="component" StartNode="1796" EndNode="1799">
+</Annotation>
+<Annotation Id="162" Type="component" StartNode="1899" EndNode="1915">
+</Annotation>
+<Annotation Id="163" Type="component" StartNode="1929" EndNode="1932">
+</Annotation>
+<Annotation Id="164" Type="component" StartNode="2965" EndNode="2983">
+</Annotation>
+<Annotation Id="165" Type="component" StartNode="2961" EndNode="2964">
+</Annotation>
+<Annotation Id="166" Type="component state" StartNode="2989" EndNode="2995">
+</Annotation>
+<Annotation Id="167" Type="component" StartNode="4024" EndNode="4028">
+</Annotation>
+<Annotation Id="168" Type="component" StartNode="4423" EndNode="4439">
+</Annotation>
+<Annotation Id="169" Type="component" StartNode="6239" EndNode="6242">
+</Annotation>
+<Annotation Id="170" Type="component state" StartNode="6261" EndNode="6266">
+</Annotation>
+<Annotation Id="171" Type="environment entity" StartNode="6307" EndNode="6314">
+</Annotation>
+<Annotation Id="172" Type="component" StartNode="6375" EndNode="6384">
+</Annotation>
+<Annotation Id="173" Type="environment entity" StartNode="6389" EndNode="6400">
+</Annotation>
+<Annotation Id="174" Type="component state" StartNode="6410" EndNode="6421">
+</Annotation>
+<Annotation Id="175" Type="component state" StartNode="6425" EndNode="6430">
+</Annotation>
+<Annotation Id="176" Type="component" StartNode="6877" EndNode="6882">
+</Annotation>
+<Annotation Id="177" Type="component state" StartNode="7026" EndNode="7033">
+</Annotation>
+<Annotation Id="178" Type="component state" StartNode="7064" EndNode="7075">
+</Annotation>
+<Annotation Id="179" Type="component state" StartNode="7118" EndNode="7126">
+</Annotation>
+<Annotation Id="180" Type="component" StartNode="7153" EndNode="7156">
+</Annotation>
+<Annotation Id="181" Type="component" StartNode="7274" EndNode="7277">
+</Annotation>
+<Annotation Id="182" Type="component" StartNode="7279" EndNode="7295">
+</Annotation>
+<Annotation Id="183" Type="component state" StartNode="7361" EndNode="7367">
+</Annotation>
+<Annotation Id="184" Type="component state" StartNode="7572" EndNode="7578">
+</Annotation>
+<Annotation Id="185" Type="component state" StartNode="7585" EndNode="7590">
+</Annotation>
+<Annotation Id="186" Type="environment entity" StartNode="7603" EndNode="7610">
+</Annotation>
+<Annotation Id="187" Type="component" StartNode="8067" EndNode="8070">
+</Annotation>
+<Annotation Id="188" Type="component" StartNode="8071" EndNode="8087">
+</Annotation>
+<Annotation Id="189" Type="component" StartNode="8187" EndNode="8190">
+</Annotation>
+<Annotation Id="190" Type="component state" StartNode="8136" EndNode="8142">
+</Annotation>
+<Annotation Id="191" Type="environment entity" StartNode="8155" EndNode="8162">
+</Annotation>
+<Annotation Id="192" Type="component" StartNode="8191" EndNode="8207">
+</Annotation>
+<Annotation Id="193" Type="component state" StartNode="8211" EndNode="8219">
+</Annotation>
+<Annotation Id="194" Type="component state" StartNode="8328" EndNode="8337">
+</Annotation>
+<Annotation Id="195" Type="component" StartNode="8541" EndNode="8544">
+</Annotation>
+<Annotation Id="196" Type="component" StartNode="8775" EndNode="8778">
+</Annotation>
+<Annotation Id="197" Type="component" StartNode="8779" EndNode="8795">
+</Annotation>
+<Annotation Id="198" Type="component state" StartNode="8805" EndNode="8812">
+</Annotation>
+<Annotation Id="199" Type="component state" StartNode="8856" EndNode="8862">
+</Annotation>
+<Annotation Id="200" Type="component" StartNode="8982" EndNode="8998">
+</Annotation>
+<Annotation Id="201" Type="component state" StartNode="9016" EndNode="9024">
+</Annotation>
+<Annotation Id="202" Type="component state" StartNode="9036" EndNode="9042">
+</Annotation>
+<Annotation Id="203" Type="component state" StartNode="9049" EndNode="9054">
+</Annotation>
+<Annotation Id="204" Type="environment entity" StartNode="9069" EndNode="9076">
+</Annotation>
+<Annotation Id="205" Type="component" StartNode="9237" EndNode="9261">
+</Annotation>
+<Annotation Id="206" Type="component" StartNode="9434" EndNode="9437">
+</Annotation>
+<Annotation Id="208" Type="component state" StartNode="9506" EndNode="9511">
+</Annotation>
+<Annotation Id="209" Type="component state" StartNode="9518" EndNode="9523">
+</Annotation>
+<Annotation Id="210" Type="component" StartNode="9495" EndNode="9498">
+</Annotation>
+<Annotation Id="211" Type="component" StartNode="9623" EndNode="9639">
+</Annotation>
+<Annotation Id="212" Type="component" StartNode="9709" EndNode="9712">
+</Annotation>
+<Annotation Id="213" Type="component" StartNode="9740" EndNode="9743">
+</Annotation>
+<Annotation Id="214" Type="component" StartNode="9747" EndNode="9763">
+</Annotation>
+<Annotation Id="215" Type="component state" StartNode="9768" EndNode="9775">
+</Annotation>
+<Annotation Id="216" Type="component" StartNode="9874" EndNode="9879">
+</Annotation>
+<Annotation Id="217" Type="component state" StartNode="9934" EndNode="9943">
+</Annotation>
+<Annotation Id="219" Type="component" StartNode="10078" EndNode="10081">
+</Annotation>
+<Annotation Id="220" Type="component" StartNode="10133" EndNode="10137">
+</Annotation>
+<Annotation Id="221" Type="component" StartNode="10280" EndNode="10283">
+</Annotation>
+<Annotation Id="222" Type="component" StartNode="10285" EndNode="10288">
+</Annotation>
+<Annotation Id="223" Type="component" StartNode="10318" EndNode="10321">
+</Annotation>
+<Annotation Id="224" Type="component" StartNode="10326" EndNode="10344">
+</Annotation>
+<Annotation Id="225" Type="component state" StartNode="10508" EndNode="10515">
+</Annotation>
+<Annotation Id="226" Type="component" StartNode="10630" EndNode="10633">
+</Annotation>
+<Annotation Id="227" Type="component" StartNode="10740" EndNode="10743">
+</Annotation>
+<Annotation Id="228" Type="component state" StartNode="10790" EndNode="10796">
+</Annotation>
+<Annotation Id="229" Type="environment entity" StartNode="10811" EndNode="10818">
+</Annotation>
+<Annotation Id="230" Type="component state" StartNode="10891" EndNode="10897">
+</Annotation>
+<Annotation Id="231" Type="component" StartNode="10905" EndNode="10908">
+</Annotation>
+<Annotation Id="232" Type="component" StartNode="10910" EndNode="10926">
+</Annotation>
+<Annotation Id="233" Type="component" StartNode="11079" EndNode="11082">
+</Annotation>
+<Annotation Id="234" Type="component" StartNode="11083" EndNode="11102">
+</Annotation>
+<Annotation Id="235" Type="component" StartNode="11110" EndNode="11113">
+</Annotation>
+<Annotation Id="236" Type="component state" StartNode="11130" EndNode="11139">
+</Annotation>
+<Annotation Id="237" Type="component" StartNode="11146" EndNode="11149">
+</Annotation>
+<Annotation Id="238" Type="component state" StartNode="11169" EndNode="11173">
+</Annotation>
+<Annotation Id="239" Type="environment entity" StartNode="11194" EndNode="11201">
+</Annotation>
+<Annotation Id="240" Type="component" StartNode="11234" EndNode="11237">
+</Annotation>
+<Annotation Id="241" Type="component" StartNode="11239" EndNode="11242">
+</Annotation>
+<Annotation Id="242" Type="component state" StartNode="11260" EndNode="11266">
+</Annotation>
+<Annotation Id="243" Type="component" StartNode="11273" EndNode="11276">
+</Annotation>
+<Annotation Id="244" Type="component" StartNode="11278" EndNode="11295">
+</Annotation>
+<Annotation Id="245" Type="component" StartNode="11453" EndNode="11456">
+</Annotation>
+<Annotation Id="246" Type="component" StartNode="11458" EndNode="11474">
+</Annotation>
+<Annotation Id="247" Type="component state" StartNode="11478" EndNode="11487">
+</Annotation>
+<Annotation Id="248" Type="component" StartNode="11492" EndNode="11495">
+</Annotation>
+<Annotation Id="249" Type="component state" StartNode="11499" EndNode="11504">
+</Annotation>
+<Annotation Id="250" Type="environment entity" StartNode="11521" EndNode="11528">
+</Annotation>
+<Annotation Id="251" Type="component property" StartNode="11547" EndNode="11555">
+</Annotation>
+<Annotation Id="252" Type="component" StartNode="11601" EndNode="11610">
+</Annotation>
+<Annotation Id="253" Type="component state" StartNode="11616" EndNode="11619">
+</Annotation>
+<Annotation Id="254" Type="component state" StartNode="11636" EndNode="11640">
+</Annotation>
+<Annotation Id="255" Type="environment entity" StartNode="11657" EndNode="11664">
+</Annotation>
+<Annotation Id="256" Type="component" StartNode="11726" EndNode="11729">
+</Annotation>
+<Annotation Id="257" Type="component" StartNode="12174" EndNode="12177">
+</Annotation>
+<Annotation Id="259" Type="component property" StartNode="12250" EndNode="12261">
+</Annotation>
+<Annotation Id="260" Type="component" StartNode="12456" EndNode="12459">
+</Annotation>
+<Annotation Id="261" Type="component property" StartNode="12475" EndNode="12490">
+</Annotation>
+<Annotation Id="262" Type="component property" StartNode="12499" EndNode="12512">
+</Annotation>
+<Annotation Id="263" Type="component" StartNode="14329" EndNode="14332">
+</Annotation>
+<Annotation Id="264" Type="component" StartNode="14455" EndNode="14458">
+</Annotation>
+<Annotation Id="265" Type="component" StartNode="14460" EndNode="14478">
+</Annotation>
+<Annotation Id="266" Type="component" StartNode="14661" EndNode="14664">
+</Annotation>
+<Annotation Id="267" Type="component" StartNode="14666" EndNode="14682">
+</Annotation>
+<Annotation Id="268" Type="component" StartNode="14788" EndNode="14791">
+</Annotation>
+<Annotation Id="269" Type="component" StartNode="14792" EndNode="14809">
+</Annotation>
+<Annotation Id="270" Type="component" StartNode="15448" EndNode="15452">
+</Annotation>
+<Annotation Id="271" Type="component" StartNode="15463" EndNode="15466">
+</Annotation>
+<Annotation Id="272" Type="component property" StartNode="15429" EndNode="15443">
+</Annotation>
+<Annotation Id="273" Type="component" StartNode="17135" EndNode="17138">
+</Annotation>
+<Annotation Id="274" Type="component" StartNode="17140" EndNode="17156">
+</Annotation>
+<Annotation Id="277" Type="component" StartNode="17236" EndNode="17244">
+</Annotation>
+<Annotation Id="278" Type="environment entity" StartNode="17404" EndNode="17411">
+</Annotation>
+<Annotation Id="279" Type="environment entity state" StartNode="17418" EndNode="17426">
+</Annotation>
+<Annotation Id="280" Type="component" StartNode="17487" EndNode="17490">
+</Annotation>
+<Annotation Id="281" Type="component" StartNode="17565" EndNode="17568">
+</Annotation>
+<Annotation Id="282" Type="component property" StartNode="18177" EndNode="18185">
+</Annotation>
+<Annotation Id="283" Type="component property" StartNode="18198" EndNode="18206">
+</Annotation>
+<Annotation Id="285" Type="component property" StartNode="18213" EndNode="18221">
+</Annotation>
+<Annotation Id="286" Type="component property" StartNode="18319" EndNode="18323">
+</Annotation>
+<Annotation Id="287" Type="component property" StartNode="18521" EndNode="18530">
+</Annotation>
+<Annotation Id="288" Type="component" StartNode="18895" EndNode="18898">
+</Annotation>
+<Annotation Id="289" Type="component state" StartNode="18909" EndNode="18916">
+</Annotation>
+<Annotation Id="290" Type="component property" StartNode="18934" EndNode="18941">
+</Annotation>
+<Annotation Id="291" Type="component" StartNode="19097" EndNode="19100">
+</Annotation>
+<Annotation Id="292" Type="component property" StartNode="19185" EndNode="19194">
+</Annotation>
+<Annotation Id="293" Type="component" StartNode="19695" EndNode="19698">
+</Annotation>
+<Annotation Id="294" Type="component" StartNode="19522" EndNode="19525">
+</Annotation>
+<Annotation Id="295" Type="component" StartNode="19401" EndNode="19405">
+</Annotation>
+<Annotation Id="296" Type="component" StartNode="19480" EndNode="19483">
+</Annotation>
+<Annotation Id="297" Type="component" StartNode="19976" EndNode="19980">
+</Annotation>
+<Annotation Id="298" Type="component state" StartNode="19990" EndNode="19998">
+</Annotation>
+<Annotation Id="299" Type="component" StartNode="20268" EndNode="20271">
+</Annotation>
+<Annotation Id="300" Type="component" StartNode="20549" EndNode="20552">
+</Annotation>
+<Annotation Id="301" Type="component state" StartNode="20556" EndNode="20564">
+</Annotation>
+<Annotation Id="302" Type="component state" StartNode="20612" EndNode="20616">
+</Annotation>
+<Annotation Id="303" Type="component state" StartNode="20602" EndNode="20605">
+</Annotation>
+<Annotation Id="304" Type="component state" StartNode="20657" EndNode="20662">
+</Annotation>
+<Annotation Id="305" Type="environment entity" StartNode="20666" EndNode="20676">
+</Annotation>
+<Annotation Id="306" Type="component" StartNode="20684" EndNode="20687">
+</Annotation>
+<Annotation Id="307" Type="component" StartNode="20994" EndNode="21019">
+</Annotation>
+<Annotation Id="308" Type="component" StartNode="21035" EndNode="21038">
+</Annotation>
+<Annotation Id="309" Type="component" StartNode="21039" EndNode="21055">
+</Annotation>
+<Annotation Id="310" Type="component" StartNode="21106" EndNode="21109">
+</Annotation>
+<Annotation Id="311" Type="component" StartNode="21595" EndNode="21598">
+</Annotation>
+<Annotation Id="312" Type="component" StartNode="21729" EndNode="21732">
+</Annotation>
+<Annotation Id="313" Type="component" StartNode="21738" EndNode="21754">
+</Annotation>
+<Annotation Id="314" Type="component state" StartNode="21790" EndNode="21798">
+</Annotation>
+<Annotation Id="315" Type="component property" StartNode="21818" EndNode="21823">
+</Annotation>
+<Annotation Id="316" Type="component" StartNode="21988" EndNode="21992">
+</Annotation>
+<Annotation Id="317" Type="component" StartNode="22088" EndNode="22091">
+</Annotation>
+<Annotation Id="318" Type="component" StartNode="22093" EndNode="22109">
+</Annotation>
+<Annotation Id="319" Type="component" StartNode="22452" EndNode="22455">
+</Annotation>
+<Annotation Id="320" Type="component" StartNode="22458" EndNode="22474">
+</Annotation>
+<Annotation Id="321" Type="component state" StartNode="21461" EndNode="21469">
+</Annotation>
+<Annotation Id="322" Type="component state" StartNode="21476" EndNode="21483">
+</Annotation>
+<Annotation Id="323" Type="component state" StartNode="21490" EndNode="21496">
+</Annotation>
+<Annotation Id="324" Type="component state" StartNode="22368" EndNode="22376">
+</Annotation>
+<Annotation Id="325" Type="component state" StartNode="22383" EndNode="22390">
+</Annotation>
+<Annotation Id="326" Type="component state" StartNode="22397" EndNode="22403">
+</Annotation>
+<Annotation Id="327" Type="component" StartNode="22881" EndNode="22885">
+</Annotation>
+<Annotation Id="328" Type="component state" StartNode="23257" EndNode="23265">
+</Annotation>
+<Annotation Id="329" Type="component state" StartNode="23272" EndNode="23279">
+</Annotation>
+<Annotation Id="330" Type="component" StartNode="23427" EndNode="23453">
+</Annotation>
+<Annotation Id="331" Type="component state" StartNode="23463" EndNode="23469">
+</Annotation>
+<Annotation Id="332" Type="component" StartNode="23707" EndNode="23737">
+</Annotation>
+<Annotation Id="333" Type="component" StartNode="23746" EndNode="23775">
+</Annotation>
+<Annotation Id="334" Type="component" StartNode="24090" EndNode="24116">
+</Annotation>
+<Annotation Id="335" Type="component state" StartNode="24126" EndNode="24132">
+</Annotation>
+<Annotation Id="336" Type="component state" StartNode="24255" EndNode="24261">
+</Annotation>
+<Annotation Id="337" Type="component" StartNode="24530" EndNode="24533">
+</Annotation>
+<Annotation Id="338" Type="component" StartNode="24547" EndNode="24563">
+</Annotation>
+<Annotation Id="339" Type="component" StartNode="24775" EndNode="24791">
+</Annotation>
+<Annotation Id="340" Type="component" StartNode="24834" EndNode="24837">
+</Annotation>
+<Annotation Id="341" Type="component" StartNode="24977" EndNode="24980">
+</Annotation>
+<Annotation Id="342" Type="component" StartNode="24921" EndNode="24924">
+</Annotation>
+<Annotation Id="343" Type="component" StartNode="24932" EndNode="24950">
+</Annotation>
+<Annotation Id="344" Type="component" StartNode="25007" EndNode="25023">
+</Annotation>
+<Annotation Id="345" Type="component" StartNode="25116" EndNode="25119">
+</Annotation>
+<Annotation Id="346" Type="component" StartNode="25170" EndNode="25186">
+</Annotation>
+<Annotation Id="347" Type="component" StartNode="25287" EndNode="25290">
+</Annotation>
+<Annotation Id="348" Type="component" StartNode="25355" EndNode="25371">
+</Annotation>
+<Annotation Id="349" Type="component" StartNode="25418" EndNode="25434">
+</Annotation>
+<Annotation Id="350" Type="component" StartNode="25480" EndNode="25483">
+</Annotation>
+<Annotation Id="351" Type="component" StartNode="25595" EndNode="25611">
+</Annotation>
+<Annotation Id="352" Type="component" StartNode="25742" EndNode="25745">
+</Annotation>
+<Annotation Id="353" Type="component" StartNode="25799" EndNode="25815">
+</Annotation>
+<Annotation Id="354" Type="component" StartNode="26276" EndNode="26279">
+</Annotation>
+<Annotation Id="355" Type="component" StartNode="26451" EndNode="26454">
+</Annotation>
+<Annotation Id="356" Type="component" StartNode="26735" EndNode="26738">
+</Annotation>
+<Annotation Id="357" Type="component" StartNode="27021" EndNode="27024">
+</Annotation>
+<Annotation Id="358" Type="component" StartNode="27165" EndNode="27168">
+</Annotation>
+<Annotation Id="359" Type="component" StartNode="27347" EndNode="27350">
+</Annotation>
+<Annotation Id="360" Type="component" StartNode="27351" EndNode="27367">
+</Annotation>
+<Annotation Id="361" Type="component" StartNode="27629" EndNode="27633">
+</Annotation>
+<Annotation Id="362" Type="component" StartNode="27744" EndNode="27747">
+</Annotation>
+<Annotation Id="363" Type="component" StartNode="27940" EndNode="27943">
+</Annotation>
+<Annotation Id="364" Type="component" StartNode="28085" EndNode="28088">
+</Annotation>
+<Annotation Id="365" Type="component" StartNode="28091" EndNode="28108">
+</Annotation>
+<Annotation Id="366" Type="component" StartNode="28382" EndNode="28386">
+</Annotation>
+<Annotation Id="367" Type="component" StartNode="28492" EndNode="28495">
+</Annotation>
+<Annotation Id="369" Type="component" StartNode="28496" EndNode="28516">
+</Annotation>
+<Annotation Id="370" Type="component" StartNode="28815" EndNode="28818">
+</Annotation>
+<Annotation Id="371" Type="component" StartNode="28819" EndNode="28835">
+</Annotation>
+<Annotation Id="372" Type="component" StartNode="29342" EndNode="29345">
+</Annotation>
+<Annotation Id="373" Type="component" StartNode="29459" EndNode="29462">
+</Annotation>
+<Annotation Id="374" Type="component" StartNode="29779" EndNode="29783">
+</Annotation>
+<Annotation Id="375" Type="component" StartNode="29790" EndNode="29793">
+</Annotation>
+<Annotation Id="376" Type="component" StartNode="30019" EndNode="30023">
+</Annotation>
+<Annotation Id="377" Type="component" StartNode="30071" EndNode="30087">
+</Annotation>
+<Annotation Id="378" Type="component" StartNode="30067" EndNode="30070">
+</Annotation>
+<Annotation Id="379" Type="component" StartNode="30331" EndNode="30335">
+</Annotation>
+<Annotation Id="380" Type="component state" StartNode="30351" EndNode="30360">
+</Annotation>
+<Annotation Id="381" Type="component state" StartNode="30034" EndNode="30043">
+</Annotation>
+<Annotation Id="382" Type="component" StartNode="30390" EndNode="30407">
+</Annotation>
+<Annotation Id="383" Type="component" StartNode="30566" EndNode="30570">
+</Annotation>
+<Annotation Id="384" Type="component property" StartNode="30589" EndNode="30606">
+</Annotation>
+<Annotation Id="385" Type="component property" StartNode="30911" EndNode="30914">
+</Annotation>
+<Annotation Id="386" Type="component property" StartNode="31030" EndNode="31038">
+</Annotation>
+<Annotation Id="387" Type="component property" StartNode="31041" EndNode="31065">
+</Annotation>
+<Annotation Id="388" Type="component property" StartNode="31068" EndNode="31079">
+</Annotation>
+<Annotation Id="389" Type="component" StartNode="31482" EndNode="31485">
+</Annotation>
+<Annotation Id="390" Type="component" StartNode="31601" EndNode="31619">
+</Annotation>
+<Annotation Id="391" Type="component" StartNode="31595" EndNode="31598">
+</Annotation>
+<Annotation Id="392" Type="component property" StartNode="31832" EndNode="31841">
+</Annotation>
+<Annotation Id="393" Type="component property" StartNode="31848" EndNode="31860">
+</Annotation>
+<Annotation Id="394" Type="component property" StartNode="31522" EndNode="31531">
+</Annotation>
+<Annotation Id="395" Type="component property" StartNode="31536" EndNode="31548">
+</Annotation>
+<Annotation Id="396" Type="component" StartNode="31872" EndNode="31875">
+</Annotation>
+<Annotation Id="397" Type="component" StartNode="31919" EndNode="31922">
+</Annotation>
+<Annotation Id="398" Type="component" StartNode="31924" EndNode="31941">
+</Annotation>
+<Annotation Id="399" Type="component" StartNode="32197" EndNode="32201">
+</Annotation>
+<Annotation Id="400" Type="component" StartNode="33003" EndNode="33038">
+</Annotation>
+<Annotation Id="401" Type="component" StartNode="33043" EndNode="33048">
+</Annotation>
+<Annotation Id="402" Type="component" StartNode="33071" EndNode="33074">
+</Annotation>
+<Annotation Id="403" Type="component state" StartNode="33062" EndNode="33067">
+</Annotation>
+<Annotation Id="404" Type="component state" StartNode="33184" EndNode="33187">
+</Annotation>
+<Annotation Id="405" Type="component" StartNode="33490" EndNode="33511">
+</Annotation>
+<Annotation Id="406" Type="component" StartNode="33541" EndNode="33544">
+</Annotation>
+<Annotation Id="407" Type="component" StartNode="33775" EndNode="33779">
+</Annotation>
+<Annotation Id="408" Type="component" StartNode="34306" EndNode="34309">
+</Annotation>
+<Annotation Id="409" Type="component" StartNode="34531" EndNode="34534">
+</Annotation>
+<Annotation Id="410" Type="component" StartNode="34835" EndNode="34856">
+</Annotation>
+<Annotation Id="411" Type="component" StartNode="35006" EndNode="35024">
+</Annotation>
+<Annotation Id="412" Type="component" StartNode="34920" EndNode="34923">
+</Annotation>
+<Annotation Id="414" Type="component" StartNode="34924" EndNode="34940">
+</Annotation>
+<Annotation Id="415" Type="component state" StartNode="34944" EndNode="34955">
+</Annotation>
+<Annotation Id="416" Type="component" StartNode="35088" EndNode="35091">
+</Annotation>
+<Annotation Id="417" Type="component" StartNode="35092" EndNode="35108">
+</Annotation>
+<Annotation Id="418" Type="component state" StartNode="35112" EndNode="35118">
+</Annotation>
+<Annotation Id="419" Type="component" StartNode="35168" EndNode="35179">
+</Annotation>
+<Annotation Id="420" Type="component" StartNode="35229" EndNode="35232">
+</Annotation>
+<Annotation Id="421" Type="component" StartNode="35235" EndNode="35253">
+</Annotation>
+<Annotation Id="422" Type="component state" StartNode="35257" EndNode="35264">
+</Annotation>
+<Annotation Id="423" Type="component" StartNode="35610" EndNode="35614">
+</Annotation>
+<Annotation Id="424" Type="component" StartNode="35659" EndNode="35663">
+</Annotation>
+<Annotation Id="425" Type="component" StartNode="36212" EndNode="36233">
+</Annotation>
+<Annotation Id="426" Type="component" StartNode="36239" EndNode="36242">
+</Annotation>
+<Annotation Id="427" Type="component" StartNode="36369" EndNode="36372">
+</Annotation>
+<Annotation Id="428" Type="component" StartNode="36373" EndNode="36390">
+</Annotation>
+<Annotation Id="429" Type="component" StartNode="36499" EndNode="36502">
+</Annotation>
+<Annotation Id="430" Type="component" StartNode="36505" EndNode="36523">
+</Annotation>
+<Annotation Id="431" Type="component" StartNode="36646" EndNode="36649">
+</Annotation>
+<Annotation Id="432" Type="component" StartNode="36650" EndNode="36666">
+</Annotation>
+<Annotation Id="433" Type="component" StartNode="36950" EndNode="36966">
+</Annotation>
+<Annotation Id="434" Type="component" StartNode="37063" EndNode="37079">
+</Annotation>
+<Annotation Id="435" Type="component" StartNode="37252" EndNode="37268">
+</Annotation>
+<Annotation Id="436" Type="component state" StartNode="37305" EndNode="37313">
+</Annotation>
+<Annotation Id="437" Type="component state" StartNode="37128" EndNode="37136">
+</Annotation>
+<Annotation Id="438" Type="component" StartNode="1048" EndNode="1051">
+</Annotation>
+<Annotation Id="439" Type="component" StartNode="1600" EndNode="1603">
+</Annotation>
+<Annotation Id="440" Type="environment transition condition" StartNode="2212" EndNode="2289">
+</Annotation>
+<Annotation Id="441" Type="environment transition condition" StartNode="3010" EndNode="3052">
+</Annotation>
+<Annotation Id="442" Type="system transition condition" StartNode="6238" EndNode="6270">
+</Annotation>
+<Annotation Id="443" Type="environment transition condition" StartNode="6298" EndNode="6314">
+</Annotation>
+<Annotation Id="444" Type="system transition condition" StartNode="6375" EndNode="6400">
+</Annotation>
+<Annotation Id="445" Type="system transition condition" StartNode="7063" EndNode="7145">
+</Annotation>
+<Annotation Id="446" Type="system transition condition" StartNode="7361" EndNode="7428">
+</Annotation>
+<Annotation Id="447" Type="system transition condition" StartNode="8135" EndNode="8162">
+</Annotation>
+<Annotation Id="448" Type="system transition condition" StartNode="8770" EndNode="8850">
+</Annotation>
+<Annotation Id="449" Type="environment transition condition" StartNode="9056" EndNode="9076">
+</Annotation>
+<Annotation Id="450" Type="system transition condition" StartNode="10868" EndNode="10926">
+</Annotation>
+<Annotation Id="451" Type="system transition condition" StartNode="11008" EndNode="11102">
+</Annotation>
+<Annotation Id="452" Type="system transition condition" StartNode="11231" EndNode="11295">
+</Annotation>
+<Annotation Id="453" Type="environment transition condition" StartNode="11300" EndNode="11340">
+</Annotation>
+<Annotation Id="454" Type="system transition condition" StartNode="11453" EndNode="11495">
+</Annotation>
+<Annotation Id="455" Type="component property" StartNode="12203" EndNode="12206">
+</Annotation>
+<Annotation Id="456" Type="component property" StartNode="12460" EndNode="12470">
+</Annotation>
+<Annotation Id="457" Type="environment transition condition" StartNode="17390" EndNode="17428">
+</Annotation>
+<Annotation Id="458" Type="system transition condition" StartNode="17389" EndNode="17497">
+</Annotation>
+<Annotation Id="460" Type="component state" StartNode="17576" EndNode="17585">
+</Annotation>
+<Annotation Id="461" Type="system transition condition" StartNode="17565" EndNode="17605">
+</Annotation>
+<Annotation Id="462" Type="environment transition condition" StartNode="20666" EndNode="20676">
+</Annotation>
+<Annotation Id="463" Type="system transition condition" StartNode="20601" EndNode="20645">
+</Annotation>
+<Annotation Id="464" Type="system transition condition" StartNode="21789" EndNode="21823">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="49">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="51" EndNode="101">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="103" EndNode="683">
+</Annotation>
+<Annotation Id="3" Type="paragraph" StartNode="685" EndNode="902">
+</Annotation>
+<Annotation Id="4" Type="paragraph" StartNode="904" EndNode="935">
+</Annotation>
+<Annotation Id="5" Type="paragraph" StartNode="937" EndNode="1510">
+</Annotation>
+<Annotation Id="6" Type="paragraph" StartNode="1512" EndNode="2031">
+</Annotation>
+<Annotation Id="7" Type="paragraph" StartNode="2033" EndNode="2059">
+</Annotation>
+<Annotation Id="8" Type="paragraph" StartNode="2061" EndNode="2678">
+</Annotation>
+<Annotation Id="9" Type="paragraph" StartNode="2680" EndNode="3158">
+</Annotation>
+<Annotation Id="10" Type="paragraph" StartNode="3162" EndNode="3492">
+</Annotation>
+<Annotation Id="11" Type="paragraph" StartNode="3494" EndNode="3725">
+</Annotation>
+<Annotation Id="12" Type="paragraph" StartNode="3727" EndNode="3785">
+</Annotation>
+<Annotation Id="13" Type="paragraph" StartNode="3787" EndNode="4252">
+</Annotation>
+<Annotation Id="14" Type="paragraph" StartNode="4254" EndNode="4372">
+</Annotation>
+<Annotation Id="15" Type="paragraph" StartNode="4374" EndNode="4412">
+</Annotation>
+<Annotation Id="16" Type="paragraph" StartNode="4414" EndNode="4489">
+</Annotation>
+<Annotation Id="17" Type="paragraph" StartNode="4491" EndNode="4547">
+</Annotation>
+<Annotation Id="18" Type="paragraph" StartNode="4549" EndNode="4988">
+</Annotation>
+<Annotation Id="19" Type="paragraph" StartNode="4990" EndNode="5015">
+</Annotation>
+<Annotation Id="20" Type="paragraph" StartNode="5017" EndNode="5418">
+</Annotation>
+<Annotation Id="21" Type="paragraph" StartNode="5420" EndNode="5530">
+</Annotation>
+<Annotation Id="22" Type="paragraph" StartNode="5532" EndNode="5587">
+</Annotation>
+<Annotation Id="23" Type="paragraph" StartNode="5589" EndNode="6438">
+</Annotation>
+<Annotation Id="24" Type="paragraph" StartNode="6442" EndNode="6764">
+</Annotation>
+<Annotation Id="25" Type="paragraph" StartNode="6766" EndNode="6821">
+</Annotation>
+<Annotation Id="26" Type="paragraph" StartNode="6823" EndNode="7257">
+</Annotation>
+<Annotation Id="27" Type="paragraph" StartNode="7259" EndNode="8045">
+</Annotation>
+<Annotation Id="28" Type="paragraph" StartNode="8047" EndNode="8125">
+</Annotation>
+<Annotation Id="29" Type="paragraph" StartNode="8127" EndNode="8165">
+</Annotation>
+<Annotation Id="30" Type="paragraph" StartNode="8167" EndNode="8290">
+</Annotation>
+<Annotation Id="31" Type="paragraph" StartNode="8292" EndNode="8411">
+</Annotation>
+<Annotation Id="32" Type="paragraph" StartNode="8413" EndNode="8719">
+</Annotation>
+<Annotation Id="33" Type="paragraph" StartNode="8721" EndNode="9193">
+</Annotation>
+<Annotation Id="34" Type="paragraph" StartNode="9195" EndNode="9224">
+</Annotation>
+<Annotation Id="35" Type="paragraph" StartNode="9226" EndNode="9418">
+</Annotation>
+<Annotation Id="36" Type="paragraph" StartNode="9420" EndNode="9668">
+</Annotation>
+<Annotation Id="37" Type="paragraph" StartNode="9670" EndNode="9854">
+</Annotation>
+<Annotation Id="38" Type="paragraph" StartNode="9856" EndNode="10250">
+</Annotation>
+<Annotation Id="39" Type="paragraph" StartNode="10252" EndNode="10710">
+</Annotation>
+<Annotation Id="40" Type="paragraph" StartNode="10712" EndNode="11204">
+</Annotation>
+<Annotation Id="41" Type="paragraph" StartNode="11206" EndNode="11667">
+</Annotation>
+<Annotation Id="42" Type="paragraph" StartNode="11669" EndNode="12053">
+</Annotation>
+<Annotation Id="43" Type="paragraph" StartNode="12055" EndNode="12348">
+</Annotation>
+<Annotation Id="44" Type="paragraph" StartNode="12350" EndNode="13274">
+</Annotation>
+<Annotation Id="45" Type="paragraph" StartNode="13278" EndNode="13349">
+</Annotation>
+<Annotation Id="46" Type="paragraph" StartNode="13351" EndNode="13789">
+</Annotation>
+<Annotation Id="47" Type="paragraph" StartNode="13791" EndNode="14070">
+</Annotation>
+<Annotation Id="48" Type="paragraph" StartNode="14072" EndNode="14171">
+</Annotation>
+<Annotation Id="49" Type="paragraph" StartNode="14173" EndNode="14775">
+</Annotation>
+<Annotation Id="50" Type="paragraph" StartNode="14777" EndNode="14810">
+</Annotation>
+<Annotation Id="51" Type="paragraph" StartNode="14812" EndNode="15311">
+</Annotation>
+<Annotation Id="52" Type="paragraph" StartNode="15313" EndNode="16096">
+</Annotation>
+<Annotation Id="53" Type="paragraph" StartNode="16098" EndNode="16373">
+</Annotation>
+<Annotation Id="54" Type="paragraph" StartNode="16375" EndNode="16421">
+</Annotation>
+<Annotation Id="55" Type="paragraph" StartNode="16423" EndNode="16475">
+</Annotation>
+<Annotation Id="56" Type="paragraph" StartNode="16477" EndNode="16540">
+</Annotation>
+<Annotation Id="57" Type="paragraph" StartNode="16542" EndNode="16643">
+</Annotation>
+<Annotation Id="58" Type="paragraph" StartNode="16645" EndNode="16704">
+</Annotation>
+<Annotation Id="59" Type="paragraph" StartNode="16708" EndNode="17097">
+</Annotation>
+<Annotation Id="60" Type="paragraph" StartNode="17099" EndNode="17500">
+</Annotation>
+<Annotation Id="61" Type="paragraph" StartNode="17502" EndNode="17545">
+</Annotation>
+<Annotation Id="62" Type="paragraph" StartNode="17547" EndNode="18081">
+</Annotation>
+<Annotation Id="63" Type="paragraph" StartNode="18083" EndNode="18793">
+</Annotation>
+<Annotation Id="64" Type="paragraph" StartNode="18795" EndNode="19059">
+</Annotation>
+<Annotation Id="65" Type="paragraph" StartNode="19061" EndNode="19284">
+</Annotation>
+<Annotation Id="66" Type="paragraph" StartNode="19286" EndNode="19320">
+</Annotation>
+<Annotation Id="67" Type="paragraph" StartNode="19322" EndNode="19672">
+</Annotation>
+<Annotation Id="68" Type="paragraph" StartNode="19674" EndNode="19849">
+</Annotation>
+<Annotation Id="69" Type="paragraph" StartNode="19851" EndNode="19894">
+</Annotation>
+<Annotation Id="70" Type="paragraph" StartNode="19896" EndNode="19952">
+</Annotation>
+<Annotation Id="71" Type="paragraph" StartNode="19956" EndNode="20154">
+</Annotation>
+<Annotation Id="72" Type="paragraph" StartNode="20156" EndNode="20185">
+</Annotation>
+<Annotation Id="73" Type="paragraph" StartNode="20187" EndNode="20486">
+</Annotation>
+<Annotation Id="74" Type="paragraph" StartNode="20488" EndNode="21139">
+</Annotation>
+<Annotation Id="75" Type="paragraph" StartNode="21141" EndNode="21399">
+</Annotation>
+<Annotation Id="76" Type="paragraph" StartNode="21401" EndNode="21449">
+</Annotation>
+<Annotation Id="77" Type="paragraph" StartNode="21451" EndNode="21667">
+</Annotation>
+<Annotation Id="78" Type="paragraph" StartNode="21669" EndNode="22336">
+</Annotation>
+<Annotation Id="79" Type="paragraph" StartNode="22338" EndNode="22670">
+</Annotation>
+<Annotation Id="80" Type="paragraph" StartNode="22672" EndNode="22888">
+</Annotation>
+<Annotation Id="81" Type="paragraph" StartNode="22890" EndNode="23122">
+</Annotation>
+<Annotation Id="82" Type="paragraph" StartNode="23126" EndNode="23160">
+</Annotation>
+<Annotation Id="83" Type="paragraph" StartNode="23162" EndNode="23414">
+</Annotation>
+<Annotation Id="84" Type="paragraph" StartNode="23416" EndNode="24063">
+</Annotation>
+<Annotation Id="85" Type="paragraph" StartNode="24065" EndNode="24393">
+</Annotation>
+<Annotation Id="86" Type="paragraph" StartNode="24395" EndNode="24461">
+</Annotation>
+<Annotation Id="87" Type="paragraph" StartNode="24463" EndNode="24646">
+</Annotation>
+<Annotation Id="88" Type="paragraph" StartNode="24648" EndNode="24840">
+</Annotation>
+<Annotation Id="89" Type="paragraph" StartNode="24842" EndNode="25090">
+</Annotation>
+<Annotation Id="90" Type="paragraph" StartNode="25092" EndNode="25231">
+</Annotation>
+<Annotation Id="91" Type="paragraph" StartNode="25233" EndNode="25707">
+</Annotation>
+<Annotation Id="92" Type="paragraph" StartNode="25709" EndNode="26055">
+</Annotation>
+<Annotation Id="93" Type="paragraph" StartNode="26057" EndNode="26089">
+</Annotation>
+<Annotation Id="94" Type="paragraph" StartNode="26091" EndNode="26263">
+</Annotation>
+<Annotation Id="95" Type="paragraph" StartNode="26267" EndNode="26702">
+</Annotation>
+<Annotation Id="96" Type="paragraph" StartNode="26704" EndNode="26964">
+</Annotation>
+<Annotation Id="97" Type="paragraph" StartNode="26966" EndNode="26997">
+</Annotation>
+<Annotation Id="98" Type="paragraph" StartNode="26999" EndNode="27260">
+</Annotation>
+<Annotation Id="99" Type="paragraph" StartNode="27262" EndNode="27288">
+</Annotation>
+<Annotation Id="100" Type="paragraph" StartNode="27290" EndNode="27520">
+</Annotation>
+<Annotation Id="101" Type="paragraph" StartNode="27522" EndNode="28013">
+</Annotation>
+<Annotation Id="102" Type="paragraph" StartNode="28015" EndNode="28302">
+</Annotation>
+<Annotation Id="103" Type="paragraph" StartNode="28304" EndNode="28335">
+</Annotation>
+<Annotation Id="104" Type="paragraph" StartNode="28337" EndNode="28926">
+</Annotation>
+<Annotation Id="105" Type="paragraph" StartNode="28928" EndNode="29047">
+</Annotation>
+<Annotation Id="106" Type="paragraph" StartNode="29049" EndNode="29076">
+</Annotation>
+<Annotation Id="107" Type="paragraph" StartNode="29078" EndNode="29213">
+</Annotation>
+<Annotation Id="108" Type="paragraph" StartNode="29217" EndNode="29302">
+</Annotation>
+<Annotation Id="109" Type="paragraph" StartNode="29304" EndNode="29612">
+</Annotation>
+<Annotation Id="110" Type="paragraph" StartNode="29614" EndNode="29933">
+</Annotation>
+<Annotation Id="111" Type="paragraph" StartNode="29935" EndNode="29964">
+</Annotation>
+<Annotation Id="112" Type="paragraph" StartNode="29966" EndNode="30257">
+</Annotation>
+<Annotation Id="113" Type="paragraph" StartNode="30259" EndNode="30459">
+</Annotation>
+<Annotation Id="114" Type="paragraph" StartNode="30461" EndNode="30504">
+</Annotation>
+<Annotation Id="115" Type="paragraph" StartNode="30506" EndNode="31087">
+</Annotation>
+<Annotation Id="116" Type="paragraph" StartNode="31089" EndNode="31397">
+</Annotation>
+<Annotation Id="117" Type="paragraph" StartNode="31399" EndNode="31423">
+</Annotation>
+<Annotation Id="118" Type="paragraph" StartNode="31425" EndNode="31718">
+</Annotation>
+<Annotation Id="119" Type="paragraph" StartNode="31720" EndNode="32042">
+</Annotation>
+<Annotation Id="120" Type="paragraph" StartNode="32046" EndNode="32165">
+</Annotation>
+<Annotation Id="121" Type="paragraph" StartNode="32167" EndNode="32770">
+</Annotation>
+<Annotation Id="122" Type="paragraph" StartNode="32772" EndNode="33467">
+</Annotation>
+<Annotation Id="123" Type="paragraph" StartNode="33469" EndNode="33694">
+</Annotation>
+<Annotation Id="124" Type="paragraph" StartNode="33696" EndNode="34203">
+</Annotation>
+<Annotation Id="125" Type="paragraph" StartNode="34205" EndNode="34252">
+</Annotation>
+<Annotation Id="126" Type="paragraph" StartNode="34254" EndNode="34703">
+</Annotation>
+<Annotation Id="127" Type="paragraph" StartNode="34707" EndNode="34825">
+</Annotation>
+<Annotation Id="128" Type="paragraph" StartNode="34827" EndNode="34995">
+</Annotation>
+<Annotation Id="129" Type="paragraph" StartNode="34997" EndNode="35157">
+</Annotation>
+<Annotation Id="130" Type="paragraph" StartNode="35159" EndNode="35320">
+</Annotation>
+<Annotation Id="131" Type="paragraph" StartNode="35322" EndNode="35589">
+</Annotation>
+<Annotation Id="132" Type="paragraph" StartNode="35591" EndNode="35829">
+</Annotation>
+<Annotation Id="133" Type="paragraph" StartNode="35831" EndNode="36146">
+</Annotation>
+<Annotation Id="134" Type="paragraph" StartNode="36148" EndNode="36617">
+</Annotation>
+<Annotation Id="135" Type="paragraph" StartNode="36619" EndNode="36829">
+</Annotation>
+<Annotation Id="136" Type="paragraph" StartNode="36831" EndNode="37227">
+</Annotation>
+<Annotation Id="137" Type="paragraph" StartNode="37229" EndNode="37416">
+</Annotation>
+<Annotation Id="138" Type="paragraph" StartNode="37418" EndNode="37559">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

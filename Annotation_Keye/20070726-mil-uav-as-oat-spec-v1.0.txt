@@ -1,0 +1,926 @@
+3           PROPOSED EUROCONTROL SPECIFICATIONS
+
+3.1         ATM Categorization of UAV Operations
+
+3.1.1      There   are   numerous   ways   of   categorizing   UAVs,   eg   
+weight,   role,   type,   etc.
+Although each may be valid in context, it is flight rules that are most 
+relevant to the
+operation of  UAVs outside segregated airspace,  since these govern the ATM 
+rules
+and   regulations   that   apply   to   manned   aircraft.     Where   
+necessary   for   these
+Specifications,   therefore,   it   is   logical   that   the   operation   of  
+ UAVs   should   be
+categorized according to whether the sortie is flown under IFR or VFR as 
+applied to
+OAT.
+
+Specification   UAV1.   For   ATM   purposes,   where  it   becomes   necessary 
+ to
+categorize  UAV  operations,  this  should  be  done  on  the  basis  of  
+flight  rules,
+namely IFR or VFR as applied to OAT.
+
+3.2         Mode of Operation
+
+3.2.1      Notwithstanding  any  pre-programmed  mission  autonomy,  the  
+primary   mode  of
+operation of a UAV for the purposes of ATM should entail oversight by the 
+pilot-in-
+command,  who  should  at  all  times  be  able  to  intervene  in  the  
+management  of  its
+flight.   However,  in  the  event  of  total loss  of  control data-link  
+between the  pilot-in-
+command  and  the  UAV,  a  back-up  mode  of  operation  should  enable  the  
+UAV  to
+revert  to  autonomous  flight  that  is  designed to ensure the safety  of  
+other airspace
+users.
+
+Specification  UAV2.   For  ATM  purposes,  the  primary  mode  of  operation  
+of  a
+UAV should entail oversight by the pilot-in command, who should at all times
+be  able  to  intervene  in  the  management  of  the  flight.    A  back-up  
+mode  of
+operation should enable the UAV to revert to autonomous flight in the event of
+total  loss  of  control  data-link  between  the  pilot-in-command  and  the  
+UAV.
+This  back-up  mode  of  operation  should  ensure  the  safety  of  other  
+airspace
+users.
+
+3.3         Flight Rules
+
+3.3.1      In essence, the rules for manned aircraft require that VFR flights 
+shall be conducted
+so  that  the  aircraft  is  flown  in  conditions  of  visibility  and  
+distance  from  clouds  not
+less  than  those  specified,  while  the  rules  for  IFR  flight  require  
+that  the  aircraft  is
+equipped with suitable instruments and with navigation equipment appropriate to 
+the
+route  to  be  flown  and  with  the  required  provisions  when  operated  in  
+controlled
+airspace.   Outside  controlled  airspace,  an IFR flight  is  required  to fly 
+ at  a cruising
+level appropriate to its track.
+
+3.3.2      Compliance with IFR should be relatively straightforward for a UAV 
+since this relates
+to the carriage of equipment that is already available to manned aircraft.   
+However,
+the rules for VFR flight pose a problem for a UAV insofar as it may be 
+difficult for the
+UAV  pilot-in  command  to  assess  whether  the  visibility  and  distance  
+from  cloud
+equate  to  VMC.   If  a  UAV  is  unable  to  establish  that  it  is  VMC,  
+it  could  fly  IFR  if
+
+
+properly  equipped,  although  this  would  constrain  its  freedom  of  
+operation.    It  is
+therefore in the interest of UAV operators that  UAVs should be designed to a 
+level
+which allows full alignment and transparency with manned aircraft for all 
+flight rules,
+including the ability to assess in-flight conditions.
+
+Specification  UAV3.    UAVs  should  comply  with  VFR  and  IFR  as  they  
+affect
+manned aircraft flying OAT.   For VFR flight, the UAV pilot-in-command should
+have the ability to assess in-flight meteorological conditions.
+
+3.4         Separation Provision and Collision Avoidance
+
+3.4.1      It  is  a  requirement  for  manned  aircraft  that  they  shall  
+not  be  operated  in  such
+proximity to other aircraft as to create a collision hazard, and it seems 
+axiomatic that
+the same requirement should apply to UAVs.   Notwithstanding, effective 
+separation
+provision   and   collision   avoidance   probably   represent   the   greatest 
+  technical
+challenge confronting the routine operation of UAVs outside segregated 
+airspace.
+
+3.4.2      The hierarchy for the application of separation provision and 
+collision avoidance for
+a UAV should be:
+
+a.       ATC - separation provision.
+
+b.       Pilot-in-command - separation provision and collision avoidance.
+
+c.       Autonomous operation – collision avoidance.
+
+3.4.3      Use  of  chase  aircraft  would  help  resolve  some  of  the  
+problems  associated  with
+collision avoidance by UAVs.   However, this is impracticable in the long term, 
+given
+the  anticipated  scale  of  future  UAV  operations,  and  would  remove  many 
+ of  the
+advantages  of  using  UAVs  in  place  of  manned  aircraft.     These  
+specifications
+therefore presume the absence of accompanying chase aircraft.
+
+3.4.4      Right-of-Way
+
+3.4.4.1   Most if not all nations apply the right-of-way as prescribed by ICAO 
+(Rules of the Air,
+Annex 2), and there is no reason to exempt UAVs.  Likewise, the rule on 
+converging
+aircraft  should  apply  according  to  whether  the  UAV  is  power-driven  
+and  heavier-
+than-air  or  is  an  airship  or  a  glider  or  a  balloon,  in  the  same  
+way  it  applies  to
+manned aircraft.
+
+Specification UAV4.   UAVs should comply with the right-of-way rules as they
+apply to other airspace users.
+
+3.4.5      Separation from Other Airspace Users - IFR
+
+3.4.5.1   Within   controlled   airspace,   separation   from   other   
+airspace   users   is   normally
+achieved  as  part  of  the  provision  of  an  air  traffic  service,  
+although  this  does  not
+permit the pilot to relax his vigilance for the purpose of detecting potential 
+collisions.
+For a UAV operating in controlled airspace, it is therefore reasonable to argue 
+that
+the   primary   means   of   achieving   separation   should   be   compliance  
+ with   ATC
+instructions.     However,  ATC  will  only  provide  separation  as  a  
+function  of  the
+airspace classification, and there is therefore a requirement for the UAV to be 
+able
+to  react  to  possible  conflict  with  unknown  traffic  in  the  same  way  
+as  a  manned
+aircraft, ie by first detecting the confliction and then manoeuvring to avoid 
+it.
+
+
+Specification  UAV5.   For  IFR  OAT  flight  by  UAVs  in  controlled  
+airspace,  the
+primary  means  of  achieving  separation  from  other  airspace  users  should 
+ be
+by  compliance  with  ATC  instructions.   However,  additional  provision  
+should
+be made for collision avoidance against unknown aircraft.
+
+3.4.6      Separation from Other Airspace Users - VFR
+
+3.4.6.1   It  is  implicit  when flying VFR that  the pilot  is  ultimately  
+responsible for  maintaining
+safe  separation  from  other  airspace  users  which,  in  a  manned  
+aircraft,  he  will
+achieve  by  remaining  VMC  and  by  maintaining  an  active  visual  scan  
+and  taking
+avoiding action as required.   The UAV must achieve the same result and do so 
+with
+an equivalent level of safety to a manned aircraft.
+
+3.4.6.2   The  UAV  pilot-in-command  may  have  surveillance  information  
+available  to  him  to
+assist  him  with  separation  provision  and  collision  avoidance,  and  such 
+ sources
+should  be  utilised  wherever  practicable.     However,  in  addition,  he  
+will  require
+technical assistance to detect  and  avoid conflicting traffic  with the same 
+degree of
+assurance  as  a  manned  aircraft  flying  VFR.   Thus  provided  for,  he  
+could  then  be
+responsible for the safe conduct  of a flight, unless loss of control data-link 
+ made it
+impracticable,  at  which  point  an  automatic  system  would  take  over  to  
+ensure
+collision  avoidance.   The  technical  assistance  –  embracing  the  concept  
+of  Sense
+and Avoid – should therefore:
+
+a.       Enable the UAV pilot-in-command to maintain VMC when operating VFR.
+
+b.       Detect conflicting traffic.
+
+c.       Enable the UAV pilot-in-command to interact with conflicting traffic in
+accordance with the right-of way rules.
+
+d.       Ensure automatic collision avoidance in the event of failure of 
+separation
+provision for whatever reason.
+
+3.4.6.3   This   technical   assistance   would   also  supplement   the   air  
+traffic   service   being
+provided  when  a  UAV is  flying  VFR in controlled  airspace,  and  would 
+significantly
+enhance  safety   where  national  regulations   permit  IFR  flight  outside  
+controlled
+airspace.
+
+Specification UAV6.   For VFR OAT flight by UAVs, the UAV pilot-in command
+should  utilize  available  surveillance  information  to  assist  with  
+separation
+provision and collision avoidance.  In addition, technical assistance should be
+available to the pilot-in-command to enable him to maintain VMC and to detect
+and  avoid  conflicting  traffic.   An  automatic  system  should  provide  
+collision
+avoidance in the event of failure of separation provision.
+
+3.5         Sense and Avoid
+
+3.5.1      Sense  and  Avoid  (S&A)  is  a  generic  expression  employed  to  
+reflect  a  technical
+capability commensurate with a pilot’s ability to see and avoid other air 
+traffic.
+
+3.5.2      A  S&A  system  comprises  those  components  which  enable  a  UAV  
+to  sense  and
+avoid  other  airspace  users  in  real-time;  it  may  be  on-board,  or  
+ground-based
+involving the pilot-in-command, or a combination of both.
+
+3.5.3      The primary  purpose of  an S&A system  is  to enable the  UAV  
+pilot-in-command to
+perform the dual functions of separation provision and collision avoidance 
+normally
+
+
+undertaken by the pilot of a manned aircraft.   Its secondary purpose is to 
+undertake
+collision  avoidance  autonomously  if  separation  provision  fails,  for  
+example  in  the
+event of loss of control data-link.  S&A is therefore essential to the safe 
+operation of
+UAVs outside segregated airspace.  Moreover, it must achieve an equivalent 
+level of
+safety to a manned aircraft.
+
+Specification  UAV7.     A  UAV  S&A  system  should  enable  a   UAV   
+pilot-in-
+command  to  perform  those  separation  provision  and  collision  avoidance
+functions  normally  undertaken  by  a  pilot  in  a  manned  aircraft,  and  
+it  should
+perform  a collision  avoidance  function  autonomously if  separation  
+provision
+has failed for whatever reason.  The S&A system should achieve an equivalent
+level of safety to a manned aircraft.
+
+3.5.4      In  essence,  a  S&A  system  should  provide  the  ability  to  
+detect  conflicting  traffic  in
+time to perform  an avoidance  manoeuvre.   The system  would then notify the  
+UAV
+pilot-in command of the conflict and propose a course of  action to pass  well 
+clear.
+In  the  subsequent  event  of  inaction  or  absence  of  override  by  the  
+UAV  pilot-in-
+command,  the  S&A  system  would  manoeuvre  the  UAV  autonomously  to  miss  
+the
+conflicting traffic.
+
+Specification  UAV8.     A  UAV  S&A  system  should  notify  the  UAV  pilot-in
+command when another aircraft in flight is projected to pass within a specified
+minimum  distance.   Moreover,  it should  do  so in  sufficient  time  for  
+the  UAV
+pilot-in command to manoeuvre the UAV to avoid the conflicting traffic by at
+least that distance or, exceptionally, for the onboard system to manoeuvre the
+UAV autonomously to miss the conflicting traffic.
+
+3.5.5      Notwithstanding  the  above  involvement  of  S&A  in  both  
+separation  provision  and
+collision avoidance, implementation of these functions should as far as is 
+reasonably
+practicable be independent of each other.   Their functionality should also 
+minimize
+situations   where  collision   avoidance   might   override   or  compromise  
+separation
+provision.
+
+Specification  UAV9.    Implementation  of  separation  provision  and  
+collision
+avoidance   functions   in   an   S&A   system   should   as   far   as   is   
+reasonably
+practicable  be  independent  of  each  other.    In  execution,  they  should  
+avoid
+compromising each other.
+
+3.5.6      Source  material  theorizes  on  possible  parameters  to  provide  
+a  safe  and  effective
+S&A capability, eg detection range and the search volume defined by  azimuth and
+elevation that sensors need to scan.   However, such assessments should be left 
+to
+Industry as part of its work on producing a technological solution to S&A, 
+especially
+since   such   parameters   will   vary   according   to   UAV   performance   
+(including
+manoeuvrability).  For this, Industry needed guidance on the minimum separation 
+to
+be        achieved between UAVs and other airspace users.  Industry should then 
+be able
+to  calculate  the  necessary  parameters  to  achieve  this  minimum  
+separation  and
+engineer S&A systems accordingly.   However,  more than one minimum separation
+distance  was  required,  and  a  ‘layered’  application  (eg  like  an  onion  
+skin)  may  be
+more appropriate.
+
+
+3.6         Separation Minima – Where Separation is Provided by ATC
+
+3.6.1      Where separation is provided by ATC within controlled airspace, and 
+in accord with
+the  principle  that  ATM  regulations  and  procedures  for  UAVs  should  as  
+closely  as
+possible  mirror  those  for  manned  aircraft,  the  separation  minima  
+between  UAVs
+operating IFR and other traffic in receipt of a separation service should be 
+the same
+as for manned aircraft flying OAT in the same class of airspace.
+
+Specification UAV10.  Within controlled airspace where separation is provided
+by ATC, the separation minima between UAVs operating IFR and other traffic
+in receipt of a separation service should be the  same  as for  manned aircraft
+flying OAT in the same class of airspace.
+
+3.7         Separation Minima/Miss Distance – Where Responsibility Rests with 
+the UAV
+System
+
+3.7.1      A  2-tier  system  is  envisaged  in  circumstances  where  
+responsibility  for  separation
+provision/collision  avoidance  rests  with  the  UAV  system  (in  the  same  
+way  that  it
+would  for  a  manned  aircraft).     The  first  level  would  involve  the  
+UAV  pilot-in-
+command and the second would utilize autonomous collision avoidance.   However,
+the required miss distance for the latter should be less stringent than the 
+minimum
+separation  which  a  UAV  pilot-in-command  was  required  to  achieve,  since 
+ it  was
+seen as a last-ditch tool akin to TCAS II.
+
+3.7.2      UAV Pilot-in-Command
+
+3.7.2.1   There   are   no  prescribed  ICAO   separation   minima   for   
+manned   aircraft   where
+responsibility   for   separation   rested   with   the   onboard   pilot.   
+Instead,   it   is   only
+necessary that aircraft should not be operated in such proximity to other 
+aircraft as
+to create a collision hazard³.  However, Industry required something less 
+vague.  As
+a consequence,  a practical  minimum separation  to be achieved  by  a  UAV 
+pilot-in-
+command is proposed.
+
+3.7.2.2   Several  authoritative  organizations  quote  or  imply  that  500ft  
+is  an appropriate and
+acceptable miss distance for UAVs.   In the USA, the FAA⁴ view of ‘well clear’ 
+(ie so
+as  to  not  represent  a  collision  hazard)  is  a  minimum  separation  of  
+500ft  between
+aircraft.      To   a   considerable   degree,   this   figure   is   accepted  
+ by   the   Joint
+JAA/EUROCONTROL  UAV  TF⁵  as  the  basis  for  recommending  work  to  identify
+Minimum  Performance  Standards  (MPS)  for  future  S&A  systems.   Industry⁶  
+itself
+regards 500ft as a minimum ‘worst-case separation’ distance for S&A.  Finally, 
+in the
+context of manoeuvring between aircraft to achieve safe separation, NATO⁷ 
+defines
+500ft as ‘well clear’.
+
+3.7.2.3   Thus, arguably, 500ft represents an adequate minimum distance that a 
+UAV pilot-in-
+command  should  be  required  to  achieve  against  other  airspace  users.   
+However,
+while use of 500ft vertical separation is routine between manned aircraft and 
+should
+
+³ ICAO Annex 2 - Rules of the Air, § 3.2.1
+
+⁴ FAA Order 8700.1, Change 3, Chapter 169, § 5A
+
+⁵ Joint JAA/EUROCONTROL UAV TF Final Report dated 11 May 04
+
+⁶ UAVS Draft Paper ‘Guideline Parameters for an Integrated Sense and Avoid 
+System for UAVs’
+
+⁷ NATO AGS3 ‘UAV ATC Study for AGS’ dated 16 Dec 03
+
+
+not therefore cause undue concern to other airspace users, the application of 
+500ft
+horizontal  separation  could  generate  a  heightened  sense  of  collision  
+risk.    An
+increase in horizontal separation to 0.5nm would reduce this perception and 
+also the
+collision  risk  itself,  and  is  therefore  preferable.    These  minima  
+would  only  apply
+away from aerodromes.
+
+Specification  UAV11.     Where  a  UAV  pilot-in-command  is  responsible  for
+separation, he should, except for aerodrome operations, maintain a minimum
+distance  of  0.5nm  horizontally  or  500ft  vertically  between  his  UAV  
+and  other
+airspace  users,  regardless  of  how  the  conflicting  traffic  was  detected 
+ and
+irrespective of whether or not he was prompted by a S&A system.
+
+3.7.3      Autonomous Collision Avoidance
+
+3.7.3.1   Where a UAV system initiates collision avoidance autonomously, this 
+is considered
+analogous  to  the  role  performed  by  airborne  collision  avoidance  
+systems  (ACAS)
+developed  for  manned  aircraft,  as  currently  manifest  in  TCAS  II.   
+However,  since
+TCAS II is a co-operative⁸ system, it does not provide a near-term solution to 
+S&A.
+This  may  become feasible  if  the carriage and  operation  of  SSR (providing 
+ altitude
+information) is ever mandated on all airspace users, but not before.
+
+3.7.3.2   TCAS uses time-to-go to Closest Point of Approach rather than minimum 
+separation
+distance,  although  distance  and  altitude  difference  are  taken  into  
+account  where
+closure  rates  are  low.   In  addition,  the  size  of  the  protected  
+volume  surrounding
+each  TCAS-equipped  aircraft  is  dependant  upon  the  speed  and  heading  
+of  the
+aircraft  involved  in  the  encounter.   Some  idea  of  miss  distances  may  
+be  gleaned
+from  the  prescribed  alarm  thresholds  required  to  generate  a  TCAS  II  
+Resolution
+Advisory in the case of low closure rate; these vary according to altitude but 
+are set
+between 0.2-1.1nm laterally and 300-700ft vertically⁹.
+
+3.7.3.3   In the case of autonomous collision avoidance, it is considered 
+logical to require the
+UAV system to achieve miss  distances  similar to  those designed into ACAS.   
+The
+system should be compatible with (and not compromise the operation of) ACAS.
+
+Specification  UAV12.     Where  a  UAV  system  initiates  collision  avoidance
+autonomously,  it  should  achieve  miss  distances  similar  to  those  
+designed
+into ACAS.  The system should be compatible with ACAS.
+
+3.8         Aerodrome Operations
+
+3.8.1      Extant  national  procedures  for  the  aerodrome  operation  of  
+UAVs  are  surprisingly
+sparse.  Nonetheless, principles similar to those for UAV flight as OAT should 
+apply.
+Thus,  UAV  operations  at  aerodromes  should  interface  with  the  aerodrome 
+ control
+service as near as possible in the same way as manned aircraft.
+
+Specification UAV13. UAV operations at aerodromes should interface with the
+aerodrome  control  service  as  near  as  possible  in  the  same  way  as  
+manned
+aircraft.
+
+⁸ Requires common fitment of equipment.
+
+⁹ FAA Introduction to TCAS II Version 7 dated Nov 00
+
+
+3.8.2      Although UAVs  may  be launched and recovered in a variety  of  ways 
+(eg by  hand,
+catapult,  etc),  these  specifications  assume  a  requirement  to  use  
+taxiways  and
+runways.
+
+3.8.3      Ground Operation
+
+3.8.3.1   In  this  context,  Ground  Operation  covers  the  movement  of  a  
+UAV  from  parking
+position to lift-off  and from touchdown to  parking  position,  and includes  
+integration
+with manned aircraft and vehicles using the manoeuvring areas and the avoidance
+of runway incursions.
+
+3.8.3.2   In the absence of technical assistance to enable a UAV to navigate 
+its way around
+an  airfield,  to  see  and  obey  visual  signs  and  signals,  and  to  avoid 
+ collisions,  the
+UAV should be provided with ground-based observation to assist with taxiing.   
+This
+may  involve the  UAV following  a  manned  ground vehicle  by  optical or 
+other  (non-
+mechanical) coupling or being towed to the take-off position.   These 
+ground-based
+observers should be in communication with the aerodrome control service and with
+the  UAV pilot-in-command.   A similar procedure should apply to return the UAV 
+to
+its parking position.
+
+Specification UAV14.   When taxiing, and in the absence of adequate technical
+assistance,  a  UAV  should  be  monitored  by  ground-based  observers,  who
+should  be in communication with the aerodrome control service and with the
+UAV pilot-in-command.
+
+3.8.4      Runway and Aerodrome Visual Circuit
+
+3.8.4.1   Take-off  and  landing  and  flight  in  an  aerodrome  visual  
+circuit  should  accord  with
+national   procedures,   and   the   UAV   should   follow   aerodrome   
+control   service
+instructions.
+
+3.8.4.2   Irrespective   of   flight   conditions,   the    UAV    
+pilot-in-command   should   remain
+responsible for ensuring his flight path is clear of obstructions and should 
+therefore
+maintain situational awareness with regard to the runway and the aerodrome 
+visual
+circuit.    This  does  not  preclude  UAVs  from  executing  autonomous  
+take-offs  and
+landings,  but  is  intended  to  enable  the  UAV  pilot-in-command  to  
+intervene  in
+response to aerodrome control service instructions - which may include 
+integration
+with other traffic flying in the aerodrome visual circuit - and to assume 
+responsibility
+for collision avoidance.
+
+Specification  UAV15.    For  take-off  and  landing  and  flight  in  an  
+aerodrome
+visual   circuit,   the   UAV   pilot-in-command   should   be   able   to   
+maintain
+situational  awareness  to  fulfil  his  responsibility  for  collision  
+avoidance,  and
+he should comply with aerodrome control service instructions.
+
+3.8.4.3   Where safe integration is impracticable, consideration should be 
+given to excluding
+other aircraft from the airspace in the immediate vicinity of an aerodrome 
+during the
+launch and recovery of UAVs.
+
+Specification  UAV16.  Where  safe  integration  is  impracticable,  
+consideration
+should be given to excluding other aircraft from the airspace in the immediate
+vicinity of an aerodrome during the launch and recovery of UAVs.
+
+
+3.9         Emergency Procedures
+
+3.9.1      With  regard  to  ATM,  the  TF  considered  it  to  be  outside  
+its  scope  to  identify  and
+address the multifarious  emergencies that  might  befall a military  UAV.   
+This Paper
+therefore deals with these only in general terms.
+
+3.9.2      UAV  emergency  procedures  should  mirror  those  for  manned  
+aircraft  wherever
+possible.   Nevertheless, the absence of a pilot in the cockpit and the unique 
+nature
+of  some  UAV  emergencies  will  require  additional  provisions.   These  may 
+ include
+use  of  an  Emergency  Recovery  Procedure  or  a  Flight  Termination  
+System,  either
+autonomously  or  managed  by  the  UAV  pilot-in-command.   Such  
+pre-programmed
+emergency flight profiles should be designed to ensure the safety of other 
+airspace
+users  and  people  on  the  ground,  and  they  should  be  coordinated  with  
+ATC  as
+appropriate.
+
+Specification  UAV17.    UAV  emergency  procedures  should  mirror  those  for
+manned  aircraft   as   far   as   practicable.     Where   different,   they   
+should   be
+designed  to  ensure  the  safety  of  other  airspace  users  and  people  on  
+the
+ground, and they should be coordinated with ATC as appropriate.
+
+3.9.3      Loss of Control-Link Between UAV and Pilot-in-Command
+
+3.9.3.1   The  potential  for  loss  of  control-link  between  a  UAV  and  
+its  pilot-in-command
+requires that the craft be pre-programmed with an appropriate contingency plan.
+
+Specification  UAV18.   UAVs  should  be  pre-programmed  with  an  appropriate
+contingency  plan  in  the  event  that  the  pilot-in-command  is  no  longer  
+in
+control     of the UAV.
+
+3.9.3.2   Given that  one of the more likely causes of loss  of control of a 
+UAV by its pilot-in-
+command is loss of data-link, the UAV System should provide the pilot-in-command
+with a prompt indication of any such loss of control data-link.
+
+Specification UAV19.  A UAV System should provide a prompt indication to its
+pilot-in-command in the event of loss of control data-link.
+
+3.9.3.3   It is important that ATC be made aware if a UAV flying in its 
+airspace is no longer
+under the control of its pilot-in-command.   This should be accomplished both 
+by the
+pilot-in-command informing ATC as soon as possible and by the UAV System itself
+providing  an  indication  to  ATC,  possibly  by  operation  of  a  specific  
+squawk.   The
+pilot-in-command  should  also  advise  ATC  of  the  contingency  plan  which  
+the  UAV
+will be executing.
+
+Specification  UAV20.   When  a  UAV  is  not  operating  under  the  control  
+of  its
+pilot-in-command, the latter should inform the relevant ATC authority as soon
+as  possible,  including  details  of the contingency  plan  which the  UAV  
+will  be
+executing.   In addition, the UAV System should indicate such loss of control
+to ATC.
+
+3.10       Airspace Management
+
+3.10.1    Flexible Use of Airspace (FUA) is a key component of present and 
+future European
+airspace management and, as such, provides a means of accommodating portions
+
+
+of   a   UAV   sortie   where   operating   requirements   or   technical   or  
+ functional
+shortcomings  render  it  incompatible  with  other  air  traffic.    Thus,  
+where  a  UAV
+system cannot meet all the requirements of a complex airspace structure, 
+processes
+associated with airspace management should be utilized to reserve airspace for 
+the
+express purpose of enabling the UAV to transit the airspace in question.
+
+Specification UAV21.   Where a UAV system cannot meet the technical and/or
+functional requirements for operation as OAT, that portion of the sortie should
+be accommodated within temporary reserved airspace to provide segregation
+from other airspace users.
+
+3.11       Interface with ATC
+
+3.11.1    In general, UAV operations should interface with ATC in the same way 
+as manned
+aircraft.  Ergo,  the  air  traffic  service  routinely  provided  to  a  UAV  
+should  require  no
+special action or consideration on the part on an ATC controller.
+
+3.11.2    Communications
+
+3.11.2.1 While in receipt of an air traffic service, the UAV pilot-in command 
+should maintain
+2-way  communications  with  the  appropriate  ATC  authorities,  and  should  
+make  all
+position and other reports as required.
+
+3.11.2.2 Extant  ATC  phraseology  is  adequate  for  the  provision  of  an  
+air  traffic  service  to
+UAVs except that a controller may find it helpful to be aware that he was 
+providing
+an air traffic service to a UAV.   The word ‘unmanned’ should therefore be 
+included
+on first contact with an ATC unit.   However, it was not felt necessary to 
+alert other
+airspace  users  to  the  presence  of  a  UAV  on  frequency  by  repeating  
+the  word  on
+every transmission.
+
+Specification UAV22.  While in receipt of an air traffic service, the UAV 
+pilot-in
+command  should  maintain  2-way  communications  with  ATC,  using  standard
+phraseology when communicating via RTF.   The word ‘unmanned’ should be
+included on first contact with an ATC unit.
+
+3.11.3    Air Traffic Service
+
+3.11.3.1 The air traffic service provided to UAVs should accord with that 
+provided to manned
+aircraft,  including  separation  criteria.    Thus,  the  UAV  pilot-in  
+command  will  be
+required to comply  with any ATC instruction or request for information made by 
+an
+air  traffic  unit  in  the  same  way  and  within  the  same  timeframe  as  
+the  pilot  of  a
+manned aircraft.  Where this is not possible, eg because it is not technically 
+feasible,
+then the UAV pilot-in command must make a clear statement to ATC to this effect,
+eg ‘Negative, unable to comply’.
+
+Specification UAV23.   The air traffic service provided to UAVs should accord
+with that provided to manned aircraft.
+
+3.11.4    Flight Planning
+
+3.11.4.1 Where flight by manned aircraft requires the submission of a flight 
+plan to ATC, the
+same should apply to flight by UAVs.
+
+
+3.11.4.2 The flight plan should indicate that it relates to an unmanned 
+aircraft.
+
+3.11.4.3 Due to the typical nature of UAV operations, it is anticipated that 
+requirements may
+occur for en-route holding (ie orbits).  Accordingly, the UAV flight plan 
+should include
+any requirements for en-route delays, defining holding area orientation, leg 
+lengths,
+altitudes and holding times.
+
+Specification   UAV24.       Where    flight    by    manned   aircraft    
+requires    the
+submission of a flight plan to ATC, the same should apply to flight by UAVs.
+The UAV flight plan should indicate that it relates to an unmanned aircraft, and
+should include details of any requirement for en-route holding.
+
+3.11.5    Flight Deviations
+
+3.11.5.1 While in receipt of an air traffic service, UAVs should be monitored 
+continuously by
+the UAV pilot-in command for adherence to the approved flight plan.  All 
+requests for
+flight deviations should be made by using established procedures to the 
+appropriate
+ATC authorities.
+
+Specification  UAV25.   While  in  receipt  of  air  traffic  service,  UAVs  
+should  be
+monitored  continuously  by  the  UAV  pilot-in  command  for  adherence  to  
+the
+approved flight plan.
+
+3.11.6    UAV Performance Characteristics
+
+3.11.6.1 The  performance  characteristics  of  individual  UAVs  will  vary.   
+ Pilots-in-command
+should have detailed knowledge of their particular vehicle.  However, the 
+knowledge
+requirement for ATC controllers will perforce be more general, in the same way 
+it is
+for       the  various  types  of   manned  aircraft  they   routinely  
+control.     They  should
+therefore be familiar with UAV performance characteristics insofar as they 
+relate to
+integration  with other traffic  under their control,  eg airspeed,  rate of  
+climb/descent,
+turn radius, etc.
+
+Specification  UAV26.   Pilots-in-command  should  have  detailed  knowledge  of
+the  performance  characteristics  of  their  particular  vehicle.    ATC  
+controllers
+should be familiar with UAV performance characteristics insofar as they relate
+to integration with other traffic under their control.
+
+3.12       Meteorology
+
+3.12.1    Similar to manned aircraft, weather minima for UAV flight will be 
+determined by the
+equipment and capabilities of each UAV system, the qualifications of the UAV 
+pilot-
+in command, the flight rules being flown and the class(es) of airspace in which 
+the
+flight is conducted.
+
+Specification   UAV27.      The   weather   minima   for   UAV   flight   
+should   be
+determined   by  the   equipment  and  capabilities  of  each  UAV  system,   
+the
+qualifications  of  the  UAV  pilot-in  command,  the  flight  rules  being  
+flown  and
+the class of airspace in which the flight is conducted.
+
+
+3.13       Flight Across International Borders and Across Flight and Upper 
+Information
+Region (FIR/UIR) Boundaries
+
+3.13.1    As state aircraft,  UAVs  are theoretically  exempt the requirement  
+of  Article 8 of  the
+Chicago  Convention  for  special  authorization  for  unmanned  aircraft  to  
+fly  over  the
+territory of another state.  However, Article 3 precludes state aircraft from 
+flying over
+the territory of another state without authorization by special agreement.  
+Conscious
+of the potential sensitivity of flight across international borders, the TF 
+took the view
+that Article 3 applied to state UAVs, and that they should therefore be the 
+subject of
+authorization by special agreement.
+
+3.13.2    International  borders  do  not  necessarily  coincide  with  FIR/UIR 
+ boundaries.    To
+reduce  the  potential  for  misunderstanding  in  such  circumstances,  and  
+to  enhance
+flight  safety  by  ensuring  that  air  navigation  service  providers  
+(ANSPs)  are  made
+aware of UAV activity within airspace for which they have responsibility, the 
+TF felt
+that, where it was planned for a UAV flight to enter another FIR/UIR or the 
+sovereign
+airspace  of  another  state,  then  details  of  the  flight  should  be  
+pre-notified  to  the
+relevant   airspace   authority.      This   should   normally   be   
+accomplished   by   the
+submission of a flight plan.
+
+3.13.3    Where  an  air  traffic  service  is  being  provided  to  a  UAV  by 
+ ATC  and  transfer  is
+required to an ATC unit in an adjacent state, this should be conducted in the 
+same
+manner as for manned aircraft.
+
+Specification  UAV28.    With  regard  to  cross-border  operations,  state  
+UAVs
+should  be  bound  by  the  same  international  conventions  as  manned  state
+aircraft.    In  addition,  flights  by  state  UAVs  into  other  FIR/UIRs  or 
+ into  the
+sovereign  airspace  of  other  states  should  be  pre-notified  to  the  
+relevant
+airspace  authorities,  normally  by submission  of a  flight  plan.   ATC  
+transfers
+between adjacent states should accord with those for manned aircraft.
+
+3.14       OAT CNS Functionality Requirements
+
+3.14.1    When flying outside segregated airspace,  UAV  CNS functionality  and 
+performance
+should  be  equivalent  to  that  required  for  manned  aircraft,  and  
+appropriate  to  the
+airspace in which the UAV is flying and to any air traffic service provided to 
+the UAV.
+This   is  in  addition  to  functionality  related  to  possible  
+communication  relay  and
+control data-linking, and to the S&A system(s) previously discussed.
+
+
+3.14.2    Depending on the sortie, a UAV may be required to carry some or all 
+of the following
+CNS functionality:
+
+a.       Radio Communications. Capable of forming part of the architecture that
+enables the UAV pilot-in-command to communicate with ATC on regular ATC
+frequencies.
+
+b.       Navigation Systems. Capable of providing data in a format that will 
+enable the
+UAV pilot-in-command to report in accordance with ATC requirements.
+
+c.       Transponder. An operable SSR transponder that will allow the UAV 
+pilot-in-
+command to respond to ATC requests to alter settings, squawk ident, etc.
+
+3.14.3    Notwithstanding the above, where, for technical or operational 
+reasons, compliance
+with specific CNS functionality requirements is not possible or is not 
+warranted, the
+exemption policy¹⁰ applicable to manned state aircraft should extend to UAVs.
+
+3.14.4    Although ACAS may seem ideally suited for installation in UAVs, it  
+was  developed
+for manned aircraft,  and further research is  required before any  system 
+employing
+ACAS technology could be considered for use on UAVs.
+
+Specification   UAV29.     UAVs   should   carry   similar   functionality   
+for   flight,
+navigation  and  communication  to  that  required  for  manned  aircraft.    
+The
+exemption  policy  for  manned  state  aircraft  with  regard  to  specific  
+equipage
+requirements should also apply to state UAVs.
+
+3.14.5    In accord with the principle that the provision of an air traffic 
+service to a UAV should
+be transparent to an ATC controller, there is no requirement for a continuous 
+ground
+link  between  ATC  and  the  UAV  pilot-in-command  to  supplement  
+communications
+conducted via the UAV itself.  Nevertheless, it would be prudent for the UAV 
+pilot-in-
+command to have some other means of communicating with ATC in case of loss of
+linkage via the UAV.
+
+Specification UAV30.   The UAV pilot-in-command should be provided with an
+independent  means  of  communication  with  ATC  in  case  of  loss  of  normal
+communications linkage, for example via telephone.
+
+3.14.6    When in receipt of an ATS, it is clearly important that there should 
+be minimal delay
+in the ability of a pilot-in-command to respond to ATC instructions, 
+particularly when
+these relate to separation provision.  The pilot-in-command should therefore be 
+able
+to provide a prompt response to separation provision instructions similar to 
+that by a
+pilot of a manned aircraft.
+
+Specification UAV31. A pilot-in-command should be able to provide a prompt
+response  to  separation  provision  instructions  similar  to  that  by  a  
+pilot  of  a
+manned aircraft.
+
+¹⁰ CMIC Policy Guidance for the Exemption of State Aircraft from Compliance 
+with Specific Aircraft
+Equipage Requirements dated 4 Mar 03

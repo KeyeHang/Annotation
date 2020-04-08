@@ -1,0 +1,936 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/E:/Annotation/DRONE%20DOCUMENT/Conceptual%20Design%20Review.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>3. System-level Requirements &amp; Performance Measures&#xd;
+<Node id="53"/>&#xd;
+<Node id="55"/>Our  UAV-UGV  collaboration  system  will  be  divided  into  3  main  parts:  &#xd;
+<Node id="136"/>UAV<Node id="139"/>,  <Node id="142"/>UGV<Node id="145"/>,  and&#xd;
+<Node id="153"/>manipulator mounted<Node id="172"/> on UGV.&#xd;
+<Node id="182"/>&#xd;
+<Node id="184"/>3.1 <Node id="188"/>UGV<Node id="191"/> Requirements &amp; Performance Measures&#xd;
+<Node id="229"/>&#xd;
+&#xd;
+<Node id="233"/>Travelling&#xd;
+distance<Node id="253"/>/&#xd;
+<Node id="256"/>Communication&#xd;
+Range&#xd;<Node id="277"/>
+<Node id="278"/>&#xd;
+<Node id="280"/>Terrain&#xd;<Node id="288"/>
+<Node id="289"/>&#xd;
+<Node id="291"/>Payload&#xd;<Node id="299"/>
+<Node id="300"/>&#xd;
+<Node id="302"/>Battery Life&#xd;<Node id="315"/>
+<Node id="316"/>&#xd;
+<Node id="318"/>Area of Helipad&#xd;
+<Node id="335"/>&#xd;
+<Node id="337"/>Slope<Node id="342"/>&#xd;
+<Node id="344"/>&#xd;
+<Node id="346"/>Weight<Node id="352"/>&#xd;
+<Node id="354"/>&#xd;
+<Node id="356"/>Maximum Speed&#xd;<Node id="370"/>
+<Node id="371"/>&#xd;
+<Node id="373"/>Description&#xd;
+<Node id="386"/>&#xd;
+<Node id="388"/>The farthest <Node id="401"/>distance<Node id="409"/> <Node id="410"/>UGV<Node id="413"/> can&#xd;
+travel without losing&#xd;
+communication to the <Node id="463"/>operator<Node id="471"/>.&#xd;
+<Node id="474"/>&#xd;
+<Node id="476"/>The <Node id="480"/>terrain<Node id="487"/> that <Node id="493"/>UGV<Node id="496"/> should be&#xd;
+able to travel across.&#xd;
+<Node id="532"/>&#xd;
+<Node id="534"/>The <Node id="538"/>payload<Node id="545"/> of <Node id="549"/>UGV<Node id="552"/>, including&#xd;
+<Node id="565"/>UAV<Node id="568"/>, <Node id="570"/>manipulator<Node id="581"/>, and <Node id="587"/>explosive<Node id="596"/>.&#xd;
+<Node id="599"/>&#xd;
+<Node id="601"/>The <Node id="605"/>battery life<Node id="617"/> of <Node id="621"/>UGV<Node id="624"/>.&#xd;
+<Node id="627"/>&#xd;
+<Node id="629"/>The area of the helipad for <Node id="657"/>UAV<Node id="660"/>&#xd;
+to <Node id="665"/>land on<Node id="672"/>.&#xd;
+<Node id="675"/>&#xd;
+<Node id="677"/>The <Node id="681"/>slope<Node id="686"/> that <Node id="692"/>UGV<Node id="695"/> can <Node id="700"/>climb<Node id="705"/>.&#xd;
+<Node id="708"/>&#xd;
+<Node id="710"/>The <Node id="714"/>weight<Node id="720"/> of <Node id="724"/>UGV<Node id="727"/> without&#xd;
+payload or manipulator.&#xd;
+<Node id="762"/>&#xd;
+<Node id="764"/>Maximum <Node id="772"/>Speed<Node id="777"/> of <Node id="781"/>UGV<Node id="784"/>&#xd;
+<Node id="786"/>moving<Node id="792"/>.&#xd;
+<Node id="795"/>&#xd;
+<Node id="797"/>Performance Measure&#xd;
+<Node id="818"/>&#xd;
+<Node id="820"/>The <Node id="824"/>distance<Node id="832"/> should be <Node id="843"/>100m<Node id="847"/> at&#xd;
+min.&#xd;
+<Node id="858"/>&#xd;
+<Node id="860"/>UGV<Node id="863"/> should be able to <Node id="882"/>cross<Node id="887"/> a&#xd;
+5cm step or shallow water, as&#xd;
+well as other rough surface such&#xd;
+as grass.&#xd;
+<Node id="967"/>&#xd;
+<Node id="969"/>The <Node id="973"/>payload<Node id="980"/> of <Node id="984"/>UGV<Node id="987"/> should be&#xd;
+<Node id="999"/>40kg<Node id="1003"/> at max.&#xd;
+<Node id="1013"/>&#xd;
+<Node id="1015"/>UGV<Node id="1018"/> should sustain continuous&#xd;
+operation for at least <Node id="1069"/>2 hours<Node id="1076"/>.&#xd;
+The    area of the helipad should&#xd;
+<Node id="1114"/>&#xd;
+<Node id="1116"/>be at least 1ft*1ft big.&#xd;
+<Node id="1142"/>&#xd;
+<Node id="1144"/>UGV<Node id="1147"/> should be able to <Node id="1166"/>climb<Node id="1171"/> a&#xd;
+<Node id="1175"/>15 degree slope<Node id="1190"/>.&#xd;
+<Node id="1193"/>&#xd;
+<Node id="1195"/>The <Node id="1199"/>weight<Node id="1205"/> of <Node id="1209"/>UGV<Node id="1212"/> should not&#xd;
+exceed 12kg.&#xd;
+<Node id="1239"/>&#xd;
+<Node id="1241"/>The <Node id="1245"/>speed<Node id="1250"/> should maintain at&#xd;
+1m/s.&#xd;
+<Node id="1278"/>&#xd;
+<Node id="1280"/>Priority&#xd;
+<Node id="1290"/>&#xd;
+<Node id="1292"/>High&#xd;
+<Node id="1298"/>&#xd;
+<Node id="1300"/>High&#xd;
+<Node id="1306"/>&#xd;
+<Node id="1308"/>High&#xd;
+<Node id="1314"/>&#xd;
+<Node id="1316"/>High&#xd;
+<Node id="1322"/>&#xd;
+<Node id="1324"/>High&#xd;
+<Node id="1330"/>&#xd;
+<Node id="1332"/>Medium&#xd;
+<Node id="1340"/>&#xd;
+<Node id="1342"/>Medium&#xd;
+<Node id="1350"/>&#xd;
+<Node id="1352"/>Low&#xd;
+<Node id="1357"/>&#xd;
+&#xd;
+<Node id="1361"/>3.2 <Node id="1365"/>UAV<Node id="1368"/> Requirements &amp; Performance Measures&#xd;
+<Node id="1406"/>&#xd;
+<Node id="1408"/>Description                        Performance Measure            Priority&#xd;
+<Node id="1484"/>&#xd;
+&#xd;<Node id="1487"/>
+<Node id="1488"/>Video Quality<Node id="1501"/>&#xd;
+<Node id="1503"/>&#xd;
+<Node id="1505"/>Frequency<Node id="1514"/> of&#xd;
+<Node id="1519"/>Camera&#xd;<Node id="1526"/>
+<Node id="1527"/>&#xd;
+<Node id="1529"/>Weight&#xd;<Node id="1536"/>
+<Node id="1537"/>&#xd;
+<Node id="1539"/>Flight Control&#xd;<Node id="1554"/>
+<Node id="1555"/>&#xd;
+<Node id="1557"/>Sensor&#xd;<Node id="1564"/>
+<Node id="1565"/>&#xd;
+<Node id="1567"/>Payload<Node id="1574"/>&#xd;
+<Node id="1576"/>&#xd;
+<Node id="1578"/>Processor<Node id="1587"/> Speed&#xd;<Node id="1594"/>
+<Node id="1595"/>&#xd;
+<Node id="1597"/>The <Node id="1601"/>resolution<Node id="1611"/> of video <Node id="1621"/>captured<Node id="1629"/>&#xd;
+by the <Node id="1638"/>camera<Node id="1644"/> on <Node id="1648"/>UAV<Node id="1651"/>.&#xd;
+<Node id="1654"/>&#xd;
+<Node id="1656"/>Better <Node id="1663"/>frequency<Node id="1672"/> gives better&#xd;
+accuracy. <Node id="1697"/>Measure<Node id="1704"/> <Node id="1705"/>number of&#xd;
+frame<Node id="1721"/> per second.&#xd;
+<Node id="1735"/>&#xd;
+<Node id="1737"/>The <Node id="1741"/>weight<Node id="1747"/> of <Node id="1751"/>UAV<Node id="1754"/>. It should be&#xd;
+light enough to land on <Node id="1794"/>UGV<Node id="1797"/>.&#xd;
+<Node id="1800"/>&#xd;
+<Node id="1802"/>Measure difference of given&#xd;
+command and executed value.&#xd;
+<Node id="1860"/>&#xd;
+<Node id="1862"/>The sensors mounted on UAV.&#xd;
+<Node id="1891"/>&#xd;
+<Node id="1893"/>The payload of UAV.&#xd;
+<Node id="1914"/>&#xd;
+<Node id="1916"/>The <Node id="1920"/>speed<Node id="1925"/> of onboard <Node id="1937"/>processor<Node id="1946"/>.&#xd;
+Better processing <Node id="1967"/>speed<Node id="1972"/> and&#xd;
+<Node id="1978"/>frequency<Node id="1987"/> is desired&#xd;
+<Node id="2000"/>&#xd;
+<Node id="2002"/>The ideal <Node id="2012"/>resolution<Node id="2022"/> of video is&#xd;
+720p.&#xd;
+<Node id="2043"/>&#xd;
+<Node id="2045"/>The <Node id="2049"/>FPS<Node id="2052"/> should at least be 24.&#xd;
+<Node id="2077"/>&#xd;
+<Node id="2079"/>The <Node id="2083"/>weight<Node id="2089"/> should be less than&#xd;
+500g.&#xd;
+<Node id="2118"/>&#xd;
+<Node id="2120"/>When given commands to<Node id="2142"/> <Node id="2143"/>reach<Node id="2148"/>&#xd;
+a designated point<Node id="2168"/>, <Node id="2170"/>UAV<Node id="2173"/> should&#xd;
+not deviate for more than 10cm&#xd;
+from that point.&#xd;
+<Node id="2232"/>&#xd;
+<Node id="2234"/>The <Node id="2238"/>UAV<Node id="2241"/> should be mounted&#xd;
+with <Node id="2266"/>IMU<Node id="2269"/> and <Node id="2274"/>ultrasonic&#xd;
+sensors<Node id="2293"/>.&#xd;
+<Node id="2296"/>&#xd;
+<Node id="2298"/>The <Node id="2302"/>UAV<Node id="2305"/> should sustain at least&#xd;
+300g of <Node id="2339"/>payload<Node id="2346"/>.&#xd;
+<Node id="2349"/>&#xd;
+<Node id="2351"/>The <Node id="2355"/>MIPS<Node id="2359"/> rating should exceed&#xd;
+1000.&#xd;
+<Node id="2389"/>&#xd;
+<Node id="2391"/>High&#xd;
+<Node id="2397"/>&#xd;
+<Node id="2399"/>High&#xd;
+<Node id="2405"/>&#xd;
+<Node id="2407"/>High&#xd;
+<Node id="2413"/>&#xd;
+<Node id="2415"/>Medium&#xd;
+<Node id="2423"/>&#xd;
+<Node id="2425"/>Medium&#xd;
+<Node id="2433"/>&#xd;
+<Node id="2435"/>Medium&#xd;
+<Node id="2443"/>&#xd;
+<Node id="2445"/>Medium&#xd;
+<Node id="2453"/>&#xd;
+<Node id="2455"/>3.3 <Node id="2459"/>Manipulator<Node id="2470"/> Requirements &amp; Performance Measures&#xd;
+<Node id="2508"/>&#xd;
+&#xd;
+<Node id="2512"/>Maximum&#xd;
+<Node id="2521"/>Payload<Node id="2528"/>&#xd;
+<Node id="2530"/>&#xd;
+<Node id="2532"/>Maximum Reach&#xd;
+Shoulder Yaw&#xd;
+Shoulder Pitch&#xd;
+<Node id="2577"/>&#xd;
+<Node id="2579"/>Elbow Pitch&#xd;
+<Node id="2592"/>&#xd;
+<Node id="2594"/>Wrist Pitch&#xd;
+<Node id="2607"/>&#xd;
+<Node id="2609"/>Description&#xd;
+<Node id="2622"/>&#xd;
+<Node id="2624"/>The <Node id="2628"/>lifting capacity<Node id="2644"/> of&#xd;
+manipulator.&#xd;
+<Node id="2663"/>&#xd;
+<Node id="2665"/>Reach of manipulator at full&#xd;
+extension.&#xd;
+<Node id="2707"/>&#xd;
+<Node id="2709"/>Manipulator base rotation.&#xd;
+<Node id="2737"/>&#xd;
+<Node id="2739"/>Rotation<Node id="2747"/> of the1Ë¢áµ&#x2014; joint of&#xd;
+manipulator.&#xd;
+<Node id="2785"/>&#xd;
+<Node id="2787"/>Rotation<Node id="2795"/> of 2â&#xfffd;¿áµ&#x2c6; joint of&#xd;
+manipulator.&#xd;
+<Node id="2831"/>&#xd;
+<Node id="2833"/>Rotation<Node id="2841"/> of <Node id="2845"/>wrist<Node id="2850"/> of the&#xd;
+manipulator.&#xd;
+<Node id="2873"/>&#xd;
+<Node id="2875"/>Performance Measure&#xd;
+<Node id="2896"/>&#xd;
+<Node id="2898"/>UGV<Node id="2901"/> should be able <Node id="2917"/>lift<Node id="2921"/> and&#xd;
+<Node id="2927"/>carry<Node id="2932"/> 1 Lb. of load.&#xd;
+<Node id="2949"/>&#xd;
+<Node id="2951"/>30 cm reach is required to pick&#xd;
+up an explosive efficiently.&#xd;
+<Node id="3014"/>180 degrees<Node id="3025"/> is desirable.&#xd;
+<Node id="3041"/>&#xd;
+<Node id="3043"/>180 degrees<Node id="3054"/> is desirable.&#xd;
+<Node id="3070"/>&#xd;
+<Node id="3072"/>180 degrees<Node id="3083"/> is desirable.&#xd;
+<Node id="3099"/>&#xd;
+<Node id="3101"/>180 degrees<Node id="3112"/> is desirable.&#xd;
+<Node id="3128"/>&#xd;
+<Node id="3130"/>Priority&#xd;
+<Node id="3140"/>&#xd;
+<Node id="3142"/>High&#xd;
+<Node id="3148"/>&#xd;
+<Node id="3150"/>High&#xd;
+High&#xd;
+High&#xd;
+<Node id="3168"/>&#xd;
+<Node id="3170"/>High&#xd;
+<Node id="3176"/>&#xd;
+<Node id="3178"/>High&#xd;
+<Node id="3184"/>&#xd;
+&#xd;
+<Node id="3188"/>Gripper<Node id="3195"/> Opening&#xd;
+<Node id="3205"/>&#xd;
+<Node id="3207"/>Interface&#xd;
+<Node id="3218"/>&#xd;
+<Node id="3220"/>Manipulator&#xd;
+<Node id="3233"/>Weight<Node id="3239"/>&#xd;
+<Node id="3241"/>&#xd;<Node id="3242"/>
+<Node id="3243"/>Linear Arm Speed<Node id="3259"/>&#xd;
+<Node id="3261"/>Power<Node id="3266"/>&#xd;
+<Node id="3268"/>&#xd;
+<Node id="3270"/>Opening of gripper.&#xd;
+<Node id="3291"/>&#xd;
+<Node id="3293"/>Software control of manipulator.&#xd;
+<Node id="3327"/>&#xd;
+<Node id="3329"/>Weight<Node id="3335"/> of manipulator.&#xd;
+<Node id="3353"/>Speed<Node id="3358"/> of manipulator.&#xd;
+<Node id="3376"/>&#xd;
+<Node id="3378"/>Power requirement to operate the&#xd;
+manipulator.&#xd;
+<Node id="3426"/>&#xd;
+<Node id="3428"/>Minimum 10 cm is required.&#xd;
+<Node id="3456"/>&#xd;
+<Node id="3458"/>Each link should be controlled&#xd;
+with minimum 1 degree&#xd;
+<Node id="3513"/>resolution<Node id="3523"/>.&#xd;
+<Node id="3526"/>&#xd;
+<Node id="3528"/>The <Node id="3532"/>weight<Node id="3538"/> of manipulator&#xd;
+should not exceed 4 lb.&#xd;
+10 cm/sec is appropriate.&#xd;
+<Node id="3607"/>&#xd;
+<Node id="3609"/>6 volt<Node id="3615"/> and <Node id="3620"/>5 amps<Node id="3626"/> are required&#xd;
+to operate all servo motors.&#xd;
+<Node id="3671"/>&#xd;
+<Node id="3673"/>High&#xd;
+<Node id="3679"/>&#xd;
+<Node id="3681"/>High&#xd;
+<Node id="3687"/>&#xd;
+<Node id="3689"/>Medium&#xd;
+Medium&#xd;
+Medium&#xd;
+6. Function Architecture&#xd;
+<Node id="3739"/>&#xd;
+<Node id="3741"/>The function architecture for our system can be divided into 6 subsystems: <Node id="3816"/>User<Node id="3820"/> &#xd;
+&amp; UI,&#xd;
+<Node id="3830"/>Communication<Node id="3843"/>, <Node id="3845"/>Sensing<Node id="3852"/>, <Node id="3854"/>Motion<Node id="3860"/>, <Node id="3862"/>Gripping<Node id="3870"/>, and <Node id="3876"/>Power<Node id="3881"/>.&#xd;
+<Node id="3884"/>&#xd;
+&#xd;
+<Node id="3888"/>6.1.     Control     &amp;     UI     Function&#xd;
+Architecture&#xd;
+<Node id="3946"/>&#xd;
+<Node id="3948"/>This part of the system includes the&#xd;
+<Node id="3986"/>operator<Node id="3994"/>,  the  control  system  and  the&#xd;
+user    interface.    Once    the    <Node id="4066"/>operator&#xd;
+<Node id="4076"/>obtains<Node id="4083"/>  the  info<Node id="4094"/>  <Node id="4096"/>sent<Node id="4100"/>  back  from  the&#xd;
+<Node id="4119"/>video feeds<Node id="4130"/> and <Node id="4135"/>sensors<Node id="4142"/>, her or she can&#xd;
+either  actively <Node id="4177"/> <Node id="4178"/>sending<Node id="4185"/>  various  kinds&#xd;
+of    commands<Node id="4217"/>    to    the    system,    or&#xd;
+<Node id="4249"/>monitor<Node id="4256"/>  the  system  as  it  <Node id="4279"/>carries<Node id="4286"/>  out&#xd;
+<Node id="4293"/>&#xd;
+<Node id="4295"/>certain tasks<Node id="4308"/> by itself, such as auto-detecting suspicious bags or packages.&#xd;
+<Node id="4373"/>&#xd;
+<Node id="4375"/>6.2.    <Node id="4383"/>Communication<Node id="4396"/>    Function&#xd;
+Architecture&#xd;
+<Node id="4424"/>&#xd;
+<Node id="4426"/>This     subsystem     deals     with&#xd;
+<Node id="4465"/>sending<Node id="4472"/>  all  the  data  back<Node id="4494"/>  and  forth&#xd;
+between     the      remotely-operated&#xd;
+system and the operator.&#xd;
+<Node id="4574"/>&#xd;
+<Node id="4576"/>6.3. <Node id="4581"/>Sensing<Node id="4588"/> Function Architecture&#xd;
+<Node id="4612"/>&#xd;
+<Node id="4614"/>The sensing part of the system consists of a&#xd;
+pair  of  <Node id="4670"/>cameras<Node id="4677"/>  and  <Node id="4684"/>onboard  sensors<Node id="4700"/>.  When&#xd;
+surveying  the  environment,  the  operator  will&#xd;
+have  a  birdâ&#x20ac;&#x2122;s  eye  view  from  <Node id="4796"/>UAV<Node id="4799"/>.  Once  the&#xd;
+system is near <Node id="4828"/>the <Node id="4832"/>suspected<Node id="4841"/> explosive device<Node id="4858"/>,&#xd;
+the  <Node id="4866"/>operator<Node id="4874"/>  will  further  <Node id="4891"/>inspect<Node id="4898"/>  the  device&#xd;
+with sensing data and video feed from <Node id="4951"/>UGV<Node id="4954"/>.&#xd;
+<Node id="4957"/>&#xd;
+<Node id="4959"/>6.4. <Node id="4964"/>Motion<Node id="4970"/> Function Architecture&#xd;
+<Node id="4994"/>&#xd;
+<Node id="4996"/>The <Node id="5000"/>motion<Node id="5006"/> part enables the whole system to&#xd;
+move around. The <Node id="5058"/>UAV<Node id="5061"/> will have the ability to&#xd;
+<Node id="5088"/>follow<Node id="5094"/>  the  <Node id="5101"/>UGV<Node id="5104"/>  around  closely,  and  the  <Node id="5134"/>UGV<Node id="5137"/>&#xd;
+needs  to  be  able  to  <Node id="5164"/>traverse<Node id="5172"/>  different  kinds  of&#xd;
+terrain and minor obstacles.&#xd;
+<Node id="5226"/>&#xd;
+&#xd;
+<Node id="5230"/>6.5. <Node id="5235"/>Gripping<Node id="5243"/> Function Architecture&#xd;
+<Node id="5267"/>&#xd;
+<Node id="5269"/>The  gripping  subsystem  is  a  manipulator  arm  capable  of&#xd;
+<Node id="5333"/>picking<Node id="5340"/> up the explosive<Node id="5357"/> and either <Node id="5369"/>holding<Node id="5376"/> it with the <Node id="5389"/>gripper<Node id="5396"/>&#xd;
+or <Node id="5401"/>placing<Node id="5408"/> it in a basket on the back of the UGV.&#xd;
+<Node id="5449"/>&#xd;
+<Node id="5451"/>6.6. <Node id="5456"/>Power<Node id="5461"/> Function Architecture&#xd;
+<Node id="5485"/>&#xd;
+<Node id="5487"/>The  last  subsystem,  <Node id="5510"/>power<Node id="5515"/>,  is  simply  the  part  of  <Node id="5545"/>providing<Node id="5554"/>  power.&#xd;
+The power system also has a minor but crucial function that it would&#xd;
+<Node id="5634"/>send out<Node id="5642"/> a warning signa<Node id="5658"/>l to the <Node id="5667"/>operator<Node id="5675"/> when the <Node id="5685"/>battery<Node id="5692"/> of <Node id="5696"/>UAV<Node id="5699"/> is&#xd;
+running out, so the operator can make the UAV <Node id="5750"/>land<Node id="5754"/> on top of <Node id="5765"/>UGV<Node id="5768"/>.&#xd;<Node id="5770"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="256" Type="component" StartNode="4964" EndNode="4970">
+</Annotation>
+<Annotation Id="257" Type="component" StartNode="5000" EndNode="5006">
+</Annotation>
+<Annotation Id="258" Type="component" StartNode="5058" EndNode="5061">
+</Annotation>
+<Annotation Id="259" Type="component" StartNode="5101" EndNode="5104">
+</Annotation>
+<Annotation Id="260" Type="component" StartNode="5134" EndNode="5137">
+</Annotation>
+<Annotation Id="261" Type="component state" StartNode="5164" EndNode="5172">
+</Annotation>
+<Annotation Id="262" Type="component state" StartNode="5088" EndNode="5094">
+</Annotation>
+<Annotation Id="263" Type="component" StartNode="5235" EndNode="5243">
+</Annotation>
+<Annotation Id="264" Type="component state" StartNode="5333" EndNode="5340">
+</Annotation>
+<Annotation Id="265" Type="component state" StartNode="5401" EndNode="5408">
+</Annotation>
+<Annotation Id="266" Type="component" StartNode="5456" EndNode="5461">
+</Annotation>
+<Annotation Id="267" Type="component" StartNode="5510" EndNode="5515">
+</Annotation>
+<Annotation Id="268" Type="component state" StartNode="5545" EndNode="5554">
+</Annotation>
+<Annotation Id="269" Type="component state" StartNode="5634" EndNode="5642">
+</Annotation>
+<Annotation Id="270" Type="component" StartNode="5696" EndNode="5699">
+</Annotation>
+<Annotation Id="271" Type="component" StartNode="5667" EndNode="5675">
+</Annotation>
+<Annotation Id="272" Type="component property" StartNode="5685" EndNode="5692">
+</Annotation>
+<Annotation Id="273" Type="component state" StartNode="5750" EndNode="5754">
+</Annotation>
+<Annotation Id="274" Type="component" StartNode="5765" EndNode="5768">
+</Annotation>
+<Annotation Id="275" Type="system transition condition" StartNode="2142" EndNode="2168">
+</Annotation>
+<Annotation Id="276" Type="system transition condition" StartNode="4066" EndNode="4094">
+</Annotation>
+<Annotation Id="277" Type="system transition condition" StartNode="4096" EndNode="4142">
+</Annotation>
+<Annotation Id="278" Type="system transition condition" StartNode="4177" EndNode="4217">
+</Annotation>
+<Annotation Id="279" Type="component state" StartNode="4279" EndNode="4286">
+</Annotation>
+<Annotation Id="280" Type="system transition condition" StartNode="4279" EndNode="4308">
+</Annotation>
+<Annotation Id="282" Type="system transition condition" StartNode="4465" EndNode="4494">
+</Annotation>
+<Annotation Id="284" Type="component" StartNode="4951" EndNode="4954">
+</Annotation>
+<Annotation Id="285" Type="environment entity" StartNode="4841" EndNode="4858">
+</Annotation>
+<Annotation Id="286" Type="environment entity state" StartNode="4832" EndNode="4841">
+</Annotation>
+<Annotation Id="287" Type="environment transition condition" StartNode="4828" EndNode="4858">
+</Annotation>
+<Annotation Id="288" Type="component state" StartNode="5369" EndNode="5376">
+</Annotation>
+<Annotation Id="289" Type="system transition condition" StartNode="5333" EndNode="5357">
+</Annotation>
+<Annotation Id="290" Type="component" StartNode="5389" EndNode="5396">
+</Annotation>
+<Annotation Id="291" Type="system transition condition" StartNode="5634" EndNode="5658">
+</Annotation>
+<Annotation Id="125" Type="component" StartNode="136" EndNode="139">
+</Annotation>
+<Annotation Id="126" Type="component" StartNode="142" EndNode="145">
+</Annotation>
+<Annotation Id="127" Type="component" StartNode="153" EndNode="172">
+</Annotation>
+<Annotation Id="128" Type="component" StartNode="188" EndNode="191">
+</Annotation>
+<Annotation Id="129" Type="component property" StartNode="233" EndNode="253">
+</Annotation>
+<Annotation Id="130" Type="component property" StartNode="256" EndNode="277">
+</Annotation>
+<Annotation Id="131" Type="component property" StartNode="302" EndNode="315">
+</Annotation>
+<Annotation Id="132" Type="component property" StartNode="346" EndNode="352">
+</Annotation>
+<Annotation Id="133" Type="component property" StartNode="356" EndNode="370">
+</Annotation>
+<Annotation Id="134" Type="component" StartNode="410" EndNode="413">
+</Annotation>
+<Annotation Id="135" Type="component property" StartNode="401" EndNode="409">
+</Annotation>
+<Annotation Id="136" Type="component" StartNode="463" EndNode="471">
+</Annotation>
+<Annotation Id="137" Type="component" StartNode="493" EndNode="496">
+</Annotation>
+<Annotation Id="138" Type="environment entity" StartNode="280" EndNode="288">
+</Annotation>
+<Annotation Id="139" Type="component property" StartNode="289" EndNode="299">
+</Annotation>
+<Annotation Id="140" Type="environment entity" StartNode="480" EndNode="487">
+</Annotation>
+<Annotation Id="141" Type="component property" StartNode="538" EndNode="545">
+</Annotation>
+<Annotation Id="142" Type="component" StartNode="549" EndNode="552">
+</Annotation>
+<Annotation Id="143" Type="component" StartNode="565" EndNode="568">
+</Annotation>
+<Annotation Id="144" Type="component" StartNode="570" EndNode="581">
+</Annotation>
+<Annotation Id="145" Type="component" StartNode="587" EndNode="596">
+</Annotation>
+<Annotation Id="146" Type="component property" StartNode="605" EndNode="617">
+</Annotation>
+<Annotation Id="147" Type="component" StartNode="621" EndNode="624">
+</Annotation>
+<Annotation Id="148" Type="component property" StartNode="337" EndNode="342">
+</Annotation>
+<Annotation Id="149" Type="component property" StartNode="657" EndNode="660">
+</Annotation>
+<Annotation Id="150" Type="component state" StartNode="665" EndNode="672">
+</Annotation>
+<Annotation Id="151" Type="component property" StartNode="681" EndNode="686">
+</Annotation>
+<Annotation Id="152" Type="component state" StartNode="700" EndNode="705">
+</Annotation>
+<Annotation Id="153" Type="component" StartNode="692" EndNode="695">
+</Annotation>
+<Annotation Id="154" Type="component property" StartNode="714" EndNode="720">
+</Annotation>
+<Annotation Id="155" Type="component" StartNode="724" EndNode="727">
+</Annotation>
+<Annotation Id="156" Type="component property" StartNode="772" EndNode="777">
+</Annotation>
+<Annotation Id="157" Type="component" StartNode="781" EndNode="784">
+</Annotation>
+<Annotation Id="158" Type="component state" StartNode="786" EndNode="792">
+</Annotation>
+<Annotation Id="159" Type="component property" StartNode="824" EndNode="832">
+</Annotation>
+<Annotation Id="160" Type="component property" StartNode="843" EndNode="847">
+</Annotation>
+<Annotation Id="161" Type="component" StartNode="860" EndNode="863">
+</Annotation>
+<Annotation Id="162" Type="component state" StartNode="882" EndNode="887">
+</Annotation>
+<Annotation Id="163" Type="component property" StartNode="973" EndNode="980">
+</Annotation>
+<Annotation Id="164" Type="component" StartNode="984" EndNode="987">
+</Annotation>
+<Annotation Id="165" Type="component property" StartNode="999" EndNode="1003">
+</Annotation>
+<Annotation Id="166" Type="component" StartNode="1015" EndNode="1018">
+</Annotation>
+<Annotation Id="167" Type="component property" StartNode="1069" EndNode="1076">
+</Annotation>
+<Annotation Id="168" Type="component" StartNode="1144" EndNode="1147">
+</Annotation>
+<Annotation Id="169" Type="component state" StartNode="1166" EndNode="1171">
+</Annotation>
+<Annotation Id="170" Type="component property" StartNode="1175" EndNode="1190">
+</Annotation>
+<Annotation Id="171" Type="component property" StartNode="1199" EndNode="1205">
+</Annotation>
+<Annotation Id="172" Type="component" StartNode="1209" EndNode="1212">
+</Annotation>
+<Annotation Id="173" Type="component state" StartNode="1245" EndNode="1250">
+</Annotation>
+<Annotation Id="174" Type="component" StartNode="1365" EndNode="1368">
+</Annotation>
+<Annotation Id="175" Type="component property" StartNode="1487" EndNode="1501">
+</Annotation>
+<Annotation Id="176" Type="component property" StartNode="1505" EndNode="1514">
+</Annotation>
+<Annotation Id="177" Type="component" StartNode="1519" EndNode="1526">
+</Annotation>
+<Annotation Id="178" Type="component property" StartNode="1529" EndNode="1536">
+</Annotation>
+<Annotation Id="179" Type="component" StartNode="1539" EndNode="1554">
+</Annotation>
+<Annotation Id="180" Type="component" StartNode="1557" EndNode="1564">
+</Annotation>
+<Annotation Id="181" Type="component property" StartNode="1567" EndNode="1574">
+</Annotation>
+<Annotation Id="182" Type="component" StartNode="1578" EndNode="1587">
+</Annotation>
+<Annotation Id="183" Type="component property" StartNode="1578" EndNode="1594">
+</Annotation>
+<Annotation Id="184" Type="component property" StartNode="1601" EndNode="1611">
+</Annotation>
+<Annotation Id="185" Type="component" StartNode="1638" EndNode="1644">
+</Annotation>
+<Annotation Id="186" Type="component state" StartNode="1621" EndNode="1629">
+</Annotation>
+<Annotation Id="187" Type="component" StartNode="1648" EndNode="1651">
+</Annotation>
+<Annotation Id="189" Type="component property" StartNode="1663" EndNode="1672">
+</Annotation>
+<Annotation Id="190" Type="component property" StartNode="1705" EndNode="1721">
+</Annotation>
+<Annotation Id="191" Type="component state" StartNode="1697" EndNode="1704">
+</Annotation>
+<Annotation Id="192" Type="component property" StartNode="1741" EndNode="1747">
+</Annotation>
+<Annotation Id="193" Type="component" StartNode="1751" EndNode="1754">
+</Annotation>
+<Annotation Id="195" Type="component" StartNode="1794" EndNode="1797">
+</Annotation>
+<Annotation Id="196" Type="component property" StartNode="1920" EndNode="1925">
+</Annotation>
+<Annotation Id="197" Type="component" StartNode="1937" EndNode="1946">
+</Annotation>
+<Annotation Id="198" Type="component property" StartNode="1967" EndNode="1972">
+</Annotation>
+<Annotation Id="199" Type="component property" StartNode="1978" EndNode="1987">
+</Annotation>
+<Annotation Id="200" Type="component property" StartNode="2012" EndNode="2022">
+</Annotation>
+<Annotation Id="201" Type="component property" StartNode="2049" EndNode="2052">
+</Annotation>
+<Annotation Id="202" Type="component property" StartNode="2083" EndNode="2089">
+</Annotation>
+<Annotation Id="203" Type="component" StartNode="2170" EndNode="2173">
+</Annotation>
+<Annotation Id="204" Type="component state" StartNode="2143" EndNode="2148">
+</Annotation>
+<Annotation Id="205" Type="component" StartNode="2266" EndNode="2269">
+</Annotation>
+<Annotation Id="206" Type="component" StartNode="2274" EndNode="2293">
+</Annotation>
+<Annotation Id="207" Type="component" StartNode="2238" EndNode="2241">
+</Annotation>
+<Annotation Id="208" Type="component" StartNode="2302" EndNode="2305">
+</Annotation>
+<Annotation Id="209" Type="component property" StartNode="2339" EndNode="2346">
+</Annotation>
+<Annotation Id="210" Type="component property" StartNode="2355" EndNode="2359">
+</Annotation>
+<Annotation Id="211" Type="component" StartNode="2459" EndNode="2470">
+</Annotation>
+<Annotation Id="212" Type="component property" StartNode="2521" EndNode="2528">
+</Annotation>
+<Annotation Id="213" Type="component property" StartNode="2628" EndNode="2644">
+</Annotation>
+<Annotation Id="214" Type="component property" StartNode="2739" EndNode="2747">
+</Annotation>
+<Annotation Id="215" Type="component property" StartNode="2833" EndNode="2841">
+</Annotation>
+<Annotation Id="216" Type="component property" StartNode="2787" EndNode="2795">
+</Annotation>
+<Annotation Id="217" Type="component" StartNode="2845" EndNode="2850">
+</Annotation>
+<Annotation Id="218" Type="component" StartNode="2898" EndNode="2901">
+</Annotation>
+<Annotation Id="219" Type="component state" StartNode="2917" EndNode="2921">
+</Annotation>
+<Annotation Id="220" Type="component state" StartNode="2927" EndNode="2932">
+</Annotation>
+<Annotation Id="221" Type="component property" StartNode="3014" EndNode="3025">
+</Annotation>
+<Annotation Id="222" Type="component property" StartNode="3043" EndNode="3054">
+</Annotation>
+<Annotation Id="223" Type="component property" StartNode="3072" EndNode="3083">
+</Annotation>
+<Annotation Id="224" Type="component property" StartNode="3101" EndNode="3112">
+</Annotation>
+<Annotation Id="225" Type="component" StartNode="3188" EndNode="3195">
+</Annotation>
+<Annotation Id="226" Type="component property" StartNode="3233" EndNode="3239">
+</Annotation>
+<Annotation Id="227" Type="component property" StartNode="3242" EndNode="3259">
+</Annotation>
+<Annotation Id="228" Type="component" StartNode="3261" EndNode="3266">
+</Annotation>
+<Annotation Id="229" Type="component property" StartNode="3329" EndNode="3335">
+</Annotation>
+<Annotation Id="230" Type="component property" StartNode="3353" EndNode="3358">
+</Annotation>
+<Annotation Id="231" Type="component property" StartNode="3513" EndNode="3523">
+</Annotation>
+<Annotation Id="232" Type="component property" StartNode="3532" EndNode="3538">
+</Annotation>
+<Annotation Id="233" Type="component property" StartNode="3609" EndNode="3615">
+</Annotation>
+<Annotation Id="234" Type="component property" StartNode="3620" EndNode="3626">
+</Annotation>
+<Annotation Id="235" Type="component" StartNode="3830" EndNode="3843">
+</Annotation>
+<Annotation Id="236" Type="component" StartNode="3845" EndNode="3852">
+</Annotation>
+<Annotation Id="237" Type="component" StartNode="3854" EndNode="3860">
+</Annotation>
+<Annotation Id="238" Type="component" StartNode="3862" EndNode="3870">
+</Annotation>
+<Annotation Id="239" Type="component" StartNode="3876" EndNode="3881">
+</Annotation>
+<Annotation Id="240" Type="component state" StartNode="4076" EndNode="4083">
+</Annotation>
+<Annotation Id="241" Type="component" StartNode="3986" EndNode="3994">
+</Annotation>
+<Annotation Id="242" Type="component state" StartNode="4096" EndNode="4100">
+</Annotation>
+<Annotation Id="243" Type="component" StartNode="4119" EndNode="4130">
+</Annotation>
+<Annotation Id="244" Type="component" StartNode="4135" EndNode="4142">
+</Annotation>
+<Annotation Id="245" Type="component state" StartNode="4178" EndNode="4185">
+</Annotation>
+<Annotation Id="246" Type="component" StartNode="3816" EndNode="3820">
+</Annotation>
+<Annotation Id="247" Type="component" StartNode="4249" EndNode="4256">
+</Annotation>
+<Annotation Id="248" Type="component state" StartNode="4465" EndNode="4472">
+</Annotation>
+<Annotation Id="249" Type="component" StartNode="4383" EndNode="4396">
+</Annotation>
+<Annotation Id="250" Type="component" StartNode="4581" EndNode="4588">
+</Annotation>
+<Annotation Id="251" Type="component" StartNode="4670" EndNode="4677">
+</Annotation>
+<Annotation Id="252" Type="component" StartNode="4684" EndNode="4700">
+</Annotation>
+<Annotation Id="253" Type="component state" StartNode="4891" EndNode="4898">
+</Annotation>
+<Annotation Id="254" Type="component" StartNode="4866" EndNode="4874">
+</Annotation>
+<Annotation Id="255" Type="component" StartNode="4796" EndNode="4799">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="53">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="55" EndNode="182">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="184" EndNode="229">
+</Annotation>
+<Annotation Id="3" Type="paragraph" StartNode="233" EndNode="278">
+</Annotation>
+<Annotation Id="4" Type="paragraph" StartNode="280" EndNode="289">
+</Annotation>
+<Annotation Id="5" Type="paragraph" StartNode="291" EndNode="300">
+</Annotation>
+<Annotation Id="6" Type="paragraph" StartNode="302" EndNode="316">
+</Annotation>
+<Annotation Id="7" Type="paragraph" StartNode="318" EndNode="335">
+</Annotation>
+<Annotation Id="8" Type="paragraph" StartNode="337" EndNode="344">
+</Annotation>
+<Annotation Id="9" Type="paragraph" StartNode="346" EndNode="354">
+</Annotation>
+<Annotation Id="10" Type="paragraph" StartNode="356" EndNode="371">
+</Annotation>
+<Annotation Id="11" Type="paragraph" StartNode="373" EndNode="386">
+</Annotation>
+<Annotation Id="12" Type="paragraph" StartNode="388" EndNode="474">
+</Annotation>
+<Annotation Id="13" Type="paragraph" StartNode="476" EndNode="532">
+</Annotation>
+<Annotation Id="14" Type="paragraph" StartNode="534" EndNode="599">
+</Annotation>
+<Annotation Id="15" Type="paragraph" StartNode="601" EndNode="627">
+</Annotation>
+<Annotation Id="16" Type="paragraph" StartNode="629" EndNode="675">
+</Annotation>
+<Annotation Id="17" Type="paragraph" StartNode="677" EndNode="708">
+</Annotation>
+<Annotation Id="18" Type="paragraph" StartNode="710" EndNode="762">
+</Annotation>
+<Annotation Id="19" Type="paragraph" StartNode="764" EndNode="795">
+</Annotation>
+<Annotation Id="20" Type="paragraph" StartNode="797" EndNode="818">
+</Annotation>
+<Annotation Id="21" Type="paragraph" StartNode="820" EndNode="858">
+</Annotation>
+<Annotation Id="22" Type="paragraph" StartNode="860" EndNode="967">
+</Annotation>
+<Annotation Id="23" Type="paragraph" StartNode="969" EndNode="1013">
+</Annotation>
+<Annotation Id="24" Type="paragraph" StartNode="1015" EndNode="1114">
+</Annotation>
+<Annotation Id="25" Type="paragraph" StartNode="1116" EndNode="1142">
+</Annotation>
+<Annotation Id="26" Type="paragraph" StartNode="1144" EndNode="1193">
+</Annotation>
+<Annotation Id="27" Type="paragraph" StartNode="1195" EndNode="1239">
+</Annotation>
+<Annotation Id="28" Type="paragraph" StartNode="1241" EndNode="1278">
+</Annotation>
+<Annotation Id="29" Type="paragraph" StartNode="1280" EndNode="1290">
+</Annotation>
+<Annotation Id="30" Type="paragraph" StartNode="1292" EndNode="1298">
+</Annotation>
+<Annotation Id="31" Type="paragraph" StartNode="1300" EndNode="1306">
+</Annotation>
+<Annotation Id="32" Type="paragraph" StartNode="1308" EndNode="1314">
+</Annotation>
+<Annotation Id="33" Type="paragraph" StartNode="1316" EndNode="1322">
+</Annotation>
+<Annotation Id="34" Type="paragraph" StartNode="1324" EndNode="1330">
+</Annotation>
+<Annotation Id="35" Type="paragraph" StartNode="1332" EndNode="1340">
+</Annotation>
+<Annotation Id="36" Type="paragraph" StartNode="1342" EndNode="1350">
+</Annotation>
+<Annotation Id="37" Type="paragraph" StartNode="1352" EndNode="1357">
+</Annotation>
+<Annotation Id="38" Type="paragraph" StartNode="1361" EndNode="1406">
+</Annotation>
+<Annotation Id="39" Type="paragraph" StartNode="1408" EndNode="1484">
+</Annotation>
+<Annotation Id="40" Type="paragraph" StartNode="1488" EndNode="1503">
+</Annotation>
+<Annotation Id="41" Type="paragraph" StartNode="1505" EndNode="1527">
+</Annotation>
+<Annotation Id="42" Type="paragraph" StartNode="1529" EndNode="1537">
+</Annotation>
+<Annotation Id="43" Type="paragraph" StartNode="1539" EndNode="1555">
+</Annotation>
+<Annotation Id="44" Type="paragraph" StartNode="1557" EndNode="1565">
+</Annotation>
+<Annotation Id="45" Type="paragraph" StartNode="1567" EndNode="1576">
+</Annotation>
+<Annotation Id="46" Type="paragraph" StartNode="1578" EndNode="1595">
+</Annotation>
+<Annotation Id="47" Type="paragraph" StartNode="1597" EndNode="1654">
+</Annotation>
+<Annotation Id="48" Type="paragraph" StartNode="1656" EndNode="1735">
+</Annotation>
+<Annotation Id="49" Type="paragraph" StartNode="1737" EndNode="1800">
+</Annotation>
+<Annotation Id="50" Type="paragraph" StartNode="1802" EndNode="1860">
+</Annotation>
+<Annotation Id="51" Type="paragraph" StartNode="1862" EndNode="1891">
+</Annotation>
+<Annotation Id="52" Type="paragraph" StartNode="1893" EndNode="1914">
+</Annotation>
+<Annotation Id="53" Type="paragraph" StartNode="1916" EndNode="2000">
+</Annotation>
+<Annotation Id="54" Type="paragraph" StartNode="2002" EndNode="2043">
+</Annotation>
+<Annotation Id="55" Type="paragraph" StartNode="2045" EndNode="2077">
+</Annotation>
+<Annotation Id="56" Type="paragraph" StartNode="2079" EndNode="2118">
+</Annotation>
+<Annotation Id="57" Type="paragraph" StartNode="2120" EndNode="2232">
+</Annotation>
+<Annotation Id="58" Type="paragraph" StartNode="2234" EndNode="2296">
+</Annotation>
+<Annotation Id="59" Type="paragraph" StartNode="2298" EndNode="2349">
+</Annotation>
+<Annotation Id="60" Type="paragraph" StartNode="2351" EndNode="2389">
+</Annotation>
+<Annotation Id="61" Type="paragraph" StartNode="2391" EndNode="2397">
+</Annotation>
+<Annotation Id="62" Type="paragraph" StartNode="2399" EndNode="2405">
+</Annotation>
+<Annotation Id="63" Type="paragraph" StartNode="2407" EndNode="2413">
+</Annotation>
+<Annotation Id="64" Type="paragraph" StartNode="2415" EndNode="2423">
+</Annotation>
+<Annotation Id="65" Type="paragraph" StartNode="2425" EndNode="2433">
+</Annotation>
+<Annotation Id="66" Type="paragraph" StartNode="2435" EndNode="2443">
+</Annotation>
+<Annotation Id="67" Type="paragraph" StartNode="2445" EndNode="2453">
+</Annotation>
+<Annotation Id="68" Type="paragraph" StartNode="2455" EndNode="2508">
+</Annotation>
+<Annotation Id="69" Type="paragraph" StartNode="2512" EndNode="2530">
+</Annotation>
+<Annotation Id="70" Type="paragraph" StartNode="2532" EndNode="2577">
+</Annotation>
+<Annotation Id="71" Type="paragraph" StartNode="2579" EndNode="2592">
+</Annotation>
+<Annotation Id="72" Type="paragraph" StartNode="2594" EndNode="2607">
+</Annotation>
+<Annotation Id="73" Type="paragraph" StartNode="2609" EndNode="2622">
+</Annotation>
+<Annotation Id="74" Type="paragraph" StartNode="2624" EndNode="2663">
+</Annotation>
+<Annotation Id="75" Type="paragraph" StartNode="2665" EndNode="2707">
+</Annotation>
+<Annotation Id="76" Type="paragraph" StartNode="2709" EndNode="2737">
+</Annotation>
+<Annotation Id="77" Type="paragraph" StartNode="2739" EndNode="2785">
+</Annotation>
+<Annotation Id="78" Type="paragraph" StartNode="2787" EndNode="2831">
+</Annotation>
+<Annotation Id="79" Type="paragraph" StartNode="2833" EndNode="2873">
+</Annotation>
+<Annotation Id="80" Type="paragraph" StartNode="2875" EndNode="2896">
+</Annotation>
+<Annotation Id="81" Type="paragraph" StartNode="2898" EndNode="2949">
+</Annotation>
+<Annotation Id="82" Type="paragraph" StartNode="2951" EndNode="3041">
+</Annotation>
+<Annotation Id="83" Type="paragraph" StartNode="3043" EndNode="3070">
+</Annotation>
+<Annotation Id="84" Type="paragraph" StartNode="3072" EndNode="3099">
+</Annotation>
+<Annotation Id="85" Type="paragraph" StartNode="3101" EndNode="3128">
+</Annotation>
+<Annotation Id="86" Type="paragraph" StartNode="3130" EndNode="3140">
+</Annotation>
+<Annotation Id="87" Type="paragraph" StartNode="3142" EndNode="3148">
+</Annotation>
+<Annotation Id="88" Type="paragraph" StartNode="3150" EndNode="3168">
+</Annotation>
+<Annotation Id="89" Type="paragraph" StartNode="3170" EndNode="3176">
+</Annotation>
+<Annotation Id="90" Type="paragraph" StartNode="3178" EndNode="3184">
+</Annotation>
+<Annotation Id="91" Type="paragraph" StartNode="3188" EndNode="3205">
+</Annotation>
+<Annotation Id="92" Type="paragraph" StartNode="3207" EndNode="3218">
+</Annotation>
+<Annotation Id="93" Type="paragraph" StartNode="3220" EndNode="3241">
+</Annotation>
+<Annotation Id="94" Type="paragraph" StartNode="3243" EndNode="3268">
+</Annotation>
+<Annotation Id="95" Type="paragraph" StartNode="3270" EndNode="3291">
+</Annotation>
+<Annotation Id="96" Type="paragraph" StartNode="3293" EndNode="3327">
+</Annotation>
+<Annotation Id="97" Type="paragraph" StartNode="3329" EndNode="3376">
+</Annotation>
+<Annotation Id="98" Type="paragraph" StartNode="3378" EndNode="3426">
+</Annotation>
+<Annotation Id="99" Type="paragraph" StartNode="3428" EndNode="3456">
+</Annotation>
+<Annotation Id="100" Type="paragraph" StartNode="3458" EndNode="3526">
+</Annotation>
+<Annotation Id="101" Type="paragraph" StartNode="3528" EndNode="3607">
+</Annotation>
+<Annotation Id="102" Type="paragraph" StartNode="3609" EndNode="3671">
+</Annotation>
+<Annotation Id="103" Type="paragraph" StartNode="3673" EndNode="3679">
+</Annotation>
+<Annotation Id="104" Type="paragraph" StartNode="3681" EndNode="3687">
+</Annotation>
+<Annotation Id="105" Type="paragraph" StartNode="3689" EndNode="3739">
+</Annotation>
+<Annotation Id="106" Type="paragraph" StartNode="3741" EndNode="3884">
+</Annotation>
+<Annotation Id="107" Type="paragraph" StartNode="3888" EndNode="3946">
+</Annotation>
+<Annotation Id="108" Type="paragraph" StartNode="3948" EndNode="4293">
+</Annotation>
+<Annotation Id="109" Type="paragraph" StartNode="4295" EndNode="4373">
+</Annotation>
+<Annotation Id="110" Type="paragraph" StartNode="4375" EndNode="4424">
+</Annotation>
+<Annotation Id="111" Type="paragraph" StartNode="4426" EndNode="4574">
+</Annotation>
+<Annotation Id="112" Type="paragraph" StartNode="4576" EndNode="4612">
+</Annotation>
+<Annotation Id="113" Type="paragraph" StartNode="4614" EndNode="4957">
+</Annotation>
+<Annotation Id="114" Type="paragraph" StartNode="4959" EndNode="4994">
+</Annotation>
+<Annotation Id="115" Type="paragraph" StartNode="4996" EndNode="5226">
+</Annotation>
+<Annotation Id="116" Type="paragraph" StartNode="5230" EndNode="5267">
+</Annotation>
+<Annotation Id="117" Type="paragraph" StartNode="5269" EndNode="5449">
+</Annotation>
+<Annotation Id="118" Type="paragraph" StartNode="5451" EndNode="5485">
+</Annotation>
+<Annotation Id="119" Type="paragraph" StartNode="5487" EndNode="5770">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>
